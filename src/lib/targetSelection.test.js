@@ -23,7 +23,7 @@ describe('Capital Location target selection', () => {
     const targets = buildCapitalLocationTargets([country], { countryMajorCities: { USA: cities } }, true);
     expect(targets).toHaveLength(7);
     expect(targets[0]).toMatchObject({ id: 'USA', regionId: 'USA', isMajorCity: false });
-    expect(targets[1]).toMatchObject({ id: 'USA:New York', regionId: 'USA', capital: 'New York', isMajorCity: true });
+    expect(targets[1]).toMatchObject({ id: 'USA-New York', regionId: 'USA', capital: 'New York', isMajorCity: true });
   });
 
   it('uses only the current region’s major cities as capital-quiz distractors', () => {

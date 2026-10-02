@@ -150,7 +150,6 @@ export function makeChallengeCode(cfg) {
 export function parseChallengeCode(raw) {
   const parsed = parseSwiftChallengeCode(raw);
   if (!parsed) throw new Error('Invalid challenge code format.');
-  if (parsed.format === 'GL2') throw new Error('GL2 challenge codes are not supported yet.');
 
   const pwa = swiftToPwaMode(parsed.mode, parsed.scope);
   if (!pwa) throw new Error('Unsupported mode in challenge code.');
@@ -167,6 +166,9 @@ export function parseChallengeCode(raw) {
     hideRegionName: parsed.showsRegionName === false,
     bullseyeRadiusKM: parsed.bullseyeRadiusKM,
     seed: parsed.seed,
+    targets: parsed.orderedTargetIDs?.length ? parsed.orderedTargetIDs : undefined,
+    timeLimit: parsed.timeLimit,
+    bullseyeBonusSeconds: parsed.bullseyeBonusSeconds,
   };
 }
 

@@ -44,8 +44,8 @@ export function buildCapitalLocationTargets(items, ds, includeMajorCities) {
     target,
     ...selectedMajorCities(target, getMajorCities(target.regionId, target.type, ds)).map((city) => ({
       ...target,
-      id: `${target.regionId}:${city.name}`,
-      promptId: `${target.regionId}:${city.name}`,
+      id: `${target.regionId}-${city.name}`,
+      promptId: `${target.regionId}-${city.name}`,
       capital: city.name,
       capitalLat: city.lat,
       capitalLon: city.lon,

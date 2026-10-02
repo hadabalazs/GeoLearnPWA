@@ -98,7 +98,7 @@ export default function GameHeader({ round, total, score, streak, config, lang, 
         <span className="text-foreground">{streak}</span>
       </div>
       {config?.timeTrial && (
-        <TimeTrialClock seconds={60} running={timerRunning} bonusSeconds={bonusSeconds} onExpire={onTimeUp} />
+        <TimeTrialClock seconds={config.timeLimit ?? 60} running={timerRunning} bonusSeconds={bonusSeconds} onExpire={onTimeUp} />
       )}
       <div className="ml-auto flex flex-wrap gap-1.5">{badges}</div>
     </div>

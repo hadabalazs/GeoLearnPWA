@@ -87,6 +87,42 @@ const SCOPE_BY_CODE = {
   O: 'oceania',
 };
 
+const GL2_SCOPE = {
+  Global: null,
+  Africa: 'africa',
+  Americas: 'americas',
+  Asia: 'asia',
+  Europe: 'europe',
+  Oceania: 'oceania',
+  Hungary: 'hungary',
+  'United States': 'us',
+};
+
+function parseGL2Replay(encoded, raw) {
+  try {
+    const normalized = encoded.replace(/-/g, '+').replace(/_/g, '/');
+    const padded = normalized + '='.repeat((4 - normalized.length % 4) % 4);
+    const binary = atob(padded);
+    const bytes = Uint8Array.from(binary, (char) => char.charCodeAt(0));
+    const payload = JSON.parse(new TextDecoder().decode(bytes));
+    if (payload.version !== 2 || !MODE_BY_CODE[payload.mode] || !Number.isInteger(payload.count)
+      || !Number.isInteger(payload.seed) || !Array.isArray(payload.orderedTargetIDs)) return null;
+    return {
+      format: 'GL2', raw, mode: MODE_BY_CODE[payload.mode], modeCode: payload.mode,
+      scope: GL2_SCOPE[payload.scope] ?? null, count: payload.count,
+      isExpert: Boolean(payload.isExpert), hintsEnabled: Boolean(payload.hintsEnabled),
+      mixedMajorCitiesInCapitalOptions: Boolean(payload.mixedMajorCitiesInCapitalOptions),
+      variant: payload.variant || 'normal', showsRegionName: payload.showsRegionName ?? null,
+      bullseyeRadiusKM: payload.bullseyeRadiusKM ?? null, seed: payload.seed,
+      timeLimit: Number.isFinite(payload.timeLimit) ? payload.timeLimit : 60,
+      bullseyeBonusSeconds: payload.bullseyeBonusSeconds ?? null,
+      orderedTargetIDs: payload.orderedTargetIDs,
+    };
+  } catch {
+    return null;
+  }
+}
+
 function assertValidCount(count) {
   if (!VALID_COUNTS.has(count)) {
     throw new Error(`Invalid challenge count: ${count}`);
@@ -252,15 +288,13 @@ export function encodeSwiftChallengeCode({
 }
 
 export function parseSwiftChallengeCode(raw) {
-  const s = String(raw ?? '').replace(/\s|\n/g, '').toUpperCase();
+  const cleaned = String(raw ?? '').replace(/\s|\n/g, '');
 
-  if (s.startsWith('GL2-')) {
-    return {
-      format: 'GL2',
-      encodedPayload: s.slice(4),
-      raw: s,
-    };
+  if (cleaned.toUpperCase().startsWith('GL2-')) {
+    return parseGL2Replay(cleaned.slice(4), cleaned);
   }
+
+  const s = cleaned.toUpperCase();
 
   // Valid compact lengths: 13 (ordinary no scope), 14 (ordinary scoped OR
   // capital-location no scope), 15 (capital-location scoped).
