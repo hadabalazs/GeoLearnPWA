@@ -3,7 +3,7 @@ import { ChevronLeft, Play } from 'lucide-react';
 import { useApp } from '@/lib/AppContext';
 import { t } from '@/lib/i18n';
 
-export default function BuilderShell({ icon, color, title, subtitle, children, onStart, startLabel, hideStart = false }) {
+export default function BuilderShell({ icon, color, title, subtitle, children, onStart, startLabel = null, hideStart = false }) {
   const { lang } = useApp();
   const navigate = useNavigate();
   return (

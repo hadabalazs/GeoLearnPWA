@@ -1,0 +1,14 @@
+# PWA / iOS parity status
+
+Reference iOS revision: `ac804ce4063bdc54a9186a728d1fbd677e9fc536`.
+
+| Capability | iOS reference | PWA location | Verification | Status | Notes |
+| --- | --- | --- | --- | --- | --- |
+| Responsive navigation | `Views/HomeView.swift` | `src/components/Layout.jsx` | Desktop preview captured; full viewport matrix remains part of Phase 9 | implemented | PWA-specific desktop/sidebar and mobile bottom tabs are retained. |
+| Regional wrong-answer reveal | `Views/US/USExploreView.swift` and Hungary map views | `src/components/MapView.jsx` | `src/lib/revealMotion.test.js`; browser smoke check from `8ab8ab5` | verified | Hungary and US preserve player zoom; world animations remain distinct. |
+| Quality baseline | iOS test suites establish reference expectations | `package.json`, `jsconfig.json`, `src/lib/revealMotion.test.js` | `npm run lint`, `npm run typecheck`, `npm run test:run`, and `npm run build` pass | verified | Vitest and Leaflet declarations added; third-party UI wrappers have narrow declaration files. |
+| Core game modes | Active iOS builders | `src/pages/builders/`, `src/pages/Game.jsx` | Inventory pending | pending | Find, Explore, Flags, Capitals and Capital Location require behavior audit. |
+| Daily challenges | `Models/DailyChallengeConfig.swift` | `src/lib/dailyChallenge.js` | Known October 2, 2026 mismatch | pending | iOS selects USA Capitals; PWA selects County Seats. |
+| Replay codes | `Models/ChallengeCode.swift` | `src/lib/swiftCode.js` | GL2 fixture coverage pending | pending | PWA currently rejects GL2 replay codes. |
+| Statistics and heatmaps | `Views/Stats/` | `src/pages/Stats.jsx` | Inventory pending | pending | PWA has aggregate stats but no geographic heatmaps. |
+| Offline data/assets | `Services/MapDataCache.swift`, `FlagImageStore.swift` | `public/sw.js`, `src/lib/` | Fresh-profile offline test pending | pending | PWA needs cache/version/retry work. |

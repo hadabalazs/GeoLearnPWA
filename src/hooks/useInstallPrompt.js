@@ -11,8 +11,9 @@ export function getDeferredPrompt() {
 
 export function isStandalone() {
   if (typeof window === 'undefined') return false;
+  const navigatorWithStandalone = /** @type {Navigator & { standalone?: boolean }} */ (window.navigator);
   return window.matchMedia('(display-mode: standalone)').matches
-    || window.navigator.standalone === true;
+    || navigatorWithStandalone.standalone === true;
 }
 
 // Captures the `beforeinstallprompt` event so we can trigger the native

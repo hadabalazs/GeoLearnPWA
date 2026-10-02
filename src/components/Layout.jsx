@@ -1,5 +1,5 @@
 import { NavLink, Outlet } from 'react-router-dom';
-import { Globe, LayoutDashboard, CalendarCheck, BarChart3, Settings as SettingsIcon, WifiOff } from 'lucide-react';
+import { Globe, LayoutDashboard, CalendarCheck, BarChart3, Settings as SettingsIcon } from 'lucide-react';
 import { useApp } from '@/lib/AppContext';
 import { t } from '@/lib/i18n';
 import OfflineIndicator from './OfflineIndicator';

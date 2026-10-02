@@ -2,7 +2,7 @@ import { Calendar } from 'lucide-react';
 import { t } from '@/lib/i18n';
 import { scopeLabel } from '@/lib/data';
 import { modeLabel, scopeChoiceFromScope } from '@/lib/builderConfig';
-import { dailyConfigForDate, isoDateKey, hasTrophy, weekdayShort, TROPHY_THRESHOLD, MODE_TAG_COLOR } from '@/lib/dailyChallenge';
+import { dailyConfigForDate, isoDateKey, weekdayShort, TROPHY_THRESHOLD, MODE_TAG_COLOR } from '@/lib/dailyChallenge';
 import WeeklyTracker from './WeeklyTracker';
 
 const TAG_BASE = 'text-[10px] font-extrabold px-2 py-1 rounded-full whitespace-nowrap';

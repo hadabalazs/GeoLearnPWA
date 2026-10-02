@@ -18,7 +18,7 @@ export function ToggleRow({ label, checked, onChange }) {
   );
 }
 
-export function SegmentedSelector({ label, value, options, onChange }) {
+export function SegmentedSelector({ label = null, value, options, onChange }) {
   return (
     <div className="px-4 py-3.5 border-b border-border last:border-b-0">
       {label && <div className="text-base text-foreground mb-2">{label}</div>}

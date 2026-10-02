@@ -4,7 +4,7 @@ import { flagUrl } from '@/lib/data';
 // Options lists keep lazy loading. width/height attributes give the browser an
 // intrinsic aspect ratio before the image arrives so the prompt doesn't jump;
 // CSS classes (h-20 w-auto etc.) still control the rendered size.
-export default function FlagImage({ flagCode, alt, className = '', size = 240, priority = false }) {
+export default function FlagImage({ flagCode, alt = '', className = '', size = 240, priority = false }) {
   if (!flagCode) return <div className={`bg-muted rounded ${className}`} />;
   return (
     <img

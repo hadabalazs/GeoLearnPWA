@@ -20,7 +20,7 @@ function styleFor(isSat) {
     weight: 1,
     opacity: 0.7,
     fillOpacity: 0,
-    lineJoin: 'round',
+    lineJoin: /** @type {import('leaflet').LineJoinShape} */ ('round'),
   };
 }
 

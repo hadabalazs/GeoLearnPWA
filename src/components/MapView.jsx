@@ -3,6 +3,7 @@ import { MapContainer, TileLayer, CircleMarker, Tooltip, Polyline, useMap, useMa
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { TIMING, ANTIMERIDIAN_COUNTRIES, prefersReducedMotion } from '@/lib/animation';
+import { preservesZoomDuringReveal } from '@/lib/revealMotion';
 import { useApp } from '@/lib/AppContext';
 import BoundaryLayer from './BoundaryLayer';
 import CountryFlagMarker from './CountryFlagMarker';
@@ -89,7 +90,7 @@ function PanController({ target, scope }) {
     lastRef.current = key;
     if (timerRef.current) { clearTimeout(timerRef.current); timerRef.current = null; }
     const to = L.latLng(target.lat, target.lng);
-    if (scope === 'hungary' || scope === 'us') {
+    if (preservesZoomDuringReveal(scope)) {
       // flyTo can zoom out during its flight even with the same final zoom.
       // Stop any hint/reset flight before revealing the regional answer.
       map.stop();
@@ -145,7 +146,7 @@ function HintController({ hintTarget }) {
   return null;
 }
 
-export default function MapView({ onMapClick, markers = [], boundaries = [], lines = [], labels = false, center = [25, 10], zoom = 2, clickEnabled = true, className = '', flagMarkers = [], showAnnotations = true, isExpert = false, onMarkerSelect, hungaryBorders = false, panTarget = null, hintTarget = null, baseScope = null, scope = 'world', viewResetNonce = 0 }) {
+export default function MapView({ onMapClick, markers = [], boundaries = [], lines = [], labels = false, center = [25, 10], zoom = 2, clickEnabled = true, className = '', flagMarkers = [], showAnnotations = true, isExpert = false, onMarkerSelect = null, hungaryBorders = false, panTarget = null, hintTarget = null, baseScope = null, scope = 'world', viewResetNonce = 0 }) {
   const { settings } = useApp();
   const mapStyle = settings?.mapStyle === 'minimalist' ? 'minimalist' : 'satellite';
   const tileCfg = TILE[mapStyle];
@@ -158,7 +159,7 @@ export default function MapView({ onMapClick, markers = [], boundaries = [], lin
 
   return (
     <MapContainer
-      center={center}
+      center={/** @type {import('leaflet').LatLngExpression} */ (center)}
       zoom={zoom}
       scrollWheelZoom
       zoomControl

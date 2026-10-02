@@ -7,7 +7,7 @@ import StepVisual from './InstallStepVisuals';
 
 function detectPlatform() {
   const ua = navigator.userAgent;
-  if (/iPad|iPhone|iPod/.test(ua) && !window.MSStream) return 'ios';
+  if (/iPad|iPhone|iPod/.test(ua) && !('MSStream' in window)) return 'ios';
   if (/Android/.test(ua)) return 'android';
   return 'ios';
 }

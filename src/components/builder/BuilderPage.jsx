@@ -6,7 +6,7 @@ import { t } from '@/lib/i18n';
 import { parseChallengeCode, randomSeed } from '@/lib/challenge';
 import { saveRecommendation } from '@/lib/storage';
 import {
-  availableToggles, hasVariant, modeLabel, buildTags,
+  hasVariant, modeLabel, buildTags,
   scopeChoiceLabel, continentLabel, scopeChoiceFromScope, countLabel,
 } from '@/lib/builderConfig';
 import { useBuilder } from './useBuilder';
