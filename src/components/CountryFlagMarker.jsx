@@ -17,7 +17,7 @@ function CountryFlagMarker({ id, lat, lng, flagCode, name, state = 'none', isExp
     const flagVis = isExpert ? 'hidden' : 'visible';
     const label = isExpert ? 'Select map marker' : `Select ${name || ''}`;
     const html =
-      `<button class="country-flag-marker-hitbox" aria-label="${escapeAttr(label)}" data-country-id="${escapeAttr(id)}">` +
+      `<button class="country-flag-marker-hitbox" ${enabled ? '' : 'disabled'} aria-label="${escapeAttr(label)}" data-country-id="${escapeAttr(id)}">` +
         `<span class="country-flag-marker" data-state="${state}">` +
           `<span class="country-flag-marker__bubble">` +
             `<span class="country-flag-marker__flag" style="visibility:${flagVis}" aria-hidden="true">${flag}</span>` +
@@ -28,10 +28,10 @@ function CountryFlagMarker({ id, lat, lng, flagCode, name, state = 'none', isExp
     return L.divIcon({
       className: 'country-flag-marker-icon',
       html,
-      iconSize: [54, 60],
-      iconAnchor: [27, 60],
+      iconSize: [34, 40],
+      iconAnchor: [17, 40],
     });
-  }, [flagCode, name, id, state, isExpert]);
+  }, [flagCode, name, id, state, isExpert, enabled]);
 
   return (
     <Marker

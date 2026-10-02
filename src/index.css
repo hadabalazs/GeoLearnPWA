@@ -198,11 +198,11 @@
 }
 
 /* Country flag markers (iOS GeoLearn parity) */
-.country-flag-marker-icon { background: transparent; border: none; }
+.country-flag-marker-icon { background: transparent; border: none; pointer-events: none !important; }
 
 .country-flag-marker-hitbox {
-  width: 54px;
-  height: 60px;
+  width: 34px;
+  height: 40px;
   border: 0;
   padding: 0;
   background: transparent;
@@ -231,13 +231,20 @@
   place-items: center;
   overflow: hidden;
   box-sizing: border-box;
+  pointer-events: auto;
+  clip-path: circle(50%);
 }
 
 .country-flag-marker__flag {
+  pointer-events: none;
   font-size: 18px;
   line-height: 1;
   text-align: center;
   transform: translateY(0.5px);
+}
+
+.country-flag-marker-hitbox:disabled .country-flag-marker__bubble {
+  pointer-events: none;
 }
 
 .country-flag-marker__pointer {

@@ -113,6 +113,7 @@ export default function Settings() {
         {/* Map */}
         <Section label={t(lang, 'settings.map')}>
           <ToggleRow label={t(lang, 'settings.showZoom')} checked={settings.showZoomControls} onChange={(v) => updateSetting('showZoomControls', v)} />
+          <ToggleRow label={t(lang, 'settings.animateWrongAnswers')} checked={settings.animateWrongAnswers} onChange={(v) => updateSetting('animateWrongAnswers', v)} />
           <ToggleRow label={t(lang, 'settings.showMissedInfo')} checked={settings.showMissedCountryInfo} onChange={(v) => updateSetting('showMissedCountryInfo', v)} />
         </Section>
 

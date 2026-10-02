@@ -4,6 +4,7 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { TIMING, ANTIMERIDIAN_COUNTRIES, prefersReducedMotion } from '@/lib/animation';
 import { preservesZoomDuringReveal } from '@/lib/revealMotion';
+import { mapBoundsForScope } from '@/lib/mapView';
 import { useApp } from '@/lib/AppContext';
 import BoundaryLayer from './BoundaryLayer';
 import CountryFlagMarker from './CountryFlagMarker';
@@ -48,16 +49,23 @@ function Resizer() {
 // Flies the map back to the scope's default view whenever `nonce` changes
 // (a new round) — needed now that the map persists across rounds instead of
 // being remounted. Skipped on first mount; instant under reduced motion.
-function ViewResetController({ nonce, center, zoom }) {
+function ViewResetController({ nonce, center, zoom, scope, playing }) {
   const map = useMap();
-  const lastRef = useRef(nonce);
+  const [latitude, longitude] = center;
+  const playingRef = useRef(playing);
+  playingRef.current = playing;
   useEffect(() => {
-    if (lastRef.current === nonce) return;
-    lastRef.current = nonce;
-    map.stop();
-    if (prefersReducedMotion()) map.setView(center, zoom, { animate: false });
-    else map.flyTo(center, zoom, { animate: true, duration: TIMING.viewResetDuration });
-  }, [nonce, center, zoom, map]);
+    const frame = () => {
+      map.stop();
+      const bounds = mapBoundsForScope(scope);
+      if (bounds) map.fitBounds(bounds, { animate: false, paddingTopLeft: [24, 48], paddingBottomRight: [24, 24] });
+      else map.setView([latitude, longitude], zoom, { animate: false });
+    };
+    const onResize = () => { if (playingRef.current) frame(); };
+    frame();
+    map.on('resize', onResize);
+    return () => { map.off('resize', onResize); };
+  }, [nonce, latitude, longitude, zoom, scope, map]);
   return null;
 }
 
@@ -74,15 +82,16 @@ function Clicker({ onClick, enabled }) {
 // pan: zoom out to reveal both the current view and the target,
 // then (315ms later) zoom in on the target. Antimeridian countries get an
 // instant setView instead. Guarded by a ref so it only fires once per target.
-function PanController({ target, scope }) {
+function PanController({ target, scope, enabled }) {
   const map = useMap();
   const lastRef = useRef(null);
   const timerRef = useRef(null);
   useEffect(() => {
-    if (!target) {
+    if (!target || !enabled) {
       // Round moved on (or target cleared): never let a pending phase-2 zoom
       // fire on top of the view reset.
       if (timerRef.current) { clearTimeout(timerRef.current); timerRef.current = null; }
+      lastRef.current = null;
       return;
     }
     const key = `${target.id}:${target.lat}:${target.lng}`;
@@ -123,7 +132,7 @@ function PanController({ target, scope }) {
       timerRef.current = null;
       map.flyTo([to.lat, to.lng], closeZoom, { animate: true, duration: 0.9 });
     }, TIMING.panPhase2Delay);
-  }, [target, scope, map]);
+  }, [target, scope, enabled, map]);
   useEffect(() => () => { if (timerRef.current) clearTimeout(timerRef.current); }, []);
   return null;
 }
@@ -176,8 +185,8 @@ export default function MapView({ onMapClick, markers = [], boundaries = [], lin
       />
       <Resizer />
       <Clicker onClick={onMapClick} enabled={clickEnabled} />
-      <ViewResetController nonce={viewResetNonce} center={center} zoom={zoom} />
-      <PanController target={panTarget} scope={scope} />
+      <ViewResetController nonce={viewResetNonce} center={center} zoom={zoom} scope={scope} playing={clickEnabled} />
+      <PanController target={panTarget} scope={scope} enabled={settings?.animateWrongAnswers === true} />
       <HintController hintTarget={hintTarget} />
       {baseScope && <BaseBoundariesLayer scope={baseScope} />}
       {hungaryBorders && <HungaryBordersLayer />}
@@ -192,7 +201,7 @@ export default function MapView({ onMapClick, markers = [], boundaries = [], lin
           key={m.id}
           id={m.id}
           lat={m.lat}
-          lng={m.lng}
+          lng={scope === 'oceania' && m.lng < 0 ? m.lng + 360 : m.lng}
           flagCode={m.flagCode}
           name={m.name}
           state={m.state || 'none'}

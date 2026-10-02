@@ -23,6 +23,7 @@ export const SETTINGS_DEFAULTS = {
   capitalLocatorHideCountryNameDefault: false,
   nextButtonOnCorrect: false,
   showZoomControls: false,
+  animateWrongAnswers: false,
   showMissedCountryInfo: true,
 };
 
