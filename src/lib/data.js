@@ -110,9 +110,9 @@ export function localizedName(item, lang) {
 
 export function getFact(id, type, lang, ds) {
   if (!ds) return null;
-  if (type === 'country') return lang === 'hu' ? ds.countryFactsHu?.[id] : ds.countryFacts?.[id];
-  if (type === 'state') return lang === 'hu' ? ds.usStateFactsHu?.[id] : ds.usStateFacts?.[id];
-  if (type === 'county') return lang === 'hu' ? ds.countyFactsHu?.[id] : ds.countyFacts?.[id];
+  if (type === 'country') return (lang === 'hu' ? ds.countryFactsHu?.[id] : ds.countryFacts?.[id]) ?? null;
+  if (type === 'state') return (lang === 'hu' ? ds.usStateFactsHu?.[id] : ds.usStateFacts?.[id]) ?? null;
+  if (type === 'county') return (lang === 'hu' ? ds.countyFactsHu?.[id] : ds.countyFacts?.[id]) ?? null;
   return null;
 }
 

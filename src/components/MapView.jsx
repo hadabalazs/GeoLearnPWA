@@ -162,7 +162,7 @@ export default function MapView({ onMapClick, markers = [], boundaries = [], lin
       center={/** @type {import('leaflet').LatLngExpression} */ (center)}
       zoom={zoom}
       scrollWheelZoom
-      zoomControl
+      zoomControl={settings?.showZoomControls === true}
       worldCopyJump
       className={containerClass}
       style={{ height: '100%', width: '100%', background: tileCfg.background, borderRadius: 'inherit' }}

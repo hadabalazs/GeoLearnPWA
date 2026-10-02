@@ -3,7 +3,7 @@ import { X, ChevronRight } from 'lucide-react';
 import MapView from '../MapView';
 import FlagImage from '../FlagImage';
 import { scopeItems, localizedName, CONTINENTS } from '@/lib/data';
-import { ANTIMERIDIAN_COUNTRIES } from '@/lib/animation';
+import { ANTIMERIDIAN_COUNTRIES, TIMING } from '@/lib/animation';
 import { haversineKm } from '@/lib/challenge';
 import { buildOptions } from '@/lib/options';
 import { useBoundary, findItemByPoint, boundaryScopeForGameScope } from '@/lib/boundaries';
@@ -13,7 +13,7 @@ import HintButton from './HintButton';
 
 const PHASE_ADVANCE_MS = 900;
 
-export default function ExploreQuestion({ target, ds, lang, config, status, onResult, roundIndex }) {
+export default function ExploreQuestion({ target, ds, lang, config, status, onResult, roundIndex, showMissedCountryInfo = true }) {
   const isCountry = config.scope === 'world' || CONTINENTS.includes(config.scope);
   const [phase, setPhase] = useState('find'); // find | flag | capital
   const [findCorrect, setFindCorrect] = useState(null);
@@ -51,9 +51,16 @@ export default function ExploreQuestion({ target, ds, lang, config, status, onRe
   const flagOptions = useMemo(() => buildOptions(target, items, seed, 4, 'id'), [target, items, seed]);
   const capOptions = useMemo(() => buildOptions(target, items, seed + 31, 4, 'id'), [target, items, seed]);
 
-  const afterFind = (ok) => {
+  const afterFind = (ok, selectedId) => {
     setFindCorrect(ok);
-    if (ok) setTimeout(() => setPhase(isCountry ? 'flag' : 'capital'), PHASE_ADVANCE_MS);
+    if (!ok && config.oneChance) {
+      onResult(false, { findCorrect: false, flagCorrect: false, capCorrect: false, selectedId, hintsUsed, wasMapMiss: true });
+      return;
+    }
+    const delay = ok ? PHASE_ADVANCE_MS : TIMING.incorrectFeedbackDuration;
+    if (ok || !showMissedCountryInfo) {
+      setTimeout(() => setPhase(isCountry ? 'flag' : 'capital'), delay);
+    }
   };
 
   const handleMap = (latlng) => {
@@ -69,7 +76,7 @@ export default function ExploreQuestion({ target, ds, lang, config, status, onRe
       }
     }
     setSelected(best);
-    afterFind(best.id === target.id);
+    afterFind(best.id === target.id, best.id);
   };
 
   const handleMarkerSelect = (id) => {
@@ -77,7 +84,7 @@ export default function ExploreQuestion({ target, ds, lang, config, status, onRe
     const it = items.find((i) => i.id === id);
     if (!it) return;
     setSelected(it);
-    afterFind(it.id === target.id);
+    afterFind(it.id === target.id, it.id);
   };
 
   const handleFlag = (opt) => {
@@ -128,7 +135,7 @@ export default function ExploreQuestion({ target, ds, lang, config, status, onRe
         <MapView scope={config.scope} onMapClick={handleMap} markers={markers} boundaries={boundaries} panTarget={panTarget} hintTarget={hintTarget} center={view.center} zoom={view.zoom} viewResetNonce={roundIndex} clickEnabled={phase === 'find' && status === 'playing' && !selected} className="absolute inset-0" flagMarkers={flagMarkers} showAnnotations isExpert={!!config.expert} onMarkerSelect={handleMarkerSelect} hungaryBorders={config.scope === 'hungary'} baseScope={baseScope} />
         {showHint && <HintButton onClick={handleHint} />}
 
-        {phase === 'find' && findCorrect === false && selected && (
+        {phase === 'find' && findCorrect === false && selected && showMissedCountryInfo && (
           <div className="feedback-bar absolute bottom-3 left-3 right-3 rounded-2xl border border-border bg-card shadow-lg px-4 py-3 flex items-center gap-3 z-[1000]">
             <div className="flex items-center gap-1.5 font-bold text-incorrect text-sm">
               <X className="w-5 h-5 shrink-0" />

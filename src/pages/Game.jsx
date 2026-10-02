@@ -11,6 +11,7 @@ import { buildOptions } from '@/lib/options';
 import { TIMING } from '@/lib/animation';
 import { hapticCorrect, hapticIncorrect } from '@/lib/haptics';
 import { t } from '@/lib/i18n';
+import { shouldAutoAdvanceMapMiss, shouldEndExploreAfterResult } from '@/lib/gameRules';
 import GameHeader from '@/components/GameHeader';
 import ResultsScreen from '@/components/ResultsScreen';
 import MapLoader from '@/components/MapLoader';
@@ -83,6 +84,7 @@ export default function Game() {
   const [phase, setPhase] = useState('playing');
   const [lastCorrect, setLastCorrect] = useState(null);
   const [lastSelectedId, setLastSelectedId] = useState(null);
+  const [lastResultWasMapMiss, setLastResultWasMapMiss] = useState(false);
   const [endAfterFeedback, setEndAfterFeedback] = useState(false);
   const [result, setResult] = useState(null);
   const [bonusSeconds, setBonusSeconds] = useState(0);
@@ -136,13 +138,16 @@ export default function Game() {
     if (phase !== 'feedback') return;
     let delay;
     if (config?.timeTrial) delay = TIMING.autoAdvanceTimeTrial;
-    else if (!lastCorrect || settings?.nextButtonOnCorrect) return;
+    else if (!lastCorrect) {
+      if (!shouldAutoAdvanceMapMiss({ family, showMissedCountryInfo: settings?.showMissedCountryInfo, wasMapMiss: lastResultWasMapMiss })) return;
+      delay = TIMING.incorrectFeedbackDuration;
+    } else if (settings?.nextButtonOnCorrect) return;
     else if (family === 'findWorld' || family === 'findRegion') delay = TIMING.autoAdvanceMap;
     else if (family === 'capitalLocation' || family === 'exploreWorld' || family === 'exploreRegion') delay = TIMING.autoAdvanceReveal;
     else delay = TIMING.autoAdvanceQuiz;
     const tm = setTimeout(() => nextRef.current?.(), delay);
     return () => clearTimeout(tm);
-  }, [phase, lastCorrect, config?.timeTrial, settings?.nextButtonOnCorrect, family]);
+  }, [phase, lastCorrect, lastResultWasMapMiss, config?.timeTrial, settings?.nextButtonOnCorrect, settings?.showMissedCountryInfo, family]);
 
   if (!config) return null;
 
@@ -150,7 +155,7 @@ export default function Game() {
   const target = targets[round];
 
   const pushMiss = (tgt) => {
-    const fact = getFact(tgt.id, tgt.type, ds, lang);
+    const fact = getFact(tgt.id, tgt.type, lang, ds);
     const answer = family === 'capitalLocation'
       ? (tgt.capital || localizedName(tgt, lang))
       : (tgt.capital || tgt.seat || localizedName(tgt, lang));
@@ -162,6 +167,7 @@ export default function Game() {
     const elapsed = (Date.now() - roundStartRef.current) / 1000;
     setTotalAsked((n) => n + 1);
     setLastSelectedId(payload?.selectedId ?? null);
+    setLastResultWasMapMiss(Boolean(payload?.wasMapMiss));
     if (isCorrect) hapticCorrect(); else hapticIncorrect();
 
     if (family === 'exploreWorld' || family === 'exploreRegion') {
@@ -180,6 +186,9 @@ export default function Game() {
       }));
       if (!findCorrect) pushMiss(target);
       setHintsUsed((h) => h + (roundHints || 0));
+      if (shouldEndExploreAfterResult({ oneChance: config.oneChance, allCorrect })) {
+        setEndAfterFeedback(true);
+      }
       setLastCorrect(allCorrect);
       setPhase('feedback');
       return;
@@ -241,6 +250,7 @@ export default function Game() {
     setPhase('playing');
     setLastCorrect(null);
     setLastSelectedId(null);
+    setLastResultWasMapMiss(false);
   };
   nextRef.current = next;
 
@@ -297,6 +307,7 @@ export default function Game() {
   const isFlagMode = config.mode === 'flagMatch' || config.mode === 'flagReverse';
   const isFindMode = family === 'findWorld' || family === 'findRegion';
   const isBigNext = family === 'capitalLocation' || isFlagMode;
+  const hideMissedMapInfo = !lastCorrect && settings?.showMissedCountryInfo === false && (isFindMode || lastResultWasMapMiss);
   const selectedItem = lastSelectedId ? itemsMap[lastSelectedId] : null;
   const selectedName = selectedItem ? localizedName(selectedItem, lang) : null;
   const answerText = target
@@ -313,11 +324,11 @@ export default function Game() {
           <GameHeader round={round} total={targets.length} score={score} streak={streak} config={config} lang={lang}
             timerRunning={revealed && phase !== 'done'} bonusSeconds={bonusSeconds} onTimeUp={() => finishRef.current?.()} />
           <div className="flex-1 min-h-0">
-            <ModeComp target={target} ds={ds} lang={lang} config={config} status={phase} onResult={handleResult} roundIndex={round} mode={config.mode} />
+            <ModeComp target={target} ds={ds} lang={lang} config={config} status={phase} onResult={handleResult} roundIndex={round} mode={config.mode} showMissedCountryInfo={settings?.showMissedCountryInfo !== false} />
           </div>
           {phase === 'feedback' && !config.timeTrial && (isFindMode || !lastCorrect || settings?.nextButtonOnCorrect) && (
             <div className="feedback-bar mx-3 mb-3 rounded-2xl border border-border bg-card/80 backdrop-blur-xl shadow-lg px-4 py-3 flex items-center gap-3">
-              {isFindMode && (
+              {isFindMode && settings?.showMissedCountryInfo !== false && (
                 <div className={`flex items-center gap-1.5 font-bold ${lastCorrect ? 'text-correct' : 'text-incorrect'}`}>
                   {lastCorrect ? <Check className="w-5 h-5" /> : <X className="w-5 h-5" />}
                   {lastCorrect
@@ -325,7 +336,7 @@ export default function Game() {
                     : `${t(lang, 'game.youClicked')} ${selectedName ? `${selectedName} · ${t(lang, 'game.answer')} ` : ''}${answerText}`}
                 </div>
               )}
-              {(!lastCorrect || settings?.nextButtonOnCorrect) && (
+              {(!lastCorrect || settings?.nextButtonOnCorrect) && !hideMissedMapInfo && (
                 <button onClick={next} className={`flex items-center justify-center gap-1.5 px-5 py-2.5 rounded-xl bg-primary text-primary-foreground font-semibold touch-target ${isBigNext ? 'w-full' : 'ml-auto'}`}>
                   {round + 1 >= targets.length || endAfterFeedback ? t(lang, 'game.finish') : t(lang, 'game.next')}
                   <ChevronRight className="w-4 h-4" />
