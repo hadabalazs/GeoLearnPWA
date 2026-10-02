@@ -1,0 +1,22 @@
+[
+  { "id": "HU110", "name": "Budapest",               "capital": "Budapest",       "lat": 47.49788, "lon": 19.04024, "geoJsonRef": "HU110" },
+  { "id": "HU120", "name": "Pest",                   "capital": "Budapest",       "lat": 47.49788, "lon": 19.04024, "geoJsonRef": "HU120" },
+  { "id": "HU211", "name": "Fejér",                  "capital": "Székesfehérvár", "lat": 47.19102, "lon": 18.41081, "geoJsonRef": "HU211" },
+  { "id": "HU212", "name": "Komárom-Esztergom",      "capital": "Tatabánya",      "lat": 47.58385, "lon": 18.39799, "geoJsonRef": "HU212" },
+  { "id": "HU213", "name": "Veszprém",               "capital": "Veszprém",       "lat": 47.09338, "lon": 17.90804, "geoJsonRef": "HU213" },
+  { "id": "HU221", "name": "Győr-Moson-Sopron",      "capital": "Győr",           "lat": 47.68350, "lon": 17.63428, "geoJsonRef": "HU221" },
+  { "id": "HU222", "name": "Vas",                    "capital": "Szombathely",    "lat": 47.22912, "lon": 16.61876, "geoJsonRef": "HU222" },
+  { "id": "HU223", "name": "Zala",                   "capital": "Zalaegerszeg",   "lat": 46.84158, "lon": 16.84563, "geoJsonRef": "HU223" },
+  { "id": "HU231", "name": "Baranya",                "capital": "Pécs",           "lat": 46.07651, "lon": 18.22803, "geoJsonRef": "HU231" },
+  { "id": "HU232", "name": "Somogy",                 "capital": "Kaposvár",       "lat": 46.35647, "lon": 17.78869, "geoJsonRef": "HU232" },
+  { "id": "HU233", "name": "Tolna",                  "capital": "Szekszárd",      "lat": 46.34849, "lon": 18.70166, "geoJsonRef": "HU233" },
+  { "id": "HU311", "name": "Borsod-Abaúj-Zemplén",  "capital": "Miskolc",        "lat": 48.10306, "lon": 20.79004, "geoJsonRef": "HU311" },
+  { "id": "HU312", "name": "Heves",                  "capital": "Eger",           "lat": 47.89899, "lon": 20.37437, "geoJsonRef": "HU312" },
+  { "id": "HU313", "name": "Nógrád",                 "capital": "Salgótarján",    "lat": 48.09607, "lon": 19.80056, "geoJsonRef": "HU313" },
+  { "id": "HU321", "name": "Hajdú-Bihar",            "capital": "Debrecen",       "lat": 47.53140, "lon": 21.62598, "geoJsonRef": "HU321" },
+  { "id": "HU322", "name": "Jász-Nagykun-Szolnok",  "capital": "Szolnok",        "lat": 47.17538, "lon": 20.19463, "geoJsonRef": "HU322" },
+  { "id": "HU323", "name": "Szabolcs-Szatmár-Bereg", "capital": "Nyíregyháza",   "lat": 47.95578, "lon": 21.71680, "geoJsonRef": "HU323" },
+  { "id": "HU331", "name": "Bács-Kiskun",            "capital": "Kecskemét",      "lat": 46.90748, "lon": 19.69209, "geoJsonRef": "HU331" },
+  { "id": "HU332", "name": "Békés",                  "capital": "Békéscsaba",     "lat": 46.67980, "lon": 21.09854, "geoJsonRef": "HU332" },
+  { "id": "HU333", "name": "Csongrád-Csanád",        "capital": "Szeged",         "lat": 46.25463, "lon": 20.14860, "geoJsonRef": "HU333" }
+]

@@ -1,0 +1,3543 @@
+[
+  {
+    "id": "AFG",
+    "name": "Afghanistan",
+    "capital": "Kabul",
+    "continent": "Asia",
+    "flagCode": "af",
+    "lat": 33,
+    "lon": 65,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "IRN",
+      "PAK",
+      "TKM",
+      "UZB",
+      "TJK",
+      "CHN"
+    ],
+    "capitalLat": 34.52,
+    "capitalLon": 69.18
+  },
+  {
+    "id": "ALB",
+    "name": "Albania",
+    "capital": "Tirana",
+    "continent": "Europe",
+    "flagCode": "al",
+    "lat": 41,
+    "lon": 20,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "MNE",
+      "GRC",
+      "MKD",
+      "UNK"
+    ],
+    "capitalLat": 41.33,
+    "capitalLon": 19.82
+  },
+  {
+    "id": "DZA",
+    "name": "Algeria",
+    "capital": "Algiers",
+    "continent": "Africa",
+    "flagCode": "dz",
+    "lat": 28,
+    "lon": 3,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "TUN",
+      "LBY",
+      "NER",
+      "ESH",
+      "MRT",
+      "MLI",
+      "MAR"
+    ],
+    "capitalLat": 36.74,
+    "capitalLon": 3.06
+  },
+  {
+    "id": "AND",
+    "name": "Andorra",
+    "capital": "Andorra la Vella",
+    "continent": "Europe",
+    "flagCode": "ad",
+    "lat": 42.5,
+    "lon": 1.5,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "FRA",
+      "ESP"
+    ],
+    "capitalLat": 42.51,
+    "capitalLon": 1.52
+  },
+  {
+    "id": "AGO",
+    "name": "Angola",
+    "capital": "Luanda",
+    "continent": "Africa",
+    "flagCode": "ao",
+    "lat": -12.5,
+    "lon": 18.5,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "COG",
+      "COD",
+      "ZMB",
+      "NAM"
+    ],
+    "capitalLat": -8.84,
+    "capitalLon": 13.23
+  },
+  {
+    "id": "ATG",
+    "name": "Antigua and Barbuda",
+    "capital": "Saint John's",
+    "continent": "Americas",
+    "flagCode": "ag",
+    "lat": 17.05,
+    "lon": -61.8,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": 17.12,
+    "capitalLon": -61.85
+  },
+  {
+    "id": "ARG",
+    "name": "Argentina",
+    "capital": "Buenos Aires",
+    "continent": "Americas",
+    "flagCode": "ar",
+    "lat": -34,
+    "lon": -64,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "BOL",
+      "BRA",
+      "CHL",
+      "PRY",
+      "URY"
+    ],
+    "capitalLat": -34.6,
+    "capitalLon": -58.38
+  },
+  {
+    "id": "ARM",
+    "name": "Armenia",
+    "capital": "Yerevan",
+    "continent": "Asia",
+    "flagCode": "am",
+    "lat": 40,
+    "lon": 45,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "AZE",
+      "GEO",
+      "IRN",
+      "TUR"
+    ],
+    "capitalLat": 40.18,
+    "capitalLon": 44.51
+  },
+  {
+    "id": "AUS",
+    "name": "Australia",
+    "capital": "Canberra",
+    "continent": "Oceania",
+    "flagCode": "au",
+    "lat": -27,
+    "lon": 133,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": -35.28,
+    "capitalLon": 149.13
+  },
+  {
+    "id": "AUT",
+    "name": "Austria",
+    "capital": "Vienna",
+    "continent": "Europe",
+    "flagCode": "at",
+    "lat": 47.33333333,
+    "lon": 13.33333333,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "CZE",
+      "DEU",
+      "HUN",
+      "ITA",
+      "LIE",
+      "SVK",
+      "SVN",
+      "CHE"
+    ],
+    "capitalLat": 48.21,
+    "capitalLon": 16.37
+  },
+  {
+    "id": "AZE",
+    "name": "Azerbaijan",
+    "capital": "Baku",
+    "continent": "Asia",
+    "flagCode": "az",
+    "lat": 40.5,
+    "lon": 47.5,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "ARM",
+      "GEO",
+      "IRN",
+      "RUS",
+      "TUR"
+    ],
+    "capitalLat": 40.41,
+    "capitalLon": 49.87
+  },
+  {
+    "id": "BHS",
+    "name": "Bahamas",
+    "capital": "Nassau",
+    "continent": "Americas",
+    "flagCode": "bs",
+    "lat": 25.05,
+    "lon": -77.35,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": 25.05,
+    "capitalLon": -77.35
+  },
+  {
+    "id": "BHR",
+    "name": "Bahrain",
+    "capital": "Manama",
+    "continent": "Asia",
+    "flagCode": "bh",
+    "lat": 26,
+    "lon": 50.55,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": 26.22,
+    "capitalLon": 50.59
+  },
+  {
+    "id": "BGD",
+    "name": "Bangladesh",
+    "capital": "Dhaka",
+    "continent": "Asia",
+    "flagCode": "bd",
+    "lat": 24,
+    "lon": 90,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "MMR",
+      "IND"
+    ],
+    "capitalLat": 23.72,
+    "capitalLon": 90.41
+  },
+  {
+    "id": "BRB",
+    "name": "Barbados",
+    "capital": "Bridgetown",
+    "continent": "Americas",
+    "flagCode": "bb",
+    "lat": 13.16666666,
+    "lon": -59.53333333,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": 13.1,
+    "capitalLon": -59.62
+  },
+  {
+    "id": "BLR",
+    "name": "Belarus",
+    "capital": "Minsk",
+    "continent": "Europe",
+    "flagCode": "by",
+    "lat": 53,
+    "lon": 28,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "LVA",
+      "LTU",
+      "POL",
+      "RUS",
+      "UKR"
+    ],
+    "capitalLat": 53.9,
+    "capitalLon": 27.57
+  },
+  {
+    "id": "BEL",
+    "name": "Belgium",
+    "capital": "Brussels",
+    "continent": "Europe",
+    "flagCode": "be",
+    "lat": 50.83333333,
+    "lon": 4,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "FRA",
+      "DEU",
+      "LUX",
+      "NLD"
+    ],
+    "capitalLat": 50.85,
+    "capitalLon": 4.35
+  },
+  {
+    "id": "BLZ",
+    "name": "Belize",
+    "capital": "Belmopan",
+    "continent": "Americas",
+    "flagCode": "bz",
+    "lat": 17.25,
+    "lon": -88.75,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "GTM",
+      "MEX"
+    ],
+    "capitalLat": 17.25,
+    "capitalLon": -88.77
+  },
+  {
+    "id": "BEN",
+    "name": "Benin",
+    "capital": "Porto-Novo",
+    "continent": "Africa",
+    "flagCode": "bj",
+    "lat": 9.5,
+    "lon": 2.25,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "BFA",
+      "NER",
+      "NGA",
+      "TGO"
+    ],
+    "capitalLat": 6.37,
+    "capitalLon": 2.42
+  },
+  {
+    "id": "BTN",
+    "name": "Bhutan",
+    "capital": "Thimphu",
+    "continent": "Asia",
+    "flagCode": "bt",
+    "lat": 27.5,
+    "lon": 90.5,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "CHN",
+      "IND"
+    ],
+    "capitalLat": 27.47,
+    "capitalLon": 89.64
+  },
+  {
+    "id": "BOL",
+    "name": "Bolivia",
+    "capital": "Sucre",
+    "continent": "Americas",
+    "flagCode": "bo",
+    "lat": -17,
+    "lon": -65,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "ARG",
+      "BRA",
+      "CHL",
+      "PRY",
+      "PER"
+    ],
+    "capitalLat": -19.04,
+    "capitalLon": -65.26
+  },
+  {
+    "id": "BIH",
+    "name": "Bosnia and Herzegovina",
+    "capital": "Sarajevo",
+    "continent": "Europe",
+    "flagCode": "ba",
+    "lat": 44,
+    "lon": 18,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "HRV",
+      "MNE",
+      "SRB"
+    ],
+    "capitalLat": 43.85,
+    "capitalLon": 18.38
+  },
+  {
+    "id": "BWA",
+    "name": "Botswana",
+    "capital": "Gaborone",
+    "continent": "Africa",
+    "flagCode": "bw",
+    "lat": -22,
+    "lon": 24,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "NAM",
+      "ZAF",
+      "ZMB",
+      "ZWE"
+    ],
+    "capitalLat": -24.65,
+    "capitalLon": 25.91
+  },
+  {
+    "id": "BRA",
+    "name": "Brazil",
+    "capital": "Brasília",
+    "continent": "Americas",
+    "flagCode": "br",
+    "lat": -10,
+    "lon": -55,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "ARG",
+      "BOL",
+      "COL",
+      "GUF",
+      "GUY",
+      "PRY",
+      "PER",
+      "SUR",
+      "URY",
+      "VEN"
+    ],
+    "capitalLat": -15.78,
+    "capitalLon": -47.93
+  },
+  {
+    "id": "BRN",
+    "name": "Brunei",
+    "capital": "Bandar Seri Begawan",
+    "continent": "Asia",
+    "flagCode": "bn",
+    "lat": 4.5,
+    "lon": 114.66666666,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "MYS"
+    ],
+    "capitalLat": 4.94,
+    "capitalLon": 114.94
+  },
+  {
+    "id": "BGR",
+    "name": "Bulgaria",
+    "capital": "Sofia",
+    "continent": "Europe",
+    "flagCode": "bg",
+    "lat": 43,
+    "lon": 25,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "GRC",
+      "MKD",
+      "ROU",
+      "SRB",
+      "TUR"
+    ],
+    "capitalLat": 42.7,
+    "capitalLon": 23.32
+  },
+  {
+    "id": "BFA",
+    "name": "Burkina Faso",
+    "capital": "Ouagadougou",
+    "continent": "Africa",
+    "flagCode": "bf",
+    "lat": 13,
+    "lon": -2,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "BEN",
+      "CIV",
+      "GHA",
+      "MLI",
+      "NER",
+      "TGO"
+    ],
+    "capitalLat": 12.37,
+    "capitalLon": -1.53
+  },
+  {
+    "id": "BDI",
+    "name": "Burundi",
+    "capital": "Gitega",
+    "continent": "Africa",
+    "flagCode": "bi",
+    "lat": -3.5,
+    "lon": 30,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "COD",
+      "RWA",
+      "TZA"
+    ],
+    "capitalLat": -3.43,
+    "capitalLon": 29.92
+  },
+  {
+    "id": "KHM",
+    "name": "Cambodia",
+    "capital": "Phnom Penh",
+    "continent": "Asia",
+    "flagCode": "kh",
+    "lat": 13,
+    "lon": 105,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "LAO",
+      "THA",
+      "VNM"
+    ],
+    "capitalLat": 11.56,
+    "capitalLon": 104.92
+  },
+  {
+    "id": "CMR",
+    "name": "Cameroon",
+    "capital": "Yaoundé",
+    "continent": "Africa",
+    "flagCode": "cm",
+    "lat": 6,
+    "lon": 12,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "CAF",
+      "TCD",
+      "COG",
+      "GNQ",
+      "GAB",
+      "NGA"
+    ],
+    "capitalLat": 3.87,
+    "capitalLon": 11.52
+  },
+  {
+    "id": "CAN",
+    "name": "Canada",
+    "capital": "Ottawa",
+    "continent": "Americas",
+    "flagCode": "ca",
+    "lat": 60,
+    "lon": -95,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "USA"
+    ],
+    "capitalLat": 45.42,
+    "capitalLon": -75.69
+  },
+  {
+    "id": "CPV",
+    "name": "Cape Verde",
+    "capital": "Praia",
+    "continent": "Africa",
+    "flagCode": "cv",
+    "lat": 15.1,
+    "lon": -23.6,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": 14.93,
+    "capitalLon": -23.52
+  },
+  {
+    "id": "CAF",
+    "name": "Central African Republic",
+    "capital": "Bangui",
+    "continent": "Africa",
+    "flagCode": "cf",
+    "lat": 7,
+    "lon": 21,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "CMR",
+      "TCD",
+      "COD",
+      "COG",
+      "SSD",
+      "SDN"
+    ],
+    "capitalLat": 4.36,
+    "capitalLon": 18.56
+  },
+  {
+    "id": "TCD",
+    "name": "Chad",
+    "capital": "N'Djamena",
+    "continent": "Africa",
+    "flagCode": "td",
+    "lat": 15,
+    "lon": 19,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "CMR",
+      "CAF",
+      "LBY",
+      "NER",
+      "NGA",
+      "SDN"
+    ],
+    "capitalLat": 12.11,
+    "capitalLon": 15.04
+  },
+  {
+    "id": "CHL",
+    "name": "Chile",
+    "capital": "Santiago",
+    "continent": "Americas",
+    "flagCode": "cl",
+    "lat": -30,
+    "lon": -71,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "ARG",
+      "BOL",
+      "PER"
+    ],
+    "capitalLat": -33.46,
+    "capitalLon": -70.65
+  },
+  {
+    "id": "CHN",
+    "name": "China",
+    "capital": "Beijing",
+    "continent": "Asia",
+    "flagCode": "cn",
+    "lat": 35,
+    "lon": 105,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "AFG",
+      "BTN",
+      "MMR",
+      "HKG",
+      "IND",
+      "KAZ",
+      "NPL",
+      "PRK",
+      "KGZ",
+      "LAO",
+      "MAC",
+      "MNG",
+      "PAK",
+      "RUS",
+      "TJK",
+      "VNM"
+    ],
+    "capitalLat": 39.91,
+    "capitalLon": 116.39
+  },
+  {
+    "id": "COL",
+    "name": "Colombia",
+    "capital": "Bogotá",
+    "continent": "Americas",
+    "flagCode": "co",
+    "lat": 4,
+    "lon": -72,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "BRA",
+      "ECU",
+      "PAN",
+      "PER",
+      "VEN"
+    ],
+    "capitalLat": 4.71,
+    "capitalLon": -74.07
+  },
+  {
+    "id": "COM",
+    "name": "Comoros",
+    "capital": "Moroni",
+    "continent": "Africa",
+    "flagCode": "km",
+    "lat": -11.7,
+    "lon": 43.3,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": -11.7,
+    "capitalLon": 43.26
+  },
+  {
+    "id": "COG",
+    "name": "Congo",
+    "capital": "Brazzaville",
+    "continent": "Africa",
+    "flagCode": "cg",
+    "lat": -1,
+    "lon": 15,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "AGO",
+      "CMR",
+      "CAF",
+      "COD",
+      "GAB"
+    ],
+    "capitalLat": -4.27,
+    "capitalLon": 15.27
+  },
+  {
+    "id": "CRI",
+    "name": "Costa Rica",
+    "capital": "San José",
+    "continent": "Americas",
+    "flagCode": "cr",
+    "lat": 10,
+    "lon": -84,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "NIC",
+      "PAN"
+    ],
+    "capitalLat": 9.93,
+    "capitalLon": -84.08
+  },
+  {
+    "id": "HRV",
+    "name": "Croatia",
+    "capital": "Zagreb",
+    "continent": "Europe",
+    "flagCode": "hr",
+    "lat": 45.16666666,
+    "lon": 15.5,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "BIH",
+      "HUN",
+      "MNE",
+      "SRB",
+      "SVN"
+    ],
+    "capitalLat": 45.81,
+    "capitalLon": 15.98
+  },
+  {
+    "id": "CUB",
+    "name": "Cuba",
+    "capital": "Havana",
+    "continent": "Americas",
+    "flagCode": "cu",
+    "lat": 21.5,
+    "lon": -80,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": 23.13,
+    "capitalLon": -82.38
+  },
+  {
+    "id": "CYP",
+    "name": "Cyprus",
+    "capital": "Nicosia",
+    "continent": "Europe",
+    "flagCode": "cy",
+    "lat": 35,
+    "lon": 33,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": 35.17,
+    "capitalLon": 33.37
+  },
+  {
+    "id": "CZE",
+    "name": "Czechia",
+    "capital": "Prague",
+    "continent": "Europe",
+    "flagCode": "cz",
+    "lat": 49.75,
+    "lon": 15.5,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "AUT",
+      "DEU",
+      "POL",
+      "SVK"
+    ],
+    "capitalLat": 50.09,
+    "capitalLon": 14.42
+  },
+  {
+    "id": "COD",
+    "name": "DR Congo",
+    "capital": "Kinshasa",
+    "continent": "Africa",
+    "flagCode": "cd",
+    "lat": 0,
+    "lon": 25,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "AGO",
+      "BDI",
+      "CAF",
+      "COG",
+      "RWA",
+      "SSD",
+      "TZA",
+      "UGA",
+      "ZMB"
+    ],
+    "capitalLat": -4.32,
+    "capitalLon": 15.32
+  },
+  {
+    "id": "DNK",
+    "name": "Denmark",
+    "capital": "Copenhagen",
+    "continent": "Europe",
+    "flagCode": "dk",
+    "lat": 56,
+    "lon": 10,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "DEU"
+    ],
+    "capitalLat": 55.68,
+    "capitalLon": 12.57
+  },
+  {
+    "id": "DJI",
+    "name": "Djibouti",
+    "capital": "Djibouti",
+    "continent": "Africa",
+    "flagCode": "dj",
+    "lat": 11.5,
+    "lon": 43,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "ERI",
+      "ETH",
+      "SOM"
+    ],
+    "capitalLat": 11.59,
+    "capitalLon": 43.15
+  },
+  {
+    "id": "DMA",
+    "name": "Dominica",
+    "capital": "Roseau",
+    "continent": "Americas",
+    "flagCode": "dm",
+    "lat": 15.41666666,
+    "lon": -61.33333333,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": 15.3,
+    "capitalLon": -61.39
+  },
+  {
+    "id": "DOM",
+    "name": "Dominican Republic",
+    "capital": "Santo Domingo",
+    "continent": "Americas",
+    "flagCode": "do",
+    "lat": 19,
+    "lon": -70.66666666,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "HTI"
+    ],
+    "capitalLat": 18.48,
+    "capitalLon": -69.9
+  },
+  {
+    "id": "ECU",
+    "name": "Ecuador",
+    "capital": "Quito",
+    "continent": "Americas",
+    "flagCode": "ec",
+    "lat": -2,
+    "lon": -77.5,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "COL",
+      "PER"
+    ],
+    "capitalLat": -0.23,
+    "capitalLon": -78.52
+  },
+  {
+    "id": "EGY",
+    "name": "Egypt",
+    "capital": "Cairo",
+    "continent": "Africa",
+    "flagCode": "eg",
+    "lat": 27,
+    "lon": 30,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "ISR",
+      "LBY",
+      "PSE",
+      "SDN"
+    ],
+    "capitalLat": 30.06,
+    "capitalLon": 31.25
+  },
+  {
+    "id": "SLV",
+    "name": "El Salvador",
+    "capital": "San Salvador",
+    "continent": "Americas",
+    "flagCode": "sv",
+    "lat": 13.83333333,
+    "lon": -88.91666666,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "GTM",
+      "HND"
+    ],
+    "capitalLat": 13.69,
+    "capitalLon": -89.19
+  },
+  {
+    "id": "GNQ",
+    "name": "Equatorial Guinea",
+    "capital": "Malabo",
+    "continent": "Africa",
+    "flagCode": "gq",
+    "lat": 2,
+    "lon": 10,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "CMR",
+      "GAB"
+    ],
+    "capitalLat": 3.75,
+    "capitalLon": 8.78
+  },
+  {
+    "id": "ERI",
+    "name": "Eritrea",
+    "capital": "Asmara",
+    "continent": "Africa",
+    "flagCode": "er",
+    "lat": 15,
+    "lon": 39,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "DJI",
+      "ETH",
+      "SDN"
+    ],
+    "capitalLat": 15.33,
+    "capitalLon": 38.93
+  },
+  {
+    "id": "EST",
+    "name": "Estonia",
+    "capital": "Tallinn",
+    "continent": "Europe",
+    "flagCode": "ee",
+    "lat": 59,
+    "lon": 26,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "LVA",
+      "RUS"
+    ],
+    "capitalLat": 59.44,
+    "capitalLon": 24.75
+  },
+  {
+    "id": "SWZ",
+    "name": "Eswatini",
+    "capital": "Lobamba",
+    "continent": "Africa",
+    "flagCode": "sz",
+    "lat": -26.5,
+    "lon": 31.5,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "MOZ",
+      "ZAF"
+    ],
+    "capitalLat": -26.47,
+    "capitalLon": 31.2
+  },
+  {
+    "id": "ETH",
+    "name": "Ethiopia",
+    "capital": "Addis Ababa",
+    "continent": "Africa",
+    "flagCode": "et",
+    "lat": 8,
+    "lon": 38,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "DJI",
+      "ERI",
+      "KEN",
+      "SOM",
+      "SSD",
+      "SDN"
+    ],
+    "capitalLat": 9.03,
+    "capitalLon": 38.74
+  },
+  {
+    "id": "FJI",
+    "name": "Fiji",
+    "capital": "Suva",
+    "continent": "Oceania",
+    "flagCode": "fj",
+    "lat": -17.9,
+    "lon": 178.1,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": -18.14,
+    "capitalLon": 178.44
+  },
+  {
+    "id": "FIN",
+    "name": "Finland",
+    "capital": "Helsinki",
+    "continent": "Europe",
+    "flagCode": "fi",
+    "lat": 64,
+    "lon": 26,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "NOR",
+      "SWE",
+      "RUS"
+    ],
+    "capitalLat": 60.17,
+    "capitalLon": 24.94
+  },
+  {
+    "id": "FRA",
+    "name": "France",
+    "capital": "Paris",
+    "continent": "Europe",
+    "flagCode": "fr",
+    "lat": 46,
+    "lon": 2,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "AND",
+      "BEL",
+      "DEU",
+      "ITA",
+      "LUX",
+      "MCO",
+      "ESP",
+      "CHE"
+    ],
+    "capitalLat": 48.85,
+    "capitalLon": 2.35
+  },
+  {
+    "id": "GAB",
+    "name": "Gabon",
+    "capital": "Libreville",
+    "continent": "Africa",
+    "flagCode": "ga",
+    "lat": -1,
+    "lon": 11.75,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "CMR",
+      "COG",
+      "GNQ"
+    ],
+    "capitalLat": 0.39,
+    "capitalLon": 9.45
+  },
+  {
+    "id": "GMB",
+    "name": "Gambia",
+    "capital": "Banjul",
+    "continent": "Africa",
+    "flagCode": "gm",
+    "lat": 13.46666666,
+    "lon": -16.56666666,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "SEN"
+    ],
+    "capitalLat": 13.45,
+    "capitalLon": -16.58
+  },
+  {
+    "id": "GEO",
+    "name": "Georgia",
+    "capital": "Tbilisi",
+    "continent": "Asia",
+    "flagCode": "ge",
+    "lat": 42,
+    "lon": 43.5,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "ARM",
+      "AZE",
+      "RUS",
+      "TUR"
+    ],
+    "capitalLat": 41.69,
+    "capitalLon": 44.83
+  },
+  {
+    "id": "DEU",
+    "name": "Germany",
+    "capital": "Berlin",
+    "continent": "Europe",
+    "flagCode": "de",
+    "lat": 51,
+    "lon": 9,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "AUT",
+      "BEL",
+      "CZE",
+      "DNK",
+      "FRA",
+      "LUX",
+      "NLD",
+      "POL",
+      "CHE"
+    ],
+    "capitalLat": 52.52,
+    "capitalLon": 13.4
+  },
+  {
+    "id": "GHA",
+    "name": "Ghana",
+    "capital": "Accra",
+    "continent": "Africa",
+    "flagCode": "gh",
+    "lat": 8,
+    "lon": -2,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "BFA",
+      "CIV",
+      "TGO"
+    ],
+    "capitalLat": 5.56,
+    "capitalLon": -0.2
+  },
+  {
+    "id": "GRC",
+    "name": "Greece",
+    "capital": "Athens",
+    "continent": "Europe",
+    "flagCode": "gr",
+    "lat": 39,
+    "lon": 22,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "ALB",
+      "BGR",
+      "TUR",
+      "MKD"
+    ],
+    "capitalLat": 37.98,
+    "capitalLon": 23.73
+  },
+  {
+    "id": "GRD",
+    "name": "Grenada",
+    "capital": "St. George's",
+    "continent": "Americas",
+    "flagCode": "gd",
+    "lat": 12.11666666,
+    "lon": -61.66666666,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": 12.05,
+    "capitalLon": -61.75
+  },
+  {
+    "id": "GTM",
+    "name": "Guatemala",
+    "capital": "Guatemala City",
+    "continent": "Americas",
+    "flagCode": "gt",
+    "lat": 15.5,
+    "lon": -90.25,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "BLZ",
+      "SLV",
+      "HND",
+      "MEX"
+    ],
+    "capitalLat": 14.64,
+    "capitalLon": -90.51
+  },
+  {
+    "id": "GIN",
+    "name": "Guinea",
+    "capital": "Conakry",
+    "continent": "Africa",
+    "flagCode": "gn",
+    "lat": 11,
+    "lon": -10,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "CIV",
+      "GNB",
+      "LBR",
+      "MLI",
+      "SEN",
+      "SLE"
+    ],
+    "capitalLat": 9.54,
+    "capitalLon": -13.68
+  },
+  {
+    "id": "GNB",
+    "name": "Guinea-Bissau",
+    "capital": "Bissau",
+    "continent": "Africa",
+    "flagCode": "gw",
+    "lat": 12,
+    "lon": -15,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "GIN",
+      "SEN"
+    ],
+    "capitalLat": 11.86,
+    "capitalLon": -15.6
+  },
+  {
+    "id": "GUY",
+    "name": "Guyana",
+    "capital": "Georgetown",
+    "continent": "Americas",
+    "flagCode": "gy",
+    "lat": 5,
+    "lon": -59,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "BRA",
+      "SUR",
+      "VEN"
+    ],
+    "capitalLat": 6.8,
+    "capitalLon": -58.16
+  },
+  {
+    "id": "HTI",
+    "name": "Haiti",
+    "capital": "Port-au-Prince",
+    "continent": "Americas",
+    "flagCode": "ht",
+    "lat": 19,
+    "lon": -72.41666666,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "DOM"
+    ],
+    "capitalLat": 18.54,
+    "capitalLon": -72.34
+  },
+  {
+    "id": "HND",
+    "name": "Honduras",
+    "capital": "Tegucigalpa",
+    "continent": "Americas",
+    "flagCode": "hn",
+    "lat": 15,
+    "lon": -86.5,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "GTM",
+      "SLV",
+      "NIC"
+    ],
+    "capitalLat": 14.08,
+    "capitalLon": -87.21
+  },
+  {
+    "id": "HUN",
+    "name": "Hungary",
+    "capital": "Budapest",
+    "continent": "Europe",
+    "flagCode": "hu",
+    "lat": 47,
+    "lon": 20,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "AUT",
+      "HRV",
+      "ROU",
+      "SRB",
+      "SVK",
+      "SVN",
+      "UKR"
+    ],
+    "capitalLat": 47.5,
+    "capitalLon": 19.04
+  },
+  {
+    "id": "ISL",
+    "name": "Iceland",
+    "capital": "Reykjavik",
+    "continent": "Europe",
+    "flagCode": "is",
+    "lat": 65,
+    "lon": -18,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": 64.14,
+    "capitalLon": -21.94
+  },
+  {
+    "id": "IND",
+    "name": "India",
+    "capital": "New Delhi",
+    "continent": "Asia",
+    "flagCode": "in",
+    "lat": 20,
+    "lon": 77,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "BGD",
+      "BTN",
+      "MMR",
+      "CHN",
+      "NPL",
+      "PAK"
+    ],
+    "capitalLat": 28.63,
+    "capitalLon": 77.22
+  },
+  {
+    "id": "IDN",
+    "name": "Indonesia",
+    "capital": "Jakarta",
+    "continent": "Asia",
+    "flagCode": "id",
+    "lat": -6.2,
+    "lon": 107.0,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "TLS",
+      "MYS",
+      "PNG"
+    ],
+    "capitalLat": -6.21,
+    "capitalLon": 106.85
+  },
+  {
+    "id": "IRN",
+    "name": "Iran",
+    "capital": "Tehran",
+    "continent": "Asia",
+    "flagCode": "ir",
+    "lat": 32,
+    "lon": 53,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "AFG",
+      "ARM",
+      "AZE",
+      "IRQ",
+      "PAK",
+      "TUR",
+      "TKM"
+    ],
+    "capitalLat": 35.69,
+    "capitalLon": 51.42
+  },
+  {
+    "id": "IRQ",
+    "name": "Iraq",
+    "capital": "Baghdad",
+    "continent": "Asia",
+    "flagCode": "iq",
+    "lat": 33,
+    "lon": 44,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "IRN",
+      "JOR",
+      "KWT",
+      "SAU",
+      "SYR",
+      "TUR"
+    ],
+    "capitalLat": 33.34,
+    "capitalLon": 44.4
+  },
+  {
+    "id": "IRL",
+    "name": "Ireland",
+    "capital": "Dublin",
+    "continent": "Europe",
+    "flagCode": "ie",
+    "lat": 53,
+    "lon": -8,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "GBR"
+    ],
+    "capitalLat": 53.33,
+    "capitalLon": -6.25
+  },
+  {
+    "id": "ISR",
+    "name": "Israel",
+    "capital": "Jerusalem",
+    "continent": "Asia",
+    "flagCode": "il",
+    "lat": 31.47,
+    "lon": 35.13,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "EGY",
+      "JOR",
+      "LBN",
+      "PSE",
+      "SYR"
+    ],
+    "capitalLat": 31.78,
+    "capitalLon": 35.22
+  },
+  {
+    "id": "ITA",
+    "name": "Italy",
+    "capital": "Rome",
+    "continent": "Europe",
+    "flagCode": "it",
+    "lat": 42.83333333,
+    "lon": 12.83333333,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "AUT",
+      "FRA",
+      "SMR",
+      "SVN",
+      "CHE",
+      "VAT"
+    ],
+    "capitalLat": 41.9,
+    "capitalLon": 12.5
+  },
+  {
+    "id": "CIV",
+    "name": "Côte d'Ivoire",
+    "capital": "Yamoussoukro",
+    "continent": "Africa",
+    "flagCode": "ci",
+    "lat": 8,
+    "lon": -5,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "BFA",
+      "GHA",
+      "GIN",
+      "LBR",
+      "MLI"
+    ],
+    "capitalLat": 6.82,
+    "capitalLon": -5.28
+  },
+  {
+    "id": "JAM",
+    "name": "Jamaica",
+    "capital": "Kingston",
+    "continent": "Americas",
+    "flagCode": "jm",
+    "lat": 18.25,
+    "lon": -77.5,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": 18.0,
+    "capitalLon": -76.79
+  },
+  {
+    "id": "JPN",
+    "name": "Japan",
+    "capital": "Tokyo",
+    "continent": "Asia",
+    "flagCode": "jp",
+    "lat": 36,
+    "lon": 138,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": 35.69,
+    "capitalLon": 139.69
+  },
+  {
+    "id": "JOR",
+    "name": "Jordan",
+    "capital": "Amman",
+    "continent": "Asia",
+    "flagCode": "jo",
+    "lat": 31,
+    "lon": 36,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "IRQ",
+      "ISR",
+      "PSE",
+      "SAU",
+      "SYR"
+    ],
+    "capitalLat": 31.95,
+    "capitalLon": 35.93
+  },
+  {
+    "id": "KAZ",
+    "name": "Kazakhstan",
+    "capital": "Astana",
+    "continent": "Asia",
+    "flagCode": "kz",
+    "lat": 48,
+    "lon": 68,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "CHN",
+      "KGZ",
+      "RUS",
+      "TKM",
+      "UZB"
+    ],
+    "capitalLat": 51.18,
+    "capitalLon": 71.45
+  },
+  {
+    "id": "KEN",
+    "name": "Kenya",
+    "capital": "Nairobi",
+    "continent": "Africa",
+    "flagCode": "ke",
+    "lat": 1,
+    "lon": 38,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "ETH",
+      "SOM",
+      "SSD",
+      "TZA",
+      "UGA"
+    ],
+    "capitalLat": -1.29,
+    "capitalLon": 36.82
+  },
+  {
+    "id": "KIR",
+    "name": "Kiribati",
+    "capital": "South Tarawa",
+    "continent": "Oceania",
+    "flagCode": "ki",
+    "lat": 1.35,
+    "lon": 173.0,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": 1.33,
+    "capitalLon": 173.0
+  },
+  {
+    "id": "UNK",
+    "name": "Kosovo",
+    "capital": "Pristina",
+    "continent": "Europe",
+    "flagCode": "xk",
+    "lat": 42.666667,
+    "lon": 21.166667,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "ALB",
+      "MKD",
+      "MNE",
+      "SRB"
+    ],
+    "capitalLat": 42.67,
+    "capitalLon": 21.17
+  },
+  {
+    "id": "KWT",
+    "name": "Kuwait",
+    "capital": "Kuwait City",
+    "continent": "Asia",
+    "flagCode": "kw",
+    "lat": 29.31,
+    "lon": 47.48,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "IRQ",
+      "SAU"
+    ],
+    "capitalLat": 29.37,
+    "capitalLon": 47.98
+  },
+  {
+    "id": "KGZ",
+    "name": "Kyrgyzstan",
+    "capital": "Bishkek",
+    "continent": "Asia",
+    "flagCode": "kg",
+    "lat": 41,
+    "lon": 75,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "CHN",
+      "KAZ",
+      "TJK",
+      "UZB"
+    ],
+    "capitalLat": 42.87,
+    "capitalLon": 74.59
+  },
+  {
+    "id": "LAO",
+    "name": "Laos",
+    "capital": "Vientiane",
+    "continent": "Asia",
+    "flagCode": "la",
+    "lat": 18,
+    "lon": 105,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "MMR",
+      "KHM",
+      "CHN",
+      "THA",
+      "VNM"
+    ],
+    "capitalLat": 17.97,
+    "capitalLon": 102.6
+  },
+  {
+    "id": "LVA",
+    "name": "Latvia",
+    "capital": "Riga",
+    "continent": "Europe",
+    "flagCode": "lv",
+    "lat": 57,
+    "lon": 25,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "BLR",
+      "EST",
+      "LTU",
+      "RUS"
+    ],
+    "capitalLat": 56.95,
+    "capitalLon": 24.11
+  },
+  {
+    "id": "LBN",
+    "name": "Lebanon",
+    "capital": "Beirut",
+    "continent": "Asia",
+    "flagCode": "lb",
+    "lat": 33.83333333,
+    "lon": 35.83333333,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "ISR",
+      "SYR"
+    ],
+    "capitalLat": 33.89,
+    "capitalLon": 35.5
+  },
+  {
+    "id": "LSO",
+    "name": "Lesotho",
+    "capital": "Maseru",
+    "continent": "Africa",
+    "flagCode": "ls",
+    "lat": -29.5,
+    "lon": 28.5,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "ZAF"
+    ],
+    "capitalLat": -29.32,
+    "capitalLon": 27.48
+  },
+  {
+    "id": "LBR",
+    "name": "Liberia",
+    "capital": "Monrovia",
+    "continent": "Africa",
+    "flagCode": "lr",
+    "lat": 6.5,
+    "lon": -9.5,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "GIN",
+      "CIV",
+      "SLE"
+    ],
+    "capitalLat": 6.3,
+    "capitalLon": -10.8
+  },
+  {
+    "id": "LBY",
+    "name": "Libya",
+    "capital": "Tripoli",
+    "continent": "Africa",
+    "flagCode": "ly",
+    "lat": 25,
+    "lon": 17,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "DZA",
+      "TCD",
+      "EGY",
+      "NER",
+      "SDN",
+      "TUN"
+    ],
+    "capitalLat": 32.9,
+    "capitalLon": 13.18
+  },
+  {
+    "id": "LIE",
+    "name": "Liechtenstein",
+    "capital": "Vaduz",
+    "continent": "Europe",
+    "flagCode": "li",
+    "lat": 47.26666666,
+    "lon": 9.53333333,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "AUT",
+      "CHE"
+    ],
+    "capitalLat": 47.14,
+    "capitalLon": 9.52
+  },
+  {
+    "id": "LTU",
+    "name": "Lithuania",
+    "capital": "Vilnius",
+    "continent": "Europe",
+    "flagCode": "lt",
+    "lat": 56,
+    "lon": 24,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "BLR",
+      "LVA",
+      "POL",
+      "RUS"
+    ],
+    "capitalLat": 54.69,
+    "capitalLon": 25.28
+  },
+  {
+    "id": "LUX",
+    "name": "Luxembourg",
+    "capital": "Luxembourg",
+    "continent": "Europe",
+    "flagCode": "lu",
+    "lat": 49.75,
+    "lon": 6.16666666,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "BEL",
+      "FRA",
+      "DEU"
+    ],
+    "capitalLat": 49.61,
+    "capitalLon": 6.13
+  },
+  {
+    "id": "MDG",
+    "name": "Madagascar",
+    "capital": "Antananarivo",
+    "continent": "Africa",
+    "flagCode": "mg",
+    "lat": -20,
+    "lon": 47,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": -18.92,
+    "capitalLon": 47.54
+  },
+  {
+    "id": "MWI",
+    "name": "Malawi",
+    "capital": "Lilongwe",
+    "continent": "Africa",
+    "flagCode": "mw",
+    "lat": -13.5,
+    "lon": 34,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "MOZ",
+      "TZA",
+      "ZMB"
+    ],
+    "capitalLat": -13.97,
+    "capitalLon": 33.79
+  },
+  {
+    "id": "MYS",
+    "name": "Malaysia",
+    "capital": "Kuala Lumpur",
+    "continent": "Asia",
+    "flagCode": "my",
+    "lat": 2.5,
+    "lon": 112.5,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "BRN",
+      "IDN",
+      "THA"
+    ],
+    "capitalLat": 3.14,
+    "capitalLon": 101.69
+  },
+  {
+    "id": "MDV",
+    "name": "Maldives",
+    "capital": "Malé",
+    "continent": "Asia",
+    "flagCode": "mv",
+    "lat": 4.18,
+    "lon": 73.51,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": 4.17,
+    "capitalLon": 73.51
+  },
+  {
+    "id": "MLI",
+    "name": "Mali",
+    "capital": "Bamako",
+    "continent": "Africa",
+    "flagCode": "ml",
+    "lat": 17,
+    "lon": -4,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "DZA",
+      "BFA",
+      "GIN",
+      "CIV",
+      "MRT",
+      "NER",
+      "SEN"
+    ],
+    "capitalLat": 12.65,
+    "capitalLon": -8.0
+  },
+  {
+    "id": "MLT",
+    "name": "Malta",
+    "capital": "Valletta",
+    "continent": "Europe",
+    "flagCode": "mt",
+    "lat": 35.83333333,
+    "lon": 14.58333333,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": 35.9,
+    "capitalLon": 14.51
+  },
+  {
+    "id": "MHL",
+    "name": "Marshall Islands",
+    "capital": "Majuro",
+    "continent": "Oceania",
+    "flagCode": "mh",
+    "lat": 7.1,
+    "lon": 171.2,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": 7.1,
+    "capitalLon": 171.38
+  },
+  {
+    "id": "MRT",
+    "name": "Mauritania",
+    "capital": "Nouakchott",
+    "continent": "Africa",
+    "flagCode": "mr",
+    "lat": 20,
+    "lon": -12,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "DZA",
+      "MLI",
+      "SEN",
+      "ESH"
+    ],
+    "capitalLat": 18.07,
+    "capitalLon": -15.97
+  },
+  {
+    "id": "MUS",
+    "name": "Mauritius",
+    "capital": "Port Louis",
+    "continent": "Africa",
+    "flagCode": "mu",
+    "lat": -20.3,
+    "lon": 57.55,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": -20.16,
+    "capitalLon": 57.5
+  },
+  {
+    "id": "MEX",
+    "name": "Mexico",
+    "capital": "Mexico City",
+    "continent": "Americas",
+    "flagCode": "mx",
+    "lat": 23,
+    "lon": -102,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "BLZ",
+      "GTM",
+      "USA"
+    ],
+    "capitalLat": 19.43,
+    "capitalLon": -99.13
+  },
+  {
+    "id": "FSM",
+    "name": "Micronesia",
+    "capital": "Palikir",
+    "continent": "Oceania",
+    "flagCode": "fm",
+    "lat": 6.87,
+    "lon": 158.23,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": 6.92,
+    "capitalLon": 158.15
+  },
+  {
+    "id": "MDA",
+    "name": "Moldova",
+    "capital": "Chișinău",
+    "continent": "Europe",
+    "flagCode": "md",
+    "lat": 47,
+    "lon": 29,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "ROU",
+      "UKR"
+    ],
+    "capitalLat": 47.0,
+    "capitalLon": 28.86
+  },
+  {
+    "id": "MCO",
+    "name": "Monaco",
+    "capital": "Monaco",
+    "continent": "Europe",
+    "flagCode": "mc",
+    "lat": 43.73333333,
+    "lon": 7.4,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "FRA"
+    ],
+    "capitalLat": 43.73,
+    "capitalLon": 7.4
+  },
+  {
+    "id": "MNG",
+    "name": "Mongolia",
+    "capital": "Ulan Bator",
+    "continent": "Asia",
+    "flagCode": "mn",
+    "lat": 46,
+    "lon": 105,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "CHN",
+      "RUS"
+    ],
+    "capitalLat": 47.91,
+    "capitalLon": 106.88
+  },
+  {
+    "id": "MNE",
+    "name": "Montenegro",
+    "capital": "Podgorica",
+    "continent": "Europe",
+    "flagCode": "me",
+    "lat": 42.5,
+    "lon": 19.3,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "ALB",
+      "BIH",
+      "HRV",
+      "UNK",
+      "SRB"
+    ],
+    "capitalLat": 42.44,
+    "capitalLon": 19.26
+  },
+  {
+    "id": "MAR",
+    "name": "Morocco",
+    "capital": "Rabat",
+    "continent": "Africa",
+    "flagCode": "ma",
+    "lat": 32,
+    "lon": -5,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "DZA",
+      "ESH",
+      "ESP"
+    ],
+    "capitalLat": 34.02,
+    "capitalLon": -6.84
+  },
+  {
+    "id": "MOZ",
+    "name": "Mozambique",
+    "capital": "Maputo",
+    "continent": "Africa",
+    "flagCode": "mz",
+    "lat": -18.25,
+    "lon": 35,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "MWI",
+      "ZAF",
+      "SWZ",
+      "TZA",
+      "ZMB",
+      "ZWE"
+    ],
+    "capitalLat": -25.97,
+    "capitalLon": 32.59
+  },
+  {
+    "id": "MMR",
+    "name": "Myanmar",
+    "capital": "Naypyidaw",
+    "continent": "Asia",
+    "flagCode": "mm",
+    "lat": 22,
+    "lon": 98,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "BGD",
+      "CHN",
+      "IND",
+      "LAO",
+      "THA"
+    ],
+    "capitalLat": 19.74,
+    "capitalLon": 96.07
+  },
+  {
+    "id": "NAM",
+    "name": "Namibia",
+    "capital": "Windhoek",
+    "continent": "Africa",
+    "flagCode": "na",
+    "lat": -22,
+    "lon": 17,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "AGO",
+      "BWA",
+      "ZAF",
+      "ZMB"
+    ],
+    "capitalLat": -22.56,
+    "capitalLon": 17.08
+  },
+  {
+    "id": "NRU",
+    "name": "Nauru",
+    "capital": "Yaren",
+    "continent": "Oceania",
+    "flagCode": "nr",
+    "lat": -0.53,
+    "lon": 166.92,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": -0.55,
+    "capitalLon": 166.92
+  },
+  {
+    "id": "NPL",
+    "name": "Nepal",
+    "capital": "Kathmandu",
+    "continent": "Asia",
+    "flagCode": "np",
+    "lat": 28,
+    "lon": 84,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "CHN",
+      "IND"
+    ],
+    "capitalLat": 27.7,
+    "capitalLon": 85.32
+  },
+  {
+    "id": "NLD",
+    "name": "Netherlands",
+    "capital": "Amsterdam",
+    "continent": "Europe",
+    "flagCode": "nl",
+    "lat": 52.5,
+    "lon": 5.75,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "BEL",
+      "DEU"
+    ],
+    "capitalLat": 52.37,
+    "capitalLon": 4.9
+  },
+  {
+    "id": "NZL",
+    "name": "New Zealand",
+    "capital": "Wellington",
+    "continent": "Oceania",
+    "flagCode": "nz",
+    "lat": -41,
+    "lon": 174,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": -41.29,
+    "capitalLon": 174.78
+  },
+  {
+    "id": "NIC",
+    "name": "Nicaragua",
+    "capital": "Managua",
+    "continent": "Americas",
+    "flagCode": "ni",
+    "lat": 13,
+    "lon": -85,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "CRI",
+      "HND"
+    ],
+    "capitalLat": 12.13,
+    "capitalLon": -86.28
+  },
+  {
+    "id": "NER",
+    "name": "Niger",
+    "capital": "Niamey",
+    "continent": "Africa",
+    "flagCode": "ne",
+    "lat": 16,
+    "lon": 8,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "DZA",
+      "BEN",
+      "BFA",
+      "TCD",
+      "LBY",
+      "MLI",
+      "NGA"
+    ],
+    "capitalLat": 13.51,
+    "capitalLon": 2.12
+  },
+  {
+    "id": "NGA",
+    "name": "Nigeria",
+    "capital": "Abuja",
+    "continent": "Africa",
+    "flagCode": "ng",
+    "lat": 10,
+    "lon": 8,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "BEN",
+      "CMR",
+      "TCD",
+      "NER"
+    ],
+    "capitalLat": 9.07,
+    "capitalLon": 7.4
+  },
+  {
+    "id": "PRK",
+    "name": "North Korea",
+    "capital": "Pyongyang",
+    "continent": "Asia",
+    "flagCode": "kp",
+    "lat": 40,
+    "lon": 127,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "CHN",
+      "KOR",
+      "RUS"
+    ],
+    "capitalLat": 39.02,
+    "capitalLon": 125.76
+  },
+  {
+    "id": "MKD",
+    "name": "North Macedonia",
+    "capital": "Skopje",
+    "continent": "Europe",
+    "flagCode": "mk",
+    "lat": 41.83333333,
+    "lon": 22,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "ALB",
+      "BGR",
+      "GRC",
+      "UNK",
+      "SRB"
+    ],
+    "capitalLat": 42.0,
+    "capitalLon": 21.43
+  },
+  {
+    "id": "NOR",
+    "name": "Norway",
+    "capital": "Oslo",
+    "continent": "Europe",
+    "flagCode": "no",
+    "lat": 62,
+    "lon": 10,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "FIN",
+      "SWE",
+      "RUS"
+    ],
+    "capitalLat": 59.91,
+    "capitalLon": 10.75
+  },
+  {
+    "id": "OMN",
+    "name": "Oman",
+    "capital": "Muscat",
+    "continent": "Asia",
+    "flagCode": "om",
+    "lat": 21,
+    "lon": 57,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "SAU",
+      "ARE",
+      "YEM"
+    ],
+    "capitalLat": 23.61,
+    "capitalLon": 58.59
+  },
+  {
+    "id": "PAK",
+    "name": "Pakistan",
+    "capital": "Islamabad",
+    "continent": "Asia",
+    "flagCode": "pk",
+    "lat": 30,
+    "lon": 70,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "AFG",
+      "CHN",
+      "IND",
+      "IRN"
+    ],
+    "capitalLat": 33.73,
+    "capitalLon": 73.09
+  },
+  {
+    "id": "PLW",
+    "name": "Palau",
+    "capital": "Ngerulmud",
+    "continent": "Oceania",
+    "flagCode": "pw",
+    "lat": 7.34,
+    "lon": 134.48,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": 7.5,
+    "capitalLon": 134.62
+  },
+  {
+    "id": "PAN",
+    "name": "Panama",
+    "capital": "Panama City",
+    "continent": "Americas",
+    "flagCode": "pa",
+    "lat": 9,
+    "lon": -80,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "COL",
+      "CRI"
+    ],
+    "capitalLat": 8.99,
+    "capitalLon": -79.52
+  },
+  {
+    "id": "PNG",
+    "name": "Papua New Guinea",
+    "capital": "Port Moresby",
+    "continent": "Oceania",
+    "flagCode": "pg",
+    "lat": -6,
+    "lon": 147,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "IDN"
+    ],
+    "capitalLat": -9.44,
+    "capitalLon": 147.19
+  },
+  {
+    "id": "PRY",
+    "name": "Paraguay",
+    "capital": "Asunción",
+    "continent": "Americas",
+    "flagCode": "py",
+    "lat": -23,
+    "lon": -58,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "ARG",
+      "BOL",
+      "BRA"
+    ],
+    "capitalLat": -25.29,
+    "capitalLon": -57.65
+  },
+  {
+    "id": "PER",
+    "name": "Peru",
+    "capital": "Lima",
+    "continent": "Americas",
+    "flagCode": "pe",
+    "lat": -10,
+    "lon": -76,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "BOL",
+      "BRA",
+      "CHL",
+      "COL",
+      "ECU"
+    ],
+    "capitalLat": -12.05,
+    "capitalLon": -77.05
+  },
+  {
+    "id": "PHL",
+    "name": "Philippines",
+    "capital": "Manila",
+    "continent": "Asia",
+    "flagCode": "ph",
+    "lat": 14.5,
+    "lon": 121.0,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": 14.6,
+    "capitalLon": 120.98
+  },
+  {
+    "id": "POL",
+    "name": "Poland",
+    "capital": "Warsaw",
+    "continent": "Europe",
+    "flagCode": "pl",
+    "lat": 52,
+    "lon": 20,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "BLR",
+      "CZE",
+      "DEU",
+      "LTU",
+      "RUS",
+      "SVK",
+      "UKR"
+    ],
+    "capitalLat": 52.23,
+    "capitalLon": 21.01
+  },
+  {
+    "id": "PRT",
+    "name": "Portugal",
+    "capital": "Lisbon",
+    "continent": "Europe",
+    "flagCode": "pt",
+    "lat": 39.5,
+    "lon": -8,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "ESP"
+    ],
+    "capitalLat": 38.72,
+    "capitalLon": -9.14
+  },
+  {
+    "id": "QAT",
+    "name": "Qatar",
+    "capital": "Doha",
+    "continent": "Asia",
+    "flagCode": "qa",
+    "lat": 25.5,
+    "lon": 51.25,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "SAU"
+    ],
+    "capitalLat": 25.29,
+    "capitalLon": 51.53
+  },
+  {
+    "id": "ROU",
+    "name": "Romania",
+    "capital": "Bucharest",
+    "continent": "Europe",
+    "flagCode": "ro",
+    "lat": 46,
+    "lon": 25,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "BGR",
+      "HUN",
+      "MDA",
+      "SRB",
+      "UKR"
+    ],
+    "capitalLat": 44.43,
+    "capitalLon": 26.11
+  },
+  {
+    "id": "RUS",
+    "name": "Russia",
+    "capital": "Moscow",
+    "continent": "Europe",
+    "flagCode": "ru",
+    "lat": 60,
+    "lon": 100,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "AZE",
+      "BLR",
+      "CHN",
+      "EST",
+      "FIN",
+      "GEO",
+      "KAZ",
+      "PRK",
+      "LVA",
+      "LTU",
+      "MNG",
+      "NOR",
+      "POL",
+      "UKR"
+    ],
+    "capitalLat": 55.75,
+    "capitalLon": 37.62
+  },
+  {
+    "id": "RWA",
+    "name": "Rwanda",
+    "capital": "Kigali",
+    "continent": "Africa",
+    "flagCode": "rw",
+    "lat": -2,
+    "lon": 30,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "BDI",
+      "COD",
+      "TZA",
+      "UGA"
+    ],
+    "capitalLat": -1.94,
+    "capitalLon": 30.06
+  },
+  {
+    "id": "KNA",
+    "name": "Saint Kitts and Nevis",
+    "capital": "Basseterre",
+    "continent": "Americas",
+    "flagCode": "kn",
+    "lat": 17.33333333,
+    "lon": -62.75,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": 17.3,
+    "capitalLon": -62.72
+  },
+  {
+    "id": "LCA",
+    "name": "Saint Lucia",
+    "capital": "Castries",
+    "continent": "Americas",
+    "flagCode": "lc",
+    "lat": 13.88333333,
+    "lon": -60.96666666,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": 14.01,
+    "capitalLon": -60.99
+  },
+  {
+    "id": "VCT",
+    "name": "Saint Vincent and the Grenadines",
+    "capital": "Kingstown",
+    "continent": "Americas",
+    "flagCode": "vc",
+    "lat": 13.25,
+    "lon": -61.2,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": 13.16,
+    "capitalLon": -61.22
+  },
+  {
+    "id": "WSM",
+    "name": "Samoa",
+    "capital": "Apia",
+    "continent": "Oceania",
+    "flagCode": "ws",
+    "lat": -13.9,
+    "lon": -171.9,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": -13.83,
+    "capitalLon": -171.77
+  },
+  {
+    "id": "SMR",
+    "name": "San Marino",
+    "capital": "City of San Marino",
+    "continent": "Europe",
+    "flagCode": "sm",
+    "lat": 43.76666666,
+    "lon": 12.41666666,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "ITA"
+    ],
+    "capitalLat": 43.94,
+    "capitalLon": 12.45
+  },
+  {
+    "id": "SAU",
+    "name": "Saudi Arabia",
+    "capital": "Riyadh",
+    "continent": "Asia",
+    "flagCode": "sa",
+    "lat": 25,
+    "lon": 45,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "IRQ",
+      "JOR",
+      "KWT",
+      "OMN",
+      "QAT",
+      "ARE",
+      "YEM"
+    ],
+    "capitalLat": 24.69,
+    "capitalLon": 46.72
+  },
+  {
+    "id": "SEN",
+    "name": "Senegal",
+    "capital": "Dakar",
+    "continent": "Africa",
+    "flagCode": "sn",
+    "lat": 14,
+    "lon": -14,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "GMB",
+      "GIN",
+      "GNB",
+      "MLI",
+      "MRT"
+    ],
+    "capitalLat": 14.7,
+    "capitalLon": -17.47
+  },
+  {
+    "id": "SRB",
+    "name": "Serbia",
+    "capital": "Belgrade",
+    "continent": "Europe",
+    "flagCode": "rs",
+    "lat": 44,
+    "lon": 21,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "BIH",
+      "BGR",
+      "HRV",
+      "HUN",
+      "UNK",
+      "MKD",
+      "MNE",
+      "ROU"
+    ],
+    "capitalLat": 44.8,
+    "capitalLon": 20.46
+  },
+  {
+    "id": "SYC",
+    "name": "Seychelles",
+    "capital": "Victoria",
+    "continent": "Africa",
+    "flagCode": "sc",
+    "lat": -4.67,
+    "lon": 55.47,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": -4.62,
+    "capitalLon": 55.45
+  },
+  {
+    "id": "SLE",
+    "name": "Sierra Leone",
+    "capital": "Freetown",
+    "continent": "Africa",
+    "flagCode": "sl",
+    "lat": 8.5,
+    "lon": -11.5,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "GIN",
+      "LBR"
+    ],
+    "capitalLat": 8.49,
+    "capitalLon": -13.23
+  },
+  {
+    "id": "SGP",
+    "name": "Singapore",
+    "capital": "Singapore",
+    "continent": "Asia",
+    "flagCode": "sg",
+    "lat": 1.36666666,
+    "lon": 103.8,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": 1.29,
+    "capitalLon": 103.86
+  },
+  {
+    "id": "SVK",
+    "name": "Slovakia",
+    "capital": "Bratislava",
+    "continent": "Europe",
+    "flagCode": "sk",
+    "lat": 48.66666666,
+    "lon": 19.5,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "AUT",
+      "CZE",
+      "HUN",
+      "POL",
+      "UKR"
+    ],
+    "capitalLat": 48.15,
+    "capitalLon": 17.11
+  },
+  {
+    "id": "SVN",
+    "name": "Slovenia",
+    "capital": "Ljubljana",
+    "continent": "Europe",
+    "flagCode": "si",
+    "lat": 46.11666666,
+    "lon": 14.81666666,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "AUT",
+      "HRV",
+      "ITA",
+      "HUN"
+    ],
+    "capitalLat": 46.05,
+    "capitalLon": 14.51
+  },
+  {
+    "id": "SLB",
+    "name": "Solomon Islands",
+    "capital": "Honiara",
+    "continent": "Oceania",
+    "flagCode": "sb",
+    "lat": -9.4,
+    "lon": 160.1,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": -9.43,
+    "capitalLon": 160.05
+  },
+  {
+    "id": "SOL",
+    "name": "Somaliland",
+    "capital": "Hargeisa",
+    "continent": "Africa",
+    "flagCode": "somaliland",
+    "lat": 9.72946,
+    "lon": 45.753483,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "DJI",
+      "ETH",
+      "SOM"
+    ],
+    "capitalLat": 9.56,
+    "capitalLon": 44.065
+  },
+  {
+    "id": "SOM",
+    "name": "Somalia",
+    "capital": "Mogadishu",
+    "continent": "Africa",
+    "flagCode": "so",
+    "lat": 10,
+    "lon": 49,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "DJI",
+      "ETH",
+      "KEN"
+    ],
+    "capitalLat": 2.05,
+    "capitalLon": 45.34
+  },
+  {
+    "id": "ZAF",
+    "name": "South Africa",
+    "capital": "Pretoria",
+    "continent": "Africa",
+    "flagCode": "za",
+    "lat": -29,
+    "lon": 24,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "BWA",
+      "LSO",
+      "MOZ",
+      "NAM",
+      "SWZ",
+      "ZWE"
+    ],
+    "capitalLat": -25.74,
+    "capitalLon": 28.19
+  },
+  {
+    "id": "KOR",
+    "name": "South Korea",
+    "capital": "Seoul",
+    "continent": "Asia",
+    "flagCode": "kr",
+    "lat": 37,
+    "lon": 127.5,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "PRK"
+    ],
+    "capitalLat": 37.57,
+    "capitalLon": 126.98
+  },
+  {
+    "id": "SSD",
+    "name": "South Sudan",
+    "capital": "Juba",
+    "continent": "Africa",
+    "flagCode": "ss",
+    "lat": 7,
+    "lon": 30,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "CAF",
+      "COD",
+      "ETH",
+      "KEN",
+      "SDN",
+      "UGA"
+    ],
+    "capitalLat": 4.85,
+    "capitalLon": 31.6
+  },
+  {
+    "id": "ESP",
+    "name": "Spain",
+    "capital": "Madrid",
+    "continent": "Europe",
+    "flagCode": "es",
+    "lat": 40,
+    "lon": -4,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "AND",
+      "FRA",
+      "GIB",
+      "PRT",
+      "MAR"
+    ],
+    "capitalLat": 40.42,
+    "capitalLon": -3.7
+  },
+  {
+    "id": "LKA",
+    "name": "Sri Lanka",
+    "capital": "Colombo",
+    "continent": "Asia",
+    "flagCode": "lk",
+    "lat": 7,
+    "lon": 81,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "IND"
+    ],
+    "capitalLat": 6.93,
+    "capitalLon": 79.85
+  },
+  {
+    "id": "SDN",
+    "name": "Sudan",
+    "capital": "Khartoum",
+    "continent": "Africa",
+    "flagCode": "sd",
+    "lat": 15,
+    "lon": 30,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "CAF",
+      "TCD",
+      "EGY",
+      "ERI",
+      "ETH",
+      "LBY",
+      "SSD"
+    ],
+    "capitalLat": 15.55,
+    "capitalLon": 32.53
+  },
+  {
+    "id": "SUR",
+    "name": "Suriname",
+    "capital": "Paramaribo",
+    "continent": "Americas",
+    "flagCode": "sr",
+    "lat": 4,
+    "lon": -56,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "BRA",
+      "GUF",
+      "GUY"
+    ],
+    "capitalLat": 5.87,
+    "capitalLon": -55.17
+  },
+  {
+    "id": "SWE",
+    "name": "Sweden",
+    "capital": "Stockholm",
+    "continent": "Europe",
+    "flagCode": "se",
+    "lat": 62,
+    "lon": 15,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "FIN",
+      "NOR"
+    ],
+    "capitalLat": 59.33,
+    "capitalLon": 18.07
+  },
+  {
+    "id": "CHE",
+    "name": "Switzerland",
+    "capital": "Bern",
+    "continent": "Europe",
+    "flagCode": "ch",
+    "lat": 47,
+    "lon": 8,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "AUT",
+      "FRA",
+      "ITA",
+      "LIE",
+      "DEU"
+    ],
+    "capitalLat": 46.95,
+    "capitalLon": 7.45
+  },
+  {
+    "id": "SYR",
+    "name": "Syria",
+    "capital": "Damascus",
+    "continent": "Asia",
+    "flagCode": "sy",
+    "lat": 35,
+    "lon": 38,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "IRQ",
+      "ISR",
+      "JOR",
+      "LBN",
+      "TUR"
+    ],
+    "capitalLat": 33.51,
+    "capitalLon": 36.29
+  },
+  {
+    "id": "STP",
+    "name": "São Tomé and Príncipe",
+    "capital": "São Tomé",
+    "continent": "Africa",
+    "flagCode": "st",
+    "lat": 0.18,
+    "lon": 6.61,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": 0.34,
+    "capitalLon": 6.73
+  },
+  {
+    "id": "TJK",
+    "name": "Tajikistan",
+    "capital": "Dushanbe",
+    "continent": "Asia",
+    "flagCode": "tj",
+    "lat": 39,
+    "lon": 71,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "AFG",
+      "CHN",
+      "KGZ",
+      "UZB"
+    ],
+    "capitalLat": 38.56,
+    "capitalLon": 68.77
+  },
+  {
+    "id": "TZA",
+    "name": "Tanzania",
+    "capital": "Dodoma",
+    "continent": "Africa",
+    "flagCode": "tz",
+    "lat": -6,
+    "lon": 35,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "BDI",
+      "COD",
+      "KEN",
+      "MWI",
+      "MOZ",
+      "RWA",
+      "UGA",
+      "ZMB"
+    ],
+    "capitalLat": -6.17,
+    "capitalLon": 35.74
+  },
+  {
+    "id": "THA",
+    "name": "Thailand",
+    "capital": "Bangkok",
+    "continent": "Asia",
+    "flagCode": "th",
+    "lat": 15,
+    "lon": 100,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "MMR",
+      "KHM",
+      "LAO",
+      "MYS"
+    ],
+    "capitalLat": 13.75,
+    "capitalLon": 100.52
+  },
+  {
+    "id": "TLS",
+    "name": "Timor-Leste",
+    "capital": "Dili",
+    "continent": "Asia",
+    "flagCode": "tl",
+    "lat": -8.83333333,
+    "lon": 125.91666666,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "IDN"
+    ],
+    "capitalLat": -8.56,
+    "capitalLon": 125.58
+  },
+  {
+    "id": "TGO",
+    "name": "Togo",
+    "capital": "Lomé",
+    "continent": "Africa",
+    "flagCode": "tg",
+    "lat": 8,
+    "lon": 1.16666666,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "BEN",
+      "BFA",
+      "GHA"
+    ],
+    "capitalLat": 6.14,
+    "capitalLon": 1.22
+  },
+  {
+    "id": "TON",
+    "name": "Tonga",
+    "capital": "Nuku'alofa",
+    "continent": "Oceania",
+    "flagCode": "to",
+    "lat": -21.2,
+    "lon": -175.2,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": -21.13,
+    "capitalLon": -175.2
+  },
+  {
+    "id": "TTO",
+    "name": "Trinidad and Tobago",
+    "capital": "Port of Spain",
+    "continent": "Americas",
+    "flagCode": "tt",
+    "lat": 11,
+    "lon": -61,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": 10.65,
+    "capitalLon": -61.52
+  },
+  {
+    "id": "TUN",
+    "name": "Tunisia",
+    "capital": "Tunis",
+    "continent": "Africa",
+    "flagCode": "tn",
+    "lat": 34,
+    "lon": 9,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "DZA",
+      "LBY"
+    ],
+    "capitalLat": 36.82,
+    "capitalLon": 10.18
+  },
+  {
+    "id": "TKM",
+    "name": "Turkmenistan",
+    "capital": "Ashgabat",
+    "continent": "Asia",
+    "flagCode": "tm",
+    "lat": 40,
+    "lon": 60,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "AFG",
+      "IRN",
+      "KAZ",
+      "UZB"
+    ],
+    "capitalLat": 37.95,
+    "capitalLon": 58.39
+  },
+  {
+    "id": "TUV",
+    "name": "Tuvalu",
+    "capital": "Funafuti",
+    "continent": "Oceania",
+    "flagCode": "tv",
+    "lat": -8.52,
+    "lon": 179.2,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": -8.52,
+    "capitalLon": 179.2
+  },
+  {
+    "id": "TUR",
+    "name": "Türkiye",
+    "capital": "Ankara",
+    "continent": "Asia",
+    "flagCode": "tr",
+    "lat": 39,
+    "lon": 35,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "ARM",
+      "AZE",
+      "BGR",
+      "GEO",
+      "GRC",
+      "IRN",
+      "IRQ",
+      "SYR"
+    ],
+    "capitalLat": 39.93,
+    "capitalLon": 32.86
+  },
+  {
+    "id": "UGA",
+    "name": "Uganda",
+    "capital": "Kampala",
+    "continent": "Africa",
+    "flagCode": "ug",
+    "lat": 1,
+    "lon": 32,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "COD",
+      "KEN",
+      "RWA",
+      "SSD",
+      "TZA"
+    ],
+    "capitalLat": 0.32,
+    "capitalLon": 32.58
+  },
+  {
+    "id": "UKR",
+    "name": "Ukraine",
+    "capital": "Kyiv",
+    "continent": "Europe",
+    "flagCode": "ua",
+    "lat": 49,
+    "lon": 32,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "BLR",
+      "HUN",
+      "MDA",
+      "POL",
+      "ROU",
+      "RUS",
+      "SVK"
+    ],
+    "capitalLat": 50.45,
+    "capitalLon": 30.52
+  },
+  {
+    "id": "ARE",
+    "name": "United Arab Emirates",
+    "capital": "Abu Dhabi",
+    "continent": "Asia",
+    "flagCode": "ae",
+    "lat": 24,
+    "lon": 54,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "OMN",
+      "SAU"
+    ],
+    "capitalLat": 24.47,
+    "capitalLon": 54.37
+  },
+  {
+    "id": "GBR",
+    "name": "United Kingdom",
+    "capital": "London",
+    "continent": "Europe",
+    "flagCode": "gb",
+    "lat": 54,
+    "lon": -2,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "IRL"
+    ],
+    "capitalLat": 51.51,
+    "capitalLon": -0.13
+  },
+  {
+    "id": "USA",
+    "name": "United States",
+    "capital": "Washington D.C.",
+    "continent": "Americas",
+    "flagCode": "us",
+    "lat": 38,
+    "lon": -97,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "CAN",
+      "MEX"
+    ],
+    "capitalLat": 38.91,
+    "capitalLon": -77.04
+  },
+  {
+    "id": "URY",
+    "name": "Uruguay",
+    "capital": "Montevideo",
+    "continent": "Americas",
+    "flagCode": "uy",
+    "lat": -33,
+    "lon": -56,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "ARG",
+      "BRA"
+    ],
+    "capitalLat": -34.9,
+    "capitalLon": -56.19
+  },
+  {
+    "id": "UZB",
+    "name": "Uzbekistan",
+    "capital": "Tashkent",
+    "continent": "Asia",
+    "flagCode": "uz",
+    "lat": 41,
+    "lon": 64,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "AFG",
+      "KAZ",
+      "KGZ",
+      "TJK",
+      "TKM"
+    ],
+    "capitalLat": 41.3,
+    "capitalLon": 69.27
+  },
+  {
+    "id": "VUT",
+    "name": "Vanuatu",
+    "capital": "Port Vila",
+    "continent": "Oceania",
+    "flagCode": "vu",
+    "lat": -15.4,
+    "lon": 167.1,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [],
+    "capitalLat": -17.73,
+    "capitalLon": 168.32
+  },
+  {
+    "id": "VAT",
+    "name": "Vatican City",
+    "capital": "Vatican City",
+    "continent": "Europe",
+    "flagCode": "va",
+    "lat": 41.9,
+    "lon": 12.45,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "ITA"
+    ],
+    "capitalLat": 41.9,
+    "capitalLon": 12.45
+  },
+  {
+    "id": "VEN",
+    "name": "Venezuela",
+    "capital": "Caracas",
+    "continent": "Americas",
+    "flagCode": "ve",
+    "lat": 8,
+    "lon": -66,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "BRA",
+      "COL",
+      "GUY"
+    ],
+    "capitalLat": 10.49,
+    "capitalLon": -66.88
+  },
+  {
+    "id": "VNM",
+    "name": "Vietnam",
+    "capital": "Hanoi",
+    "continent": "Asia",
+    "flagCode": "vn",
+    "lat": 16.16666666,
+    "lon": 107.83333333,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "KHM",
+      "CHN",
+      "LAO"
+    ],
+    "capitalLat": 21.03,
+    "capitalLon": 105.85
+  },
+  {
+    "id": "YEM",
+    "name": "Yemen",
+    "capital": "Sana'a",
+    "continent": "Asia",
+    "flagCode": "ye",
+    "lat": 15,
+    "lon": 48,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "OMN",
+      "SAU"
+    ],
+    "capitalLat": 15.35,
+    "capitalLon": 44.21
+  },
+  {
+    "id": "ZMB",
+    "name": "Zambia",
+    "capital": "Lusaka",
+    "continent": "Africa",
+    "flagCode": "zm",
+    "lat": -13.13,
+    "lon": 27.85,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "AGO",
+      "BWA",
+      "COD",
+      "MWI",
+      "MOZ",
+      "NAM",
+      "TZA",
+      "ZWE"
+    ],
+    "capitalLat": -15.42,
+    "capitalLon": 28.28
+  },
+  {
+    "id": "ZWE",
+    "name": "Zimbabwe",
+    "capital": "Harare",
+    "continent": "Africa",
+    "flagCode": "zw",
+    "lat": -20,
+    "lon": 30,
+    "geoJsonRef": "ne_110m_countries.geojson",
+    "population": 0,
+    "neighbors": [
+      "BWA",
+      "MOZ",
+      "ZAF",
+      "ZMB"
+    ],
+    "capitalLat": -17.82,
+    "capitalLon": 31.05
+  }
+]

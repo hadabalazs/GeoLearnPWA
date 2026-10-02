@@ -1,0 +1,362 @@
+{
+  "HU110" : {
+    "areaKm2" : 525.11,
+    "areaKm2Year" : 2025,
+    "extras" : [
+      {
+        "id" : "gdpPerCapitaHUF",
+        "label" : "GDP / Capita",
+        "labelHU" : "GDP / fő",
+        "sourceYear" : 2024,
+        "value" : "8,518 thousand HUF",
+        "valueHU" : "8,518 ezer Ft"
+      }
+    ],
+    "population" : 1685209,
+    "populationDensity" : 3209.249491,
+    "populationDensityYear" : 2025,
+    "populationYear" : 2025
+  },
+  "HU120" : {
+    "areaKm2" : 6392.02,
+    "areaKm2Year" : 2025,
+    "extras" : [
+      {
+        "id" : "gdpPerCapitaHUF",
+        "label" : "GDP / Capita",
+        "labelHU" : "GDP / fő",
+        "sourceYear" : 2024,
+        "value" : "7,164 thousand HUF",
+        "valueHU" : "7,164 ezer Ft"
+      }
+    ],
+    "population" : 1336134,
+    "populationDensity" : 209.03,
+    "populationDensityYear" : 2025,
+    "populationYear" : 2025
+  },
+  "HU211" : {
+    "areaKm2" : 4358.59,
+    "areaKm2Year" : 2025,
+    "extras" : [
+      {
+        "id" : "gdpPerCapitaHUF",
+        "label" : "GDP / Capita",
+        "labelHU" : "GDP / fő",
+        "sourceYear" : 2024,
+        "value" : "7,471 thousand HUF",
+        "valueHU" : "7,471 ezer Ft"
+      }
+    ],
+    "population" : 418562,
+    "populationDensity" : 96.03,
+    "populationDensityYear" : 2025,
+    "populationYear" : 2025
+  },
+  "HU212" : {
+    "areaKm2" : 2264.39,
+    "areaKm2Year" : 2025,
+    "extras" : [
+      {
+        "id" : "gdpPerCapitaHUF",
+        "label" : "GDP / Capita",
+        "labelHU" : "GDP / fő",
+        "sourceYear" : 2024,
+        "value" : "8,134 thousand HUF",
+        "valueHU" : "8,134 ezer Ft"
+      }
+    ],
+    "population" : 299262,
+    "populationDensity" : 132.16,
+    "populationDensityYear" : 2025,
+    "populationYear" : 2025
+  },
+  "HU213" : {
+    "areaKm2" : 4462.8,
+    "areaKm2Year" : 2025,
+    "extras" : [
+      {
+        "id" : "gdpPerCapitaHUF",
+        "label" : "GDP / Capita",
+        "labelHU" : "GDP / fő",
+        "sourceYear" : 2024,
+        "value" : "6,463 thousand HUF",
+        "valueHU" : "6,463 ezer Ft"
+      }
+    ],
+    "population" : 333345,
+    "populationDensity" : 74.69,
+    "populationDensityYear" : 2025,
+    "populationYear" : 2025
+  },
+  "HU221" : {
+    "areaKm2" : 4208.45,
+    "areaKm2Year" : 2025,
+    "extras" : [
+      {
+        "id" : "gdpPerCapitaHUF",
+        "label" : "GDP / Capita",
+        "labelHU" : "GDP / fő",
+        "sourceYear" : 2024,
+        "value" : "8,612 thousand HUF",
+        "valueHU" : "8,612 ezer Ft"
+      }
+    ],
+    "population" : 471648,
+    "populationDensity" : 112.07,
+    "populationDensityYear" : 2025,
+    "populationYear" : 2025
+  },
+  "HU222" : {
+    "areaKm2" : 3336.12,
+    "areaKm2Year" : 2025,
+    "extras" : [
+      {
+        "id" : "gdpPerCapitaHUF",
+        "label" : "GDP / Capita",
+        "labelHU" : "GDP / fő",
+        "sourceYear" : 2024,
+        "value" : "6,791 thousand HUF",
+        "valueHU" : "6,791 ezer Ft"
+      }
+    ],
+    "population" : 245598,
+    "populationDensity" : 73.62,
+    "populationDensityYear" : 2025,
+    "populationYear" : 2025
+  },
+  "HU223" : {
+    "areaKm2" : 3783.84,
+    "areaKm2Year" : 2025,
+    "extras" : [
+      {
+        "id" : "gdpPerCapitaHUF",
+        "label" : "GDP / Capita",
+        "labelHU" : "GDP / fő",
+        "sourceYear" : 2024,
+        "value" : "5,779 thousand HUF",
+        "valueHU" : "5,779 ezer Ft"
+      }
+    ],
+    "population" : 257371,
+    "populationDensity" : 68.02,
+    "populationDensityYear" : 2025,
+    "populationYear" : 2025
+  },
+  "HU231" : {
+    "areaKm2" : 4429.66,
+    "areaKm2Year" : 2025,
+    "extras" : [
+      {
+        "id" : "gdpPerCapitaHUF",
+        "label" : "GDP / Capita",
+        "labelHU" : "GDP / fő",
+        "sourceYear" : 2024,
+        "value" : "5,712 thousand HUF",
+        "valueHU" : "5,712 ezer Ft"
+      }
+    ],
+    "population" : 351158,
+    "populationDensity" : 79.27,
+    "populationDensityYear" : 2025,
+    "populationYear" : 2025
+  },
+  "HU232" : {
+    "areaKm2" : 6065.47,
+    "areaKm2Year" : 2025,
+    "extras" : [
+      {
+        "id" : "gdpPerCapitaHUF",
+        "label" : "GDP / Capita",
+        "labelHU" : "GDP / fő",
+        "sourceYear" : 2024,
+        "value" : "5,114 thousand HUF",
+        "valueHU" : "5,114 ezer Ft"
+      }
+    ],
+    "population" : 290245,
+    "populationDensity" : 47.85,
+    "populationDensityYear" : 2025,
+    "populationYear" : 2025
+  },
+  "HU233" : {
+    "areaKm2" : 3703.19,
+    "areaKm2Year" : 2025,
+    "extras" : [
+      {
+        "id" : "gdpPerCapitaHUF",
+        "label" : "GDP / Capita",
+        "labelHU" : "GDP / fő",
+        "sourceYear" : 2024,
+        "value" : "6,087 thousand HUF",
+        "valueHU" : "6,087 ezer Ft"
+      }
+    ],
+    "population" : 204567,
+    "populationDensity" : 55.24,
+    "populationDensityYear" : 2025,
+    "populationYear" : 2025
+  },
+  "HU311" : {
+    "areaKm2" : 7247.18,
+    "areaKm2Year" : 2025,
+    "extras" : [
+      {
+        "id" : "gdpPerCapitaHUF",
+        "label" : "GDP / Capita",
+        "labelHU" : "GDP / fő",
+        "sourceYear" : 2024,
+        "value" : "5,342 thousand HUF",
+        "valueHU" : "5,342 ezer Ft"
+      }
+    ],
+    "population" : 610927,
+    "populationDensity" : 84.3,
+    "populationDensityYear" : 2025,
+    "populationYear" : 2025
+  },
+  "HU312" : {
+    "areaKm2" : 3637.18,
+    "areaKm2Year" : 2025,
+    "extras" : [
+      {
+        "id" : "gdpPerCapitaHUF",
+        "label" : "GDP / Capita",
+        "labelHU" : "GDP / fő",
+        "sourceYear" : 2024,
+        "value" : "6,045 thousand HUF",
+        "valueHU" : "6,045 ezer Ft"
+      }
+    ],
+    "population" : 282490,
+    "populationDensity" : 77.67,
+    "populationDensityYear" : 2025,
+    "populationYear" : 2025
+  },
+  "HU313" : {
+    "areaKm2" : 2544.45,
+    "areaKm2Year" : 2025,
+    "extras" : [
+      {
+        "id" : "gdpPerCapitaHUF",
+        "label" : "GDP / Capita",
+        "labelHU" : "GDP / fő",
+        "sourceYear" : 2024,
+        "value" : "3,894 thousand HUF",
+        "valueHU" : "3,894 ezer Ft"
+      }
+    ],
+    "population" : 178815,
+    "populationDensity" : 70.28,
+    "populationDensityYear" : 2025,
+    "populationYear" : 2025
+  },
+  "HU321" : {
+    "areaKm2" : 6210.37,
+    "areaKm2Year" : 2025,
+    "extras" : [
+      {
+        "id" : "gdpPerCapitaHUF",
+        "label" : "GDP / Capita",
+        "labelHU" : "GDP / fő",
+        "sourceYear" : 2024,
+        "value" : "6,341 thousand HUF",
+        "valueHU" : "6,341 ezer Ft"
+      }
+    ],
+    "population" : 520129,
+    "populationDensity" : 83.75,
+    "populationDensityYear" : 2025,
+    "populationYear" : 2025
+  },
+  "HU322" : {
+    "areaKm2" : 5581.63,
+    "areaKm2Year" : 2025,
+    "extras" : [
+      {
+        "id" : "gdpPerCapitaHUF",
+        "label" : "GDP / Capita",
+        "labelHU" : "GDP / fő",
+        "sourceYear" : 2024,
+        "value" : "5,419 thousand HUF",
+        "valueHU" : "5,419 ezer Ft"
+      }
+    ],
+    "population" : 349726,
+    "populationDensity" : 62.66,
+    "populationDensityYear" : 2025,
+    "populationYear" : 2025
+  },
+  "HU323" : {
+    "areaKm2" : 5935.63,
+    "areaKm2Year" : 2025,
+    "extras" : [
+      {
+        "id" : "gdpPerCapitaHUF",
+        "label" : "GDP / Capita",
+        "labelHU" : "GDP / fő",
+        "sourceYear" : 2024,
+        "value" : "4,930 thousand HUF",
+        "valueHU" : "4,930 ezer Ft"
+      }
+    ],
+    "population" : 520551,
+    "populationDensity" : 87.7,
+    "populationDensityYear" : 2025,
+    "populationYear" : 2025
+  },
+  "HU331" : {
+    "areaKm2" : 8444.88,
+    "areaKm2Year" : 2025,
+    "extras" : [
+      {
+        "id" : "gdpPerCapitaHUF",
+        "label" : "GDP / Capita",
+        "labelHU" : "GDP / fő",
+        "sourceYear" : 2024,
+        "value" : "6,251 thousand HUF",
+        "valueHU" : "6,251 ezer Ft"
+      }
+    ],
+    "population" : 488547,
+    "populationDensity" : 57.85,
+    "populationDensityYear" : 2025,
+    "populationYear" : 2025
+  },
+  "HU332" : {
+    "areaKm2" : 5629.69,
+    "areaKm2Year" : 2025,
+    "extras" : [
+      {
+        "id" : "gdpPerCapitaHUF",
+        "label" : "GDP / Capita",
+        "labelHU" : "GDP / fő",
+        "sourceYear" : 2024,
+        "value" : "4,873 thousand HUF",
+        "valueHU" : "4,873 ezer Ft"
+      }
+    ],
+    "population" : 307112,
+    "populationDensity" : 54.55,
+    "populationDensityYear" : 2025,
+    "populationYear" : 2025
+  },
+  "HU333" : {
+    "areaKm2" : 4264.57,
+    "areaKm2Year" : 2025,
+    "extras" : [
+      {
+        "id" : "gdpPerCapitaHUF",
+        "label" : "GDP / Capita",
+        "labelHU" : "GDP / fő",
+        "sourceYear" : 2024,
+        "value" : "6,179 thousand HUF",
+        "valueHU" : "6,179 ezer Ft"
+      }
+    ],
+    "population" : 388106,
+    "populationDensity" : 91.01,
+    "populationDensityYear" : 2025,
+    "populationYear" : 2025
+  }
+}
