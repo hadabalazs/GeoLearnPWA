@@ -12,6 +12,7 @@ import { TIMING } from '@/lib/animation';
 import { hapticCorrect, hapticIncorrect } from '@/lib/haptics';
 import { t } from '@/lib/i18n';
 import { shouldAutoAdvanceMapMiss, shouldEndExploreAfterResult } from '@/lib/gameRules';
+import { buildCapitalLocationTargets } from '@/lib/targetSelection';
 import GameHeader from '@/components/GameHeader';
 import ResultsScreen from '@/components/ResultsScreen';
 import MapLoader from '@/components/MapLoader';
@@ -62,11 +63,14 @@ export default function Game() {
   const targets = useMemo(() => {
     if (!ds || !config) return [];
     const items = scopeItems(config.scope, ds);
+    const eligible = config.mode === 'findCapital'
+      ? buildCapitalLocationTargets(items, ds, config.mixCities)
+      : items;
     if (config.targets) {
-      const map = Object.fromEntries(items.map((i) => [i.id, i]));
+      const map = Object.fromEntries(eligible.map((i) => [i.id, i]));
       return config.targets.map((id) => map[id]).filter(Boolean);
     }
-    return selectSwiftTargets(items, config.count, config.seed);
+    return selectSwiftTargets(eligible, config.count, config.seed);
   }, [ds, config]);
 
   const itemsMap = useMemo(() => {

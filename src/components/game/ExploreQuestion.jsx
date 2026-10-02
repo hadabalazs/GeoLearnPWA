@@ -9,6 +9,7 @@ import { buildOptions } from '@/lib/options';
 import { useBoundary, findItemByPoint, boundaryScopeForGameScope } from '@/lib/boundaries';
 import { t } from '@/lib/i18n';
 import { mapViewForScope } from '@/lib/mapView';
+import { mixCapitalMajorCityOptions } from '@/lib/targetSelection';
 import HintButton from './HintButton';
 
 const PHASE_ADVANCE_MS = 900;
@@ -49,7 +50,10 @@ export default function ExploreQuestion({ target, ds, lang, config, status, onRe
   const selectedGeom = useBoundary(selected);
   const seed = config.seed + roundIndex * 13;
   const flagOptions = useMemo(() => buildOptions(target, items, seed, 4, 'id'), [target, items, seed]);
-  const capOptions = useMemo(() => buildOptions(target, items, seed + 31, 4, 'id'), [target, items, seed]);
+  const capOptions = useMemo(() => {
+    const baseOptions = buildOptions(target, items, seed + 31, 4, 'id');
+    return mixCapitalMajorCityOptions(target, baseOptions, ds, config.mixCities);
+  }, [target, items, seed, ds, config.mixCities]);
 
   const afterFind = (ok, selectedId) => {
     setFindCorrect(ok);

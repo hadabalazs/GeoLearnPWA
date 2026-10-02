@@ -23,7 +23,8 @@ export default function FindCapitalQuestion({ target, ds, lang, config, status, 
     setBullseye(false);
   }
 
-  const targetGeom = useBoundary(target);
+  const boundaryTarget = target.regionId ? { ...target, id: target.regionId } : target;
+  const targetGeom = useBoundary(boundaryTarget);
 
   const params = capitalLocationParams(config.scope);
   const radius = config.bullseyeRadiusKM ?? params.defaultBullseyeRadiusKM;

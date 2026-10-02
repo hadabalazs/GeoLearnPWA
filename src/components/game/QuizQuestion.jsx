@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
-import { scopeItems, localizedName, getMajorCities } from '@/lib/data';
+import { scopeItems, localizedName } from '@/lib/data';
 import { buildOptions } from '@/lib/options';
-import { seededShuffle } from '@/lib/challenge';
+import { mixCapitalMajorCityOptions } from '@/lib/targetSelection';
 import { t, tf } from '@/lib/i18n';
 import FlagImage from '../FlagImage';
 
@@ -12,19 +12,7 @@ export default function QuizQuestion({ mode, target, ds, lang, config, status, o
   const options = useMemo(() => {
     if (mode === 'capital') {
       const opts = buildOptions(target, items, seed, 4, 'id');
-      // Optionally mix in major cities as distractors
-      if (config.mixCities) {
-        const cityPool = [];
-        items.forEach((it) => getMajorCities(it.id, it.type, ds).forEach((c) => cityPool.push(c.name)));
-        const shuffled = seededShuffle(cityPool, seed + 99);
-        let replaced = 0;
-        return opts.map((opt) => {
-          if (opt.id === target.id) return opt;
-          if (replaced < 2 && shuffled.length) { replaced++; return { ...opt, capital: shuffled.pop() }; }
-          return opt;
-        });
-      }
-      return opts;
+      return mixCapitalMajorCityOptions(target, opts, ds, config.mixCities);
     }
     return buildOptions(target, items, seed, 4, 'id');
   }, [mode, target, items, seed, config.mixCities, ds]);
