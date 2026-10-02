@@ -1,5 +1,17 @@
 import { getMajorCities } from './data';
 
+// Matches AntiRepeatPicker.spread in iOS. Explicit replay orders bypass this.
+export function spreadRegionTargets(items, spacing = 3) {
+  const pending = [...items];
+  const result = [];
+  while (pending.length) {
+    const recent = new Set(result.slice(-spacing).map((item) => item.regionId));
+    const index = pending.findIndex((item) => !recent.has(item.regionId));
+    result.push(pending.splice(Math.max(0, index), 1)[0]);
+  }
+  return result;
+}
+
 const LARGE_COUNTRY_IDS = new Set(['AUS', 'BRA', 'CAN', 'CHN', 'IND', 'RUS', 'USA']);
 const CITY_STATE_IDS = new Set(['AND', 'BHR', 'BRN', 'COM', 'DMA', 'LIE', 'LUX', 'MLT', 'MCO', 'SGP', 'SMR', 'VAT']);
 const LARGE_STATE_IDS = new Set(['CA', 'TX', 'FL', 'NY', 'PA', 'IL']);

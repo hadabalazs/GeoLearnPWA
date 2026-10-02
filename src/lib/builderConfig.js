@@ -178,7 +178,7 @@ export function availableToggles(category, mode, scopeChoice) {
   if ((mode === 'find' || mode === 'explore') && worldLike) set.add('expert');
   if (mode === 'find' && scopeChoice !== 'hungary') set.add('hints');
   if (mode === 'explore' && worldLike) set.add('hints');
-  if (mode === 'capital' || mode === 'findCapital') set.add('majorCities');
+  if (mode === 'capital' || mode === 'findCapital' || mode === 'explore') set.add('majorCities');
   if (mode === 'findCapital') set.add('hideRegion');
   return set;
 }

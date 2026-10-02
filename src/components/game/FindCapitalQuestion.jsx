@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useMemo, useRef, useState } from 'react';
 import MapView from '../MapView';
 import { localizedName } from '@/lib/data';
 import { haversineKm } from '@/lib/challenge';
@@ -11,6 +11,7 @@ export default function FindCapitalQuestion({ target, ds, lang, config, status, 
   const [distance, setDistance] = useState(null);
   const [score, setScore] = useState(null);
   const [bullseye, setBullseye] = useState(false);
+  const submitted = useRef(false);
 
   // Persisted across rounds (keeps the map mounted); reset per-round state
   // synchronously when the round changes.
@@ -21,6 +22,7 @@ export default function FindCapitalQuestion({ target, ds, lang, config, status, 
     setDistance(null);
     setScore(null);
     setBullseye(false);
+    submitted.current = false;
   }
 
   const boundaryTarget = target.regionId ? { ...target, id: target.regionId } : target;
@@ -31,7 +33,14 @@ export default function FindCapitalQuestion({ target, ds, lang, config, status, 
   const hideRegion = !!config.hideRegionName;
 
   const handleClick = (latlng) => {
-    if (status !== 'playing') return;
+    if (status !== 'playing' || submitted.current) return;
+    setTap(latlng);
+  };
+
+  const confirmGuess = () => {
+    if (status !== 'playing' || !tap || submitted.current) return;
+    submitted.current = true;
+    const latlng = tap;
     const d = haversineKm({ lat: latlng.lat, lng: latlng.lng }, { lat: target.capitalLat, lng: target.capitalLon });
     const sc = capitalLocationScorePoints({
       distanceKm: d, bullseyeRadiusKM: radius,
@@ -48,6 +57,7 @@ export default function FindCapitalQuestion({ target, ds, lang, config, status, 
 
   const correct = bullseye;
   const markers = [];
+  if (status === 'playing' && tap) markers.push({ lat: tap.lat, lng: tap.lng, color: '#F5A623', radius: 7 });
   const boundaries = [];
   const lines = [];
   if (status === 'feedback' && tap) {
@@ -74,11 +84,12 @@ export default function FindCapitalQuestion({ target, ds, lang, config, status, 
     <div className="flex flex-col h-full">
       <div className="px-4 py-3 bg-card">
         <div className="text-xs text-muted-foreground font-semibold uppercase tracking-wide">
-          {hideRegion ? t(lang, 'game.findCapitalCityPrompt') : t(lang, 'game.findCapitalPrompt')}
+          {t(lang, 'game.findCapitalCityPrompt')}
         </div>
         <div className="text-xl font-heading font-bold text-foreground">
-          {hideRegion ? target.capital : localizedName(target, lang)}
+          {target.capital}
         </div>
+        {!hideRegion && <div className="text-sm text-muted-foreground">{localizedName(target, lang)}</div>}
         {status === 'playing' && <div className="text-xs text-muted-foreground mt-1">{t(lang, 'game.tapMap')}</div>}
         {status === 'feedback' && distance != null && (
           <div className="mt-1 flex items-center gap-2 text-sm">
@@ -92,6 +103,13 @@ export default function FindCapitalQuestion({ target, ds, lang, config, status, 
       <div className="flex-1 min-h-0 relative">
         <MapView scope={config.scope} onMapClick={handleClick} markers={markers} boundaries={boundaries} lines={lines} center={view.center} zoom={view.zoom} viewResetNonce={roundIndex} panTarget={panTarget} clickEnabled={status === 'playing'} className="absolute inset-0" hungaryBorders={config.scope === 'hungary'} baseScope={baseScope} />
       </div>
+      {status === 'playing' && (
+        <div className="px-4 py-3 bg-card">
+          <button onClick={confirmGuess} disabled={!tap} className="w-full touch-target rounded-xl bg-primary text-primary-foreground font-semibold py-3 disabled:opacity-50">
+            {lang === 'hu' ? 'Megerősítés' : 'Confirm'}
+          </button>
+        </div>
+      )}
     </div>
   );
 }

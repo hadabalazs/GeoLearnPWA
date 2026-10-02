@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
-import { buildCapitalLocationTargets, majorCityLimit, mixCapitalMajorCityOptions, selectedMajorCities } from './targetSelection';
+import { buildCapitalLocationTargets, majorCityLimit, mixCapitalMajorCityOptions, selectedMajorCities, spreadRegionTargets } from './targetSelection';
+import { availableToggles } from './builderConfig';
 
 const country = { id: 'USA', type: 'country', name: 'United States', capital: 'Washington', lat: 39, lon: -98, capitalLat: 38.9, capitalLon: -77 };
 const cities = [
@@ -13,6 +14,15 @@ const cities = [
 ];
 
 describe('Capital Location target selection', () => {
+  it('spreads regions using the iOS three-position greedy window without dropping targets', () => {
+    const items = ['A1', 'A2', 'B1', 'C1', 'D1', 'A3', 'B2'].map((id) => ({ id, regionId: id[0] }));
+    expect(spreadRegionTargets(items).map((item) => item.id)).toEqual(['A1', 'B1', 'C1', 'D1', 'A2', 'B2', 'A3']);
+    expect(items.map((item) => item.id)).toEqual(['A1', 'A2', 'B1', 'C1', 'D1', 'A3', 'B2']);
+  });
+
+  it.each(['global', 'continents', 'hungary', 'us'])('offers major cities in Explore for %s', (scope) => {
+    expect(availableToggles('explore', 'explore', scope).has('majorCities')).toBe(true);
+  });
   it('matches the iOS city limits and excludes the capital without changing accents', () => {
     expect(majorCityLimit(country)).toBe(6);
     expect(selectedMajorCities({ ...country, capital: 'São Tomé' }, [{ name: 'Sao Tome', lat: 0, lon: 0 }])).toEqual([]);

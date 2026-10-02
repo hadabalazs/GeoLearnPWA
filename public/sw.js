@@ -1,4 +1,4 @@
-const CACHE = 'geolearn-v5';
+const CACHE = 'geolearn-v6';
 const TILE_CACHE = 'geolearn-tiles-v1';
 const TILE_CACHE_MAX = 400; // ~ a few viewed regions; trimmed oldest-first
 const CORE = ['/', '/index.html', '/manifest.json', '/icon.svg'];
@@ -66,7 +66,20 @@ self.addEventListener('fetch', (event) => {
 
   // Data JSON, flags, boundary GeoJSON: cache-first (offline play after first load)
   const isDataFile = url.origin === self.location.origin && url.pathname.startsWith('/data/');
-  if (isDataFile || ASSET_HOSTS.some((h) => host.endsWith(h))) {
+  if (isDataFile || host === 'raw.githubusercontent.com') {
+    event.respondWith(caches.open(CACHE).then(async (cache) => {
+      try {
+        const response = await fetch(req);
+        if (!response.ok) throw new Error('Data request failed');
+        await cache.put(req, response.clone());
+        return response;
+      } catch {
+        return (await cache.match(req)) || Response.error();
+      }
+    }));
+    return;
+  }
+  if (ASSET_HOSTS.some((h) => host.endsWith(h))) {
     cacheFirst(event, CACHE);
     return;
   }

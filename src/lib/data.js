@@ -5,6 +5,8 @@
 // Datasets are served exclusively from this site's own /data folder
 // (fully self-hosted, no external dependency).
 
+import { fetchCachedJson } from './cachedJson';
+
 const DATA_FILES = {
   countries: 'countries.json',
   countryProfiles: 'country_profiles.json',
@@ -32,17 +34,7 @@ const memCache = {};
 export async function loadData(key) {
   if (memCache[key]) return memCache[key];
   const storeKey = `geolearn:data:${key}`;
-  let data = null;
-  try {
-    const raw = localStorage.getItem(storeKey);
-    if (raw) data = JSON.parse(raw);
-  } catch {}
-  if (!data) {
-    const res = await fetch(DATA_URLS[key]);
-    if (!res.ok) throw new Error(`Failed to load ${key}`);
-    data = await res.json();
-    try { localStorage.setItem(storeKey, JSON.stringify(data)); } catch {}
-  }
+  const data = await fetchCachedJson(DATA_URLS[key], storeKey);
   memCache[key] = data;
   return data;
 }

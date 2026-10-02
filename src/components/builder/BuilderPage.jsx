@@ -111,9 +111,10 @@ function FriendCodeSection({ lang, liveCode, onRegenerate, onStart }) {
         <div className="text-sm font-heading font-bold text-foreground">{t(lang, 'builder.enterCode')}</div>
         <input
           value={code}
-          onChange={(e) => setCode(e.target.value.replace(/\s/g, '').toUpperCase())}
+          onChange={(e) => setCode(e.target.value.replace(/\s/g, ''))}
           placeholder="EA20NH-483921"
-          className={`w-full px-3 py-2.5 rounded-xl border-2 bg-background text-foreground font-mono font-bold text-sm uppercase touch-target ${
+          autoCapitalize="none" autoCorrect="off" spellCheck={false}
+          className={`w-full px-3 py-2.5 rounded-xl border-2 bg-background text-foreground font-mono font-bold text-sm touch-target ${
             code ? (valid ? 'border-correct' : 'border-incorrect') : 'border-input'}`}
         />
         {valid && parsed && (

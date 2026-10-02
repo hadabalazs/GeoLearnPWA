@@ -2,6 +2,20 @@
 
 Reference iOS revision: `ac804ce4063bdc54a9186a728d1fbd677e9fc536`.
 
+## October 2 review fixes
+
+The seven issues from the source review have been addressed:
+
+- Capital Location always names the actual target city, with an optional region subtitle.
+- Both replay inputs preserve GL2 payload case and disable keyboard capitalization/correction.
+- Capital Location supports moving a tentative pin and requires confirmation, with duplicate-submit protection.
+- Seeded Capital Location orders use ordinal ID sorting and the iOS three-position region spacing rule; explicit replay orders remain untouched.
+- Explore records missed flag and capital follow-ups in the results review.
+- Explore builders expose major cities for every supported scope.
+- Geography and boundaries refresh online once per session with persisted offline fallback; failed boundary requests can retry. The service-worker data path also refreshes online.
+
+Validation: 41 tests, lint, typecheck, and production build pass. Tests now exercise the replay input screens and Capital Location confirmation, rather than only their helpers. Android-device visual testing remains outstanding. Geographic accuracy heatmaps and the Capital Location review map remain separate unfinished parity features.
+
 | Capability | iOS reference | PWA location | Verification | Status | Notes |
 | --- | --- | --- | --- | --- | --- |
 | Responsive navigation | `Views/HomeView.swift` | `src/components/Layout.jsx` | Desktop preview captured; full viewport matrix remains part of Phase 9 | implemented | PWA-specific desktop/sidebar and mobile bottom tabs are retained. |
