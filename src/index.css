@@ -286,18 +286,16 @@
 
 /* --- Animation & visual feedback (iOS GeoLearn parity) --- */
 
-/* Polygon pop — plays on the correct country's boundary path after a correct tap.
-   Leaflet renders GeoJSON as SVG <path> elements; transform-box: fill-box makes
-   the scale originate from the path's own bounding-box centre (≈ centroid). */
+/* Pulse the highlight without transforming Leaflet's projected SVG paths.
+   Scaling/filtering a clipped or multipart path can expose straight clipping
+   edges as green lines, especially on mobile browsers. */
 @keyframes countryPop {
-  0%   { transform: scale(1.0);  filter: drop-shadow(0 0 0px rgba(51, 199, 89, 0)); }
-  24%  { transform: scale(1.25); filter: drop-shadow(0 0 22px rgba(51, 199, 89, 1.0)); }
-  60%  { filter: drop-shadow(0 0 22px rgba(51, 199, 89, 0.8)); }
-  100% { transform: scale(1.0);  filter: drop-shadow(0 0 4px rgba(51, 199, 89, 0)); }
+  0%   { fill-opacity: 0.45; }
+  24%  { fill-opacity: 0.9; }
+  60%  { fill-opacity: 0.8; }
+  100% { fill-opacity: 0.8; }
 }
 .boundary-pop {
-  transform-box: fill-box;
-  transform-origin: center center;
   animation: countryPop 1.731s ease-in-out forwards;
 }
 /* Time trial: same pop, compressed so rounds stay quick (TIMING.popDurationFast). */

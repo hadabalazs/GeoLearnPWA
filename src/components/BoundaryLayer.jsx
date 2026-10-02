@@ -8,6 +8,7 @@ export default function BoundaryLayer({ geometry, color = '#F5A623', fillColor, 
   useEffect(() => {
     if (!geometry) return;
     const layer = L.geoJSON(geometry, {
+      interactive: false,
       style: { color, fillColor: fillColor || color, fillOpacity, weight, lineJoin: 'round', className: className || '' },
     });
     layer.addTo(map);
