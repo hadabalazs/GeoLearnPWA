@@ -46,7 +46,7 @@ export default function BaseBoundariesLayer({ scope }) {
       if (!active || !map || !layer) return;
       layer.addTo(map);
       attached = layer;
-    });
+    }).catch(() => { /* A later mount retries failed downloads. */ });
     return () => {
       active = false;
       if (attached && map.hasLayer(attached)) map.removeLayer(attached);

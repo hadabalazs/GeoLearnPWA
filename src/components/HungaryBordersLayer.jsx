@@ -26,7 +26,7 @@ export default function HungaryBordersLayer() {
       });
       countyLayer.addTo(map);
       drawn.push(countyLayer);
-    })();
+    })().catch(() => { /* A later mount retries failed downloads. */ });
     return () => {
       active = false;
       drawn.forEach((l) => map.removeLayer(l));

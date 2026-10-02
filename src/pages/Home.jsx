@@ -41,7 +41,7 @@ export default function Home() {
     navigate('/game', { state: { config: buildDailyLaunchConfig(new Date()) } });
   };
 
-  const onChangeCode = (raw) => setCode(raw.replace(/\s/g, '').toUpperCase());
+  const onChangeCode = (raw) => setCode(raw.replace(/\s/g, ''));
   let codeParsed = null;
   let codeValid = false;
   if (code) {
@@ -126,7 +126,8 @@ export default function Home() {
           </div>
           <p className="text-xs text-muted-foreground">{t(lang, 'home.friendDesc')}</p>
           <input value={code} onChange={(e) => onChangeCode(e.target.value)} placeholder={t(lang, 'home.codePlaceholder')}
-            className={`w-full px-3 py-2.5 rounded-xl border-2 bg-background text-foreground font-mono font-bold text-sm uppercase touch-target ${
+            autoCapitalize="none" autoCorrect="off" spellCheck={false}
+            className={`w-full px-3 py-2.5 rounded-xl border-2 bg-background text-foreground font-mono font-bold text-sm touch-target ${
               code ? (codeValid ? 'border-correct' : 'border-incorrect') : 'border-input'}`} />
           {codeValid && codeParsed && (
             <div className="flex items-center gap-1.5 text-xs text-correct">

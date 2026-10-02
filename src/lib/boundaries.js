@@ -3,6 +3,7 @@
 // and finds the polygon geometry for a given game item.
 
 import { useState, useEffect } from 'react';
+import { fetchCachedJson } from './cachedJson';
 
 const URLS = {
   world: 'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_110m_admin_0_countries.geojson',
@@ -39,20 +40,10 @@ export async function loadBoundaries(scope) {
   if (pending[scope]) return pending[scope];
   pending[scope] = (async () => {
     const storeKey = `geolearn:boundaries:${scope}`;
-    let data = null;
-    try {
-      const raw = localStorage.getItem(storeKey);
-      if (raw) data = JSON.parse(raw);
-    } catch {}
-    if (!data) {
-      const res = await fetch(URLS[scope]);
-      data = await res.json();
-      try { localStorage.setItem(storeKey, JSON.stringify(data)); } catch {}
-    }
+    const data = await fetchCachedJson(URLS[scope], storeKey, (value) => Array.isArray(value?.features));
     cache[scope] = data;
-    delete pending[scope];
     return data;
-  })();
+  })().finally(() => { delete pending[scope]; });
   return pending[scope];
 }
 
@@ -179,7 +170,7 @@ export function useBoundary(item) {
     if (!scope) { setGeom(null); return; }
     loadBoundaries(scope).then(() => {
       if (active) setGeom(findBoundary(scope, item));
-    });
+    }).catch(() => { if (active) setGeom(null); });
     return () => { active = false; };
   }, [scope, item?.id]);
   return geom;

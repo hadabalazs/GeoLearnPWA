@@ -31,7 +31,7 @@ export function swiftShuffle(items, seed) {
 }
 
 export function selectSwiftTargets(allTargets, count, seed) {
-  const stable = [...allTargets].sort((a, b) => String(a.id).localeCompare(String(b.id)));
+  const stable = [...allTargets].sort((a, b) => a.id < b.id ? -1 : a.id > b.id ? 1 : 0);
   const shuffled = swiftShuffle(stable, seed);
   return count === 0 ? shuffled : shuffled.slice(0, count);
 }

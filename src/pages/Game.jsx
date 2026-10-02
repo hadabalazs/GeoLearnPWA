@@ -12,7 +12,7 @@ import { TIMING } from '@/lib/animation';
 import { hapticCorrect, hapticIncorrect } from '@/lib/haptics';
 import { t } from '@/lib/i18n';
 import { shouldAutoAdvanceMapMiss, shouldEndExploreAfterResult } from '@/lib/gameRules';
-import { buildCapitalLocationTargets } from '@/lib/targetSelection';
+import { buildCapitalLocationTargets, spreadRegionTargets } from '@/lib/targetSelection';
 import GameHeader from '@/components/GameHeader';
 import ResultsScreen from '@/components/ResultsScreen';
 import MapLoader from '@/components/MapLoader';
@@ -70,7 +70,8 @@ export default function Game() {
       const map = Object.fromEntries(eligible.map((i) => [i.id, i]));
       return config.targets.map((id) => map[id]).filter(Boolean);
     }
-    return selectSwiftTargets(eligible, config.count, config.seed);
+    const selected = selectSwiftTargets(eligible, config.count, config.seed);
+    return config.mode === 'findCapital' ? spreadRegionTargets(selected) : selected;
   }, [ds, config]);
 
   const itemsMap = useMemo(() => {
@@ -188,7 +189,7 @@ export default function Game() {
         correctCapitals: e.correctCapitals + (capCorrect ? 1 : 0),
         totalPlayed: e.totalPlayed + 1,
       }));
-      if (!findCorrect) pushMiss(target);
+      if (!allCorrect) pushMiss(target);
       setHintsUsed((h) => h + (roundHints || 0));
       if (shouldEndExploreAfterResult({ oneChance: config.oneChance, allCorrect })) {
         setEndAfterFeedback(true);
