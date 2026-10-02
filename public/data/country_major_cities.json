@@ -1,0 +1,6268 @@
+{
+  "AFG": [
+    {
+      "name": "Kabul",
+      "population": 4434550,
+      "lat": 34.52813,
+      "lon": 69.17233
+    },
+    {
+      "name": "Herāt",
+      "population": 574300,
+      "lat": 34.34817,
+      "lon": 62.19967
+    },
+    {
+      "name": "Kandahār",
+      "population": 523300,
+      "lat": 31.61332,
+      "lon": 65.71013
+    },
+    {
+      "name": "Mazār-e Sharīf",
+      "population": 523300,
+      "lat": 36.70904,
+      "lon": 67.11087
+    },
+    {
+      "name": "Jalālābād",
+      "population": 271900,
+      "lat": 34.42647,
+      "lon": 70.45153
+    }
+  ],
+  "ALB": [
+    {
+      "name": "Tirana",
+      "population": 418495,
+      "lat": 41.32744,
+      "lon": 19.81866
+    },
+    {
+      "name": "Durrës",
+      "population": 195920,
+      "lat": 41.32355,
+      "lon": 19.45469
+    },
+    {
+      "name": "Vlorë",
+      "population": 115261,
+      "lat": 40.4696,
+      "lon": 19.48379
+    },
+    {
+      "name": "Elbasan",
+      "population": 100903,
+      "lat": 41.11138,
+      "lon": 20.08224
+    },
+    {
+      "name": "Shkodër",
+      "population": 95553,
+      "lat": 42.06828,
+      "lon": 19.51258
+    }
+  ],
+  "DZA": [
+    {
+      "name": "Algiers",
+      "population": 2364230,
+      "lat": 36.73225,
+      "lon": 3.08746
+    },
+    {
+      "name": "Oran",
+      "population": 803329,
+      "lat": 35.69906,
+      "lon": -0.63588
+    },
+    {
+      "name": "Constantine",
+      "population": 448028,
+      "lat": 36.365,
+      "lon": 6.61472
+    },
+    {
+      "name": "Annaba",
+      "population": 342703,
+      "lat": 36.9,
+      "lon": 7.76667
+    },
+    {
+      "name": "Blida",
+      "population": 331779,
+      "lat": 36.47004,
+      "lon": 2.8277
+    }
+  ],
+  "AND": [
+    {
+      "name": "Andorra la Vella",
+      "population": 20430,
+      "lat": 42.50779,
+      "lon": 1.52109
+    },
+    {
+      "name": "les Escaldes",
+      "population": 15853,
+      "lat": 42.50729,
+      "lon": 1.53414
+    },
+    {
+      "name": "Encamp",
+      "population": 11223,
+      "lat": 42.53474,
+      "lon": 1.58014
+    },
+    {
+      "name": "Sant Julià de Lòria",
+      "population": 8022,
+      "lat": 42.46372,
+      "lon": 1.49129
+    },
+    {
+      "name": "la Massana",
+      "population": 7211,
+      "lat": 42.54499,
+      "lon": 1.51483
+    }
+  ],
+  "AGO": [
+    {
+      "name": "Luanda",
+      "population": 2776168,
+      "lat": -8.83682,
+      "lon": 13.23432
+    },
+    {
+      "name": "Lubango",
+      "population": 600751,
+      "lat": -14.91717,
+      "lon": 13.4925
+    },
+    {
+      "name": "Huambo",
+      "population": 595304,
+      "lat": -12.77611,
+      "lon": 15.73917
+    },
+    {
+      "name": "Benguela",
+      "population": 555124,
+      "lat": -12.57674,
+      "lon": 13.40268
+    },
+    {
+      "name": "Cabinda",
+      "population": 550000,
+      "lat": -5.56198,
+      "lon": 12.19476
+    }
+  ],
+  "ATG": [
+    {
+      "name": "Saint John’s",
+      "population": 51737,
+      "lat": 17.12096,
+      "lon": -61.84329
+    },
+    {
+      "name": "St. Paul Parish",
+      "population": 8128,
+      "lat": 17.0234,
+      "lon": -61.76928
+    },
+    {
+      "name": "Piggotts",
+      "population": 1878,
+      "lat": 17.11667,
+      "lon": -61.8
+    },
+    {
+      "name": "Bolands",
+      "population": 1657,
+      "lat": 17.06565,
+      "lon": -61.87466
+    },
+    {
+      "name": "Codrington",
+      "population": 1325,
+      "lat": 17.6394,
+      "lon": -61.82437
+    }
+  ],
+  "ARG": [
+    {
+      "name": "Buenos Aires",
+      "population": 2891082,
+      "lat": -34.61315,
+      "lon": -58.37723
+    },
+    {
+      "name": "Córdoba",
+      "population": 2106734,
+      "lat": -31.40648,
+      "lon": -64.18853
+    },
+    {
+      "name": "Rosario",
+      "population": 948312,
+      "lat": -32.94682,
+      "lon": -60.63932
+    },
+    {
+      "name": "Mar del Plata",
+      "population": 593337,
+      "lat": -38.00042,
+      "lon": -57.5562
+    },
+    {
+      "name": "San Miguel de Tucumán",
+      "population": 548866,
+      "lat": -26.81601,
+      "lon": -65.21051
+    }
+  ],
+  "ARM": [
+    {
+      "name": "Yerevan",
+      "population": 1144700,
+      "lat": 40.17765,
+      "lon": 44.5126
+    },
+    {
+      "name": "Gyumri",
+      "population": 114667,
+      "lat": 40.79305,
+      "lon": 43.84635
+    },
+    {
+      "name": "Vanadzor",
+      "population": 78100,
+      "lat": 40.8074,
+      "lon": 44.49704
+    },
+    {
+      "name": "Abovyan",
+      "population": 50556,
+      "lat": 40.2717,
+      "lon": 44.63342
+    },
+    {
+      "name": "Hrazdan",
+      "population": 49500,
+      "lat": 40.5169,
+      "lon": 44.75591
+    }
+  ],
+  "AUS": [
+    {
+      "name": "Sydney",
+      "population": 5557233,
+      "lat": -33.86785,
+      "lon": 151.20732
+    },
+    {
+      "name": "Melbourne",
+      "population": 5350705,
+      "lat": -37.814,
+      "lon": 144.96332
+    },
+    {
+      "name": "Brisbane",
+      "population": 2780063,
+      "lat": -27.46794,
+      "lon": 153.02809
+    },
+    {
+      "name": "Perth",
+      "population": 2309338,
+      "lat": -31.95224,
+      "lon": 115.8614
+    },
+    {
+      "name": "Adelaide",
+      "population": 1469163,
+      "lat": -34.92866,
+      "lon": 138.59863
+    },
+    {
+      "name": "Canberra",
+      "population": 456692,
+      "lat": -35.28346,
+      "lon": 149.12807
+    }
+  ],
+  "AUT": [
+    {
+      "name": "Vienna",
+      "population": 1691468,
+      "lat": 48.20849,
+      "lon": 16.37208
+    },
+    {
+      "name": "Graz",
+      "population": 303270,
+      "lat": 47.06733,
+      "lon": 15.44197
+    },
+    {
+      "name": "Linz",
+      "population": 204846,
+      "lat": 48.30639,
+      "lon": 14.28611
+    },
+    {
+      "name": "Salzburg",
+      "population": 157245,
+      "lat": 47.79941,
+      "lon": 13.04399
+    },
+    {
+      "name": "Innsbruck",
+      "population": 132493,
+      "lat": 47.26266,
+      "lon": 11.39454
+    }
+  ],
+  "AZE": [
+    {
+      "name": "Baku",
+      "population": 2351300,
+      "lat": 40.37767,
+      "lon": 49.89201
+    },
+    {
+      "name": "Sumqayıt",
+      "population": 358675,
+      "lat": 40.58972,
+      "lon": 49.66861
+    },
+    {
+      "name": "Ganja",
+      "population": 335600,
+      "lat": 40.68157,
+      "lon": 46.36134
+    },
+    {
+      "name": "Lankaran",
+      "population": 240300,
+      "lat": 38.75428,
+      "lon": 48.85062
+    },
+    {
+      "name": "Tovuz",
+      "population": 177200,
+      "lat": 40.99249,
+      "lon": 45.62838
+    }
+  ],
+  "BHS": [
+    {
+      "name": "Nassau",
+      "population": 227940,
+      "lat": 25.05823,
+      "lon": -77.34306
+    },
+    {
+      "name": "Freeport",
+      "population": 26910,
+      "lat": 26.53333,
+      "lon": -78.7
+    },
+    {
+      "name": "West End",
+      "population": 12724,
+      "lat": 26.68711,
+      "lon": -78.97702
+    },
+    {
+      "name": "San Andros",
+      "population": 7800,
+      "lat": 25.06667,
+      "lon": -78.05
+    },
+    {
+      "name": "George Town",
+      "population": 7314,
+      "lat": 23.51616,
+      "lon": -75.78665
+    }
+  ],
+  "BHR": [
+    {
+      "name": "Manama",
+      "population": 147074,
+      "lat": 26.22787,
+      "lon": 50.58565
+    },
+    {
+      "name": "Al Muharraq",
+      "population": 176583,
+      "lat": 26.25722,
+      "lon": 50.61194
+    },
+    {
+      "name": "Madīnat Ḩamad",
+      "population": 133550,
+      "lat": 26.11528,
+      "lon": 50.50694
+    },
+    {
+      "name": "Ar Rifā‘",
+      "population": 115495,
+      "lat": 26.13,
+      "lon": 50.555
+    },
+    {
+      "name": "Sitrah",
+      "population": 72601,
+      "lat": 26.15472,
+      "lon": 50.62056
+    }
+  ],
+  "BGD": [
+    {
+      "name": "Dhaka",
+      "population": 10356500,
+      "lat": 23.7104,
+      "lon": 90.40744
+    },
+    {
+      "name": "Chattogram",
+      "population": 3920222,
+      "lat": 22.3384,
+      "lon": 91.83168
+    },
+    {
+      "name": "Gazipur",
+      "population": 2674697,
+      "lat": 23.99844,
+      "lon": 90.42234
+    },
+    {
+      "name": "Khulna",
+      "population": 1500689,
+      "lat": 22.80979,
+      "lon": 89.56439
+    },
+    {
+      "name": "Rangpur",
+      "population": 1031388,
+      "lat": 25.74664,
+      "lon": 89.25166
+    }
+  ],
+  "BRB": [
+    {
+      "name": "Bridgetown",
+      "population": 98511,
+      "lat": 13.10732,
+      "lon": -59.62021
+    },
+    {
+      "name": "Speightstown",
+      "population": 3634,
+      "lat": 13.25072,
+      "lon": -59.64396
+    },
+    {
+      "name": "Oistins",
+      "population": 2285,
+      "lat": 13.07067,
+      "lon": -59.54637
+    },
+    {
+      "name": "Bathsheba",
+      "population": 1765,
+      "lat": 13.21133,
+      "lon": -59.52596
+    },
+    {
+      "name": "Holetown",
+      "population": 1350,
+      "lat": 13.18672,
+      "lon": -59.63808
+    }
+  ],
+  "BLR": [
+    {
+      "name": "Minsk",
+      "population": 1742124,
+      "lat": 53.90019,
+      "lon": 27.56653
+    },
+    {
+      "name": "Homyel'",
+      "population": 501102,
+      "lat": 52.4345,
+      "lon": 30.9754
+    },
+    {
+      "name": "Hrodna",
+      "population": 361115,
+      "lat": 53.6758,
+      "lon": 23.82887
+    },
+    {
+      "name": "Vitebsk",
+      "population": 358395,
+      "lat": 55.1904,
+      "lon": 30.2049
+    },
+    {
+      "name": "Mahilyow",
+      "population": 353110,
+      "lat": 53.90876,
+      "lon": 30.34044
+    }
+  ],
+  "BEL": [
+    {
+      "name": "Brussels",
+      "population": 1019022,
+      "lat": 50.85045,
+      "lon": 4.34878
+    },
+    {
+      "name": "Anderlecht",
+      "population": 160553,
+      "lat": 50.83619,
+      "lon": 4.31454
+    },
+    {
+      "name": "Namur",
+      "population": 110939,
+      "lat": 50.4669,
+      "lon": 4.86746
+    },
+    {
+      "name": "Tournai",
+      "population": 69554,
+      "lat": 50.60715,
+      "lon": 3.38932
+    },
+    {
+      "name": "Ostend",
+      "population": 69011,
+      "lat": 51.21551,
+      "lon": 2.927
+    }
+  ],
+  "BLZ": [
+    {
+      "name": "Belize City",
+      "population": 65222,
+      "lat": 17.49952,
+      "lon": -88.19756
+    },
+    {
+      "name": "Orange Walk",
+      "population": 15298,
+      "lat": 18.08124,
+      "lon": -88.56328
+    },
+    {
+      "name": "Belmopan",
+      "population": 13381,
+      "lat": 17.25376,
+      "lon": -88.76401
+    },
+    {
+      "name": "Dangriga",
+      "population": 9927,
+      "lat": 16.9697,
+      "lon": -88.23313
+    },
+    {
+      "name": "Corozal",
+      "population": 9815,
+      "lat": 18.39375,
+      "lon": -88.38849
+    }
+  ],
+  "BEN": [
+    {
+      "name": "Cotonou",
+      "population": 679012,
+      "lat": 6.36536,
+      "lon": 2.41833
+    },
+    {
+      "name": "Porto-Novo",
+      "population": 264320,
+      "lat": 6.49646,
+      "lon": 2.60359
+    },
+    {
+      "name": "Parakou",
+      "population": 255478,
+      "lat": 9.33716,
+      "lon": 2.63031
+    },
+    {
+      "name": "Abomey",
+      "population": 117824,
+      "lat": 7.18286,
+      "lon": 1.99119
+    },
+    {
+      "name": "Djougou",
+      "population": 94773,
+      "lat": 9.70853,
+      "lon": 1.66598
+    }
+  ],
+  "BTN": [
+    {
+      "name": "Thimphu",
+      "population": 98676,
+      "lat": 27.46609,
+      "lon": 89.64191
+    },
+    {
+      "name": "Tsirang",
+      "population": 22376,
+      "lat": 27.0219,
+      "lon": 90.12291
+    },
+    {
+      "name": "Punākha",
+      "population": 21500,
+      "lat": 27.59137,
+      "lon": 89.87743
+    },
+    {
+      "name": "Pemagatshel",
+      "population": 13864,
+      "lat": 27.03795,
+      "lon": 91.40305
+    },
+    {
+      "name": "Paro",
+      "population": 11448,
+      "lat": 27.4305,
+      "lon": 89.41334
+    }
+  ],
+  "BOL": [
+    {
+      "name": "La Paz",
+      "population": 2004652,
+      "lat": -16.5,
+      "lon": -68.15
+    },
+    {
+      "name": "Santa Cruz de la Sierra",
+      "population": 1831434,
+      "lat": -17.78629,
+      "lon": -63.18117
+    },
+    {
+      "name": "Cochabamba",
+      "population": 841276,
+      "lat": -17.38195,
+      "lon": -66.15995
+    },
+    {
+      "name": "Sucre",
+      "population": 224838,
+      "lat": -19.03332,
+      "lon": -65.26274
+    },
+    {
+      "name": "Oruro",
+      "population": 208684,
+      "lat": -17.97153,
+      "lon": -67.0932
+    }
+  ],
+  "BIH": [
+    {
+      "name": "Sarajevo",
+      "population": 696731,
+      "lat": 43.84864,
+      "lon": 18.35644
+    },
+    {
+      "name": "Banja Luka",
+      "population": 221106,
+      "lat": 44.77879,
+      "lon": 17.20629
+    },
+    {
+      "name": "Zenica",
+      "population": 164423,
+      "lat": 44.20169,
+      "lon": 17.90397
+    },
+    {
+      "name": "Tuzla",
+      "population": 142486,
+      "lat": 44.53842,
+      "lon": 18.66709
+    },
+    {
+      "name": "Mostar",
+      "population": 104518,
+      "lat": 43.34333,
+      "lon": 17.80806
+    }
+  ],
+  "BWA": [
+    {
+      "name": "Gaborone",
+      "population": 246325,
+      "lat": -24.65451,
+      "lon": 25.90859
+    },
+    {
+      "name": "Francistown",
+      "population": 103417,
+      "lat": -21.17,
+      "lon": 27.50778
+    },
+    {
+      "name": "Maun",
+      "population": 85350,
+      "lat": -19.98333,
+      "lon": 23.41667
+    },
+    {
+      "name": "Molepolole",
+      "population": 74861,
+      "lat": -24.40659,
+      "lon": 25.49508
+    },
+    {
+      "name": "Serowe",
+      "population": 55676,
+      "lat": -22.38754,
+      "lon": 26.71077
+    }
+  ],
+  "BRA": [
+    {
+      "name": "São Paulo",
+      "population": 12400232,
+      "lat": -23.5475,
+      "lon": -46.63611
+    },
+    {
+      "name": "Rio de Janeiro",
+      "population": 6747815,
+      "lat": -22.90642,
+      "lon": -43.18223
+    },
+    {
+      "name": "Brasilia",
+      "population": 2817381,
+      "lat": -15.77972,
+      "lon": -47.92972
+    },
+    {
+      "name": "Belo Horizonte",
+      "population": 2721564,
+      "lat": -19.92083,
+      "lon": -43.93778
+    },
+    {
+      "name": "Salvador",
+      "population": 2711840,
+      "lat": -12.97563,
+      "lon": -38.49096
+    },
+    {
+      "name": "Fortaleza",
+      "population": 2400000,
+      "lat": -3.71722,
+      "lon": -38.54306
+    }
+  ],
+  "BRN": [
+    {
+      "name": "Bandar Seri Begawan",
+      "population": 64409,
+      "lat": 4.89035,
+      "lon": 114.94006
+    },
+    {
+      "name": "Kuala Belait",
+      "population": 31178,
+      "lat": 4.58361,
+      "lon": 114.2312
+    },
+    {
+      "name": "Tutong",
+      "population": 19151,
+      "lat": 4.80278,
+      "lon": 114.64917
+    },
+    {
+      "name": "Bangar",
+      "population": 3970,
+      "lat": 4.70861,
+      "lon": 115.07167
+    },
+    {
+      "name": "Sengkurong",
+      "population": 40972,
+      "lat": 4.88333,
+      "lon": 114.83333
+    }
+  ],
+  "BGR": [
+    {
+      "name": "Sofia",
+      "population": 1152556,
+      "lat": 42.69751,
+      "lon": 23.32415
+    },
+    {
+      "name": "Plovdiv",
+      "population": 329489,
+      "lat": 42.15387,
+      "lon": 24.75001
+    },
+    {
+      "name": "Varna",
+      "population": 318737,
+      "lat": 43.21912,
+      "lon": 27.91024
+    },
+    {
+      "name": "Burgas",
+      "population": 210646,
+      "lat": 42.50651,
+      "lon": 27.46886
+    },
+    {
+      "name": "Stara Zagora",
+      "population": 121582,
+      "lat": 42.43205,
+      "lon": 25.64262
+    }
+  ],
+  "BFA": [
+    {
+      "name": "Ouagadougou",
+      "population": 2415266,
+      "lat": 12.36566,
+      "lon": -1.53388
+    },
+    {
+      "name": "Bobo-Dioulasso",
+      "population": 904920,
+      "lat": 11.18064,
+      "lon": -4.29489
+    },
+    {
+      "name": "Koudougou",
+      "population": 160239,
+      "lat": 12.25188,
+      "lon": -2.36694
+    },
+    {
+      "name": "Saaba",
+      "population": 136011,
+      "lat": 12.37136,
+      "lon": -1.41468
+    },
+    {
+      "name": "Ouahigouya",
+      "population": 124587,
+      "lat": 13.5769,
+      "lon": -2.41786
+    }
+  ],
+  "BDI": [
+    {
+      "name": "Bujumbura",
+      "population": 769317,
+      "lat": -3.38193,
+      "lon": 29.36142
+    },
+    {
+      "name": "Gitega",
+      "population": 64904,
+      "lat": -3.42708,
+      "lon": 29.92463
+    },
+    {
+      "name": "Ngozi",
+      "population": 61716,
+      "lat": -2.9075,
+      "lon": 29.8306
+    },
+    {
+      "name": "Rumonge",
+      "population": 55599,
+      "lat": -3.9736,
+      "lon": 29.4386
+    },
+    {
+      "name": "Cibitoke",
+      "population": 36959,
+      "lat": -2.8869,
+      "lon": 29.1248
+    }
+  ],
+  "KHM": [
+    {
+      "name": "Phnom Penh",
+      "population": 1573544,
+      "lat": 11.56245,
+      "lon": 104.91601
+    },
+    {
+      "name": "Takeo",
+      "population": 843931,
+      "lat": 10.99081,
+      "lon": 104.78498
+    },
+    {
+      "name": "Siem Reap",
+      "population": 139458,
+      "lat": 13.36179,
+      "lon": 103.86056
+    },
+    {
+      "name": "Battambang",
+      "population": 119251,
+      "lat": 13.10271,
+      "lon": 103.19822
+    },
+    {
+      "name": "Kampong Chhnang",
+      "population": 75244,
+      "lat": 12.25,
+      "lon": 104.66667
+    }
+  ],
+  "CMR": [
+    {
+      "name": "Douala",
+      "population": 1338082,
+      "lat": 4.04827,
+      "lon": 9.70428
+    },
+    {
+      "name": "Yaoundé",
+      "population": 1299369,
+      "lat": 3.86667,
+      "lon": 11.51667
+    },
+    {
+      "name": "Bamenda",
+      "population": 420445,
+      "lat": 5.9597,
+      "lon": 10.14597
+    },
+    {
+      "name": "Bafoussam",
+      "population": 373268,
+      "lat": 5.47775,
+      "lon": 10.41759
+    },
+    {
+      "name": "Maroua",
+      "population": 314122,
+      "lat": 10.59095,
+      "lon": 14.31593
+    }
+  ],
+  "CAN": [
+    {
+      "name": "Toronto",
+      "population": 2794356,
+      "lat": 43.70643,
+      "lon": -79.39864
+    },
+    {
+      "name": "Montréal",
+      "population": 1762949,
+      "lat": 45.50884,
+      "lon": -73.58781
+    },
+    {
+      "name": "Calgary",
+      "population": 1239220,
+      "lat": 51.05011,
+      "lon": -114.08529
+    },
+    {
+      "name": "Ottawa",
+      "population": 1017449,
+      "lat": 45.41117,
+      "lon": -75.69812
+    },
+    {
+      "name": "Edmonton",
+      "population": 1010899,
+      "lat": 53.55014,
+      "lon": -113.46871
+    },
+    {
+      "name": "Winnipeg",
+      "population": 749607,
+      "lat": 49.8844,
+      "lon": -97.14704
+    }
+  ],
+  "CPV": [
+    {
+      "name": "Praia",
+      "population": 137868,
+      "lat": 14.93152,
+      "lon": -23.51254
+    },
+    {
+      "name": "Mindelo",
+      "population": 69013,
+      "lat": 16.89014,
+      "lon": -24.98042
+    },
+    {
+      "name": "Espargos",
+      "population": 24500,
+      "lat": 16.75524,
+      "lon": -22.9446
+    },
+    {
+      "name": "Assomada",
+      "population": 21297,
+      "lat": 15.1,
+      "lon": -23.68333
+    },
+    {
+      "name": "Tarrafal",
+      "population": 13483,
+      "lat": 15.27881,
+      "lon": -23.75192
+    }
+  ],
+  "CAF": [
+    {
+      "name": "Bangui",
+      "population": 812407,
+      "lat": 4.36122,
+      "lon": 18.55496
+    },
+    {
+      "name": "Bimbo",
+      "population": 348802,
+      "lat": 4.25671,
+      "lon": 18.41583
+    },
+    {
+      "name": "Carnot",
+      "population": 129032,
+      "lat": 4.94273,
+      "lon": 15.87735
+    },
+    {
+      "name": "Berbérati",
+      "population": 103713,
+      "lat": 4.26116,
+      "lon": 15.79216
+    },
+    {
+      "name": "Bambari",
+      "population": 83029,
+      "lat": 5.76795,
+      "lon": 20.67565
+    }
+  ],
+  "TCD": [
+    {
+      "name": "N'Djamena",
+      "population": 1359526,
+      "lat": 12.10672,
+      "lon": 15.0444
+    },
+    {
+      "name": "Moundou",
+      "population": 196124,
+      "lat": 8.57437,
+      "lon": 16.07722
+    },
+    {
+      "name": "Abéché",
+      "population": 139983,
+      "lat": 13.82916,
+      "lon": 20.8324
+    },
+    {
+      "name": "Sarh",
+      "population": 138928,
+      "lat": 9.14555,
+      "lon": 18.38331
+    },
+    {
+      "name": "Am Timan",
+      "population": 74691,
+      "lat": 11.0433,
+      "lon": 20.28342
+    }
+  ],
+  "CHL": [
+    {
+      "name": "Santiago",
+      "population": 4837295,
+      "lat": -33.45694,
+      "lon": -70.64827
+    },
+    {
+      "name": "Puente Alto",
+      "population": 568106,
+      "lat": -33.61169,
+      "lon": -70.57577
+    },
+    {
+      "name": "Antofagasta",
+      "population": 401096,
+      "lat": -23.65094,
+      "lon": -70.39752
+    },
+    {
+      "name": "Valparaíso",
+      "population": 282448,
+      "lat": -33.036,
+      "lon": -71.62963
+    },
+    {
+      "name": "San Bernardo",
+      "population": 249858,
+      "lat": -33.59217,
+      "lon": -70.6996
+    }
+  ],
+  "CHN": [
+    {
+      "name": "Shanghai",
+      "population": 24874500,
+      "lat": 31.22222,
+      "lon": 121.45806
+    },
+    {
+      "name": "Beijing",
+      "population": 18960744,
+      "lat": 39.9075,
+      "lon": 116.39723
+    },
+    {
+      "name": "Shenzhen",
+      "population": 17494398,
+      "lat": 22.54554,
+      "lon": 114.0683
+    },
+    {
+      "name": "Guangzhou",
+      "population": 16096724,
+      "lat": 23.11667,
+      "lon": 113.25
+    },
+    {
+      "name": "Tianjin",
+      "population": 13866009,
+      "lat": 39.14222,
+      "lon": 117.17667
+    },
+    {
+      "name": "Chengdu",
+      "population": 13568357,
+      "lat": 30.66667,
+      "lon": 104.06667
+    }
+  ],
+  "COL": [
+    {
+      "name": "Bogotá",
+      "population": 7674366,
+      "lat": 4.60971,
+      "lon": -74.08175
+    },
+    {
+      "name": "Cali",
+      "population": 2392877,
+      "lat": 3.43054,
+      "lon": -76.5199
+    },
+    {
+      "name": "Medellín",
+      "population": 1999979,
+      "lat": 6.245,
+      "lon": -75.57151
+    },
+    {
+      "name": "Barranquilla",
+      "population": 1206319,
+      "lat": 10.96854,
+      "lon": -74.78132
+    },
+    {
+      "name": "Cartagena",
+      "population": 914552,
+      "lat": 10.39817,
+      "lon": -75.49328
+    }
+  ],
+  "COM": [
+    {
+      "name": "Moroni",
+      "population": 74749,
+      "lat": -11.70216,
+      "lon": 43.25506
+    },
+    {
+      "name": "Moutsamoudou",
+      "population": 26313,
+      "lat": -12.16672,
+      "lon": 44.39944
+    },
+    {
+      "name": "Fomboni",
+      "population": 17291,
+      "lat": -12.28759,
+      "lon": 43.74344
+    },
+    {
+      "name": "Tsimbeo",
+      "population": 12590,
+      "lat": -12.20583,
+      "lon": 44.46472
+    },
+    {
+      "name": "Domoni",
+      "population": 12262,
+      "lat": -12.26067,
+      "lon": 44.52947
+    }
+  ],
+  "COG": [
+    {
+      "name": "Brazzaville",
+      "population": 1982000,
+      "lat": -4.26613,
+      "lon": 15.28318
+    },
+    {
+      "name": "Pointe-Noire",
+      "population": 1032000,
+      "lat": -4.77609,
+      "lon": 11.86352
+    },
+    {
+      "name": "Dolisie",
+      "population": 121000,
+      "lat": -4.19834,
+      "lon": 12.66664
+    },
+    {
+      "name": "Nkayi",
+      "population": 103000,
+      "lat": -4.18396,
+      "lon": 13.2859
+    },
+    {
+      "name": "Impfondo",
+      "population": 48939,
+      "lat": 1.61804,
+      "lon": 18.05981
+    }
+  ],
+  "CRI": [
+    {
+      "name": "San José",
+      "population": 335007,
+      "lat": 9.93388,
+      "lon": -84.08489
+    },
+    {
+      "name": "Limón",
+      "population": 63081,
+      "lat": 9.99074,
+      "lon": -83.03596
+    },
+    {
+      "name": "Alajuela",
+      "population": 47494,
+      "lat": 10.01723,
+      "lon": -84.21275
+    },
+    {
+      "name": "Liberia",
+      "population": 45380,
+      "lat": 10.63517,
+      "lon": -85.43779
+    },
+    {
+      "name": "Puntarenas",
+      "population": 35650,
+      "lat": 9.97691,
+      "lon": -84.8379
+    }
+  ],
+  "HRV": [
+    {
+      "name": "Zagreb",
+      "population": 663592,
+      "lat": 45.81444,
+      "lon": 15.97798
+    },
+    {
+      "name": "Split",
+      "population": 149830,
+      "lat": 43.50891,
+      "lon": 16.43915
+    },
+    {
+      "name": "Rijeka",
+      "population": 107964,
+      "lat": 45.32673,
+      "lon": 14.44241
+    },
+    {
+      "name": "Osijek",
+      "population": 75535,
+      "lat": 45.55066,
+      "lon": 18.6942
+    },
+    {
+      "name": "Zadar",
+      "population": 67309,
+      "lat": 44.11578,
+      "lon": 15.22514
+    }
+  ],
+  "CUB": [
+    {
+      "name": "Havana",
+      "population": 2163824,
+      "lat": 23.13302,
+      "lon": -82.38304
+    },
+    {
+      "name": "Santiago de Cuba",
+      "population": 555865,
+      "lat": 20.02287,
+      "lon": -75.82171
+    },
+    {
+      "name": "Camagüey",
+      "population": 347562,
+      "lat": 21.38083,
+      "lon": -77.91694
+    },
+    {
+      "name": "Holguín",
+      "population": 319102,
+      "lat": 20.88722,
+      "lon": -76.26306
+    },
+    {
+      "name": "Guantánamo",
+      "population": 272801,
+      "lat": 20.14444,
+      "lon": -75.20917
+    }
+  ],
+  "CYP": [
+    {
+      "name": "Nicosia",
+      "population": 200452,
+      "lat": 35.17284,
+      "lon": 33.35397
+    },
+    {
+      "name": "Limassol",
+      "population": 154000,
+      "lat": 34.68406,
+      "lon": 33.03794
+    },
+    {
+      "name": "Larnaca",
+      "population": 72000,
+      "lat": 34.9221,
+      "lon": 33.62794
+    },
+    {
+      "name": "Stróvolos",
+      "population": 67904,
+      "lat": 35.14867,
+      "lon": 33.33384
+    },
+    {
+      "name": "Famagusta",
+      "population": 42526,
+      "lat": 35.12489,
+      "lon": 33.94135
+    }
+  ],
+  "CZE": [
+    {
+      "name": "Prague",
+      "population": 1165581,
+      "lat": 50.08804,
+      "lon": 14.42076
+    },
+    {
+      "name": "Brno",
+      "population": 379466,
+      "lat": 49.19522,
+      "lon": 16.60796
+    },
+    {
+      "name": "Ostrava",
+      "population": 279791,
+      "lat": 49.83465,
+      "lon": 18.28204
+    },
+    {
+      "name": "Pilsen",
+      "population": 168733,
+      "lat": 49.74747,
+      "lon": 13.37759
+    },
+    {
+      "name": "Liberec",
+      "population": 102951,
+      "lat": 50.76711,
+      "lon": 15.05619
+    }
+  ],
+  "CIV": [
+    {
+      "name": "Abidjan",
+      "population": 6321017,
+      "lat": 5.35444,
+      "lon": -4.00167
+    },
+    {
+      "name": "Bouaké",
+      "population": 832371,
+      "lat": 7.69385,
+      "lon": -5.03031
+    },
+    {
+      "name": "Korhogo",
+      "population": 440926,
+      "lat": 9.45803,
+      "lon": -5.62961
+    },
+    {
+      "name": "Daloa",
+      "population": 421871,
+      "lat": 6.87735,
+      "lon": -6.45022
+    },
+    {
+      "name": "San-Pédro",
+      "population": 390654,
+      "lat": 4.74851,
+      "lon": -6.6363
+    }
+  ],
+  "COD": [
+    {
+      "name": "Kinshasa",
+      "population": 16000000,
+      "lat": -4.32758,
+      "lon": 15.31357
+    },
+    {
+      "name": "Lubumbashi",
+      "population": 2221925,
+      "lat": -11.66089,
+      "lon": 27.47938
+    },
+    {
+      "name": "Mbuji-Mayi",
+      "population": 2101332,
+      "lat": -6.13603,
+      "lon": 23.58979
+    },
+    {
+      "name": "Kananga",
+      "population": 1247168,
+      "lat": -5.89624,
+      "lon": 22.41659
+    },
+    {
+      "name": "Kisangani",
+      "population": 1181788,
+      "lat": 0.51528,
+      "lon": 25.19099
+    }
+  ],
+  "DNK": [
+    {
+      "name": "Copenhagen",
+      "population": 1153615,
+      "lat": 55.67594,
+      "lon": 12.56553
+    },
+    {
+      "name": "Århus",
+      "population": 285273,
+      "lat": 56.15674,
+      "lon": 10.21076
+    },
+    {
+      "name": "Odense",
+      "population": 180863,
+      "lat": 55.39594,
+      "lon": 10.38831
+    },
+    {
+      "name": "Aalborg",
+      "population": 142937,
+      "lat": 57.048,
+      "lon": 9.9187
+    },
+    {
+      "name": "Frederiksberg",
+      "population": 95029,
+      "lat": 55.67938,
+      "lon": 12.53463
+    }
+  ],
+  "DJI": [
+    {
+      "name": "Djibouti",
+      "population": 626512,
+      "lat": 11.58901,
+      "lon": 43.14503
+    },
+    {
+      "name": "Ali Sabih",
+      "population": 50006,
+      "lat": 11.15583,
+      "lon": 42.7125
+    },
+    {
+      "name": "Dikhil",
+      "population": 32801,
+      "lat": 11.10454,
+      "lon": 42.36971
+    },
+    {
+      "name": "Tadjoura",
+      "population": 19533,
+      "lat": 11.78778,
+      "lon": 42.88222
+    },
+    {
+      "name": "Arta",
+      "population": 17477,
+      "lat": 11.52639,
+      "lon": 42.85194
+    }
+  ],
+  "DMA": [
+    {
+      "name": "Roseau",
+      "population": 16571,
+      "lat": 15.30174,
+      "lon": -61.38808
+    },
+    {
+      "name": "Portsmouth",
+      "population": 3633,
+      "lat": 15.58288,
+      "lon": -61.45592
+    },
+    {
+      "name": "Berekua",
+      "population": 2608,
+      "lat": 15.23333,
+      "lon": -61.31667
+    },
+    {
+      "name": "Saint Joseph",
+      "population": 2184,
+      "lat": 15.4061,
+      "lon": -61.42374
+    },
+    {
+      "name": "Wesley",
+      "population": 1933,
+      "lat": 15.56667,
+      "lon": -61.31667
+    }
+  ],
+  "DOM": [
+    {
+      "name": "Santo Domingo",
+      "population": 2201941,
+      "lat": 18.47186,
+      "lon": -69.89232
+    },
+    {
+      "name": "Santiago de los Caballeros",
+      "population": 1200000,
+      "lat": 19.45036,
+      "lon": -70.69085
+    },
+    {
+      "name": "Santo Domingo Este",
+      "population": 700000,
+      "lat": 18.48511,
+      "lon": -69.84757
+    },
+    {
+      "name": "San Pedro de Macorís",
+      "population": 217899,
+      "lat": 18.4539,
+      "lon": -69.30864
+    },
+    {
+      "name": "La Romana",
+      "population": 208437,
+      "lat": 18.42332,
+      "lon": -68.96635
+    }
+  ],
+  "ECU": [
+    {
+      "name": "Quito",
+      "population": 2781641,
+      "lat": -0.22985,
+      "lon": -78.52495
+    },
+    {
+      "name": "Guayaquil",
+      "population": 2723665,
+      "lat": -2.19616,
+      "lon": -79.88621
+    },
+    {
+      "name": "Cuenca",
+      "population": 636996,
+      "lat": -2.8953,
+      "lon": -78.9963
+    },
+    {
+      "name": "Santo Domingo de los Colorados",
+      "population": 458580,
+      "lat": -0.25368,
+      "lon": -79.17628
+    },
+    {
+      "name": "Ambato",
+      "population": 387309,
+      "lat": -1.24908,
+      "lon": -78.61675
+    }
+  ],
+  "EGY": [
+    {
+      "name": "Cairo",
+      "population": 9606916,
+      "lat": 30.06263,
+      "lon": 31.24967
+    },
+    {
+      "name": "Alexandria",
+      "population": 5263542,
+      "lat": 31.20176,
+      "lon": 29.91582
+    },
+    {
+      "name": "Giza",
+      "population": 4367343,
+      "lat": 30.00944,
+      "lon": 31.20861
+    },
+    {
+      "name": "Shubrā al Khaymah",
+      "population": 1240289,
+      "lat": 30.12511,
+      "lon": 31.25053
+    },
+    {
+      "name": "Port Said",
+      "population": 780515,
+      "lat": 31.26531,
+      "lon": 32.3019
+    }
+  ],
+  "SLV": [
+    {
+      "name": "San Salvador",
+      "population": 525990,
+      "lat": 13.68935,
+      "lon": -89.18718
+    },
+    {
+      "name": "San Miguel",
+      "population": 247126,
+      "lat": 13.48261,
+      "lon": -88.18211
+    },
+    {
+      "name": "Santa Ana",
+      "population": 176661,
+      "lat": 13.98827,
+      "lon": -89.55685
+    },
+    {
+      "name": "Santa Tecla",
+      "population": 124694,
+      "lat": 13.67741,
+      "lon": -89.28335
+    },
+    {
+      "name": "Sonsonate",
+      "population": 59468,
+      "lat": 13.71726,
+      "lon": -89.72304
+    }
+  ],
+  "GNQ": [
+    {
+      "name": "Bata",
+      "population": 173046,
+      "lat": 1.86391,
+      "lon": 9.76582
+    },
+    {
+      "name": "Malabo",
+      "population": 155963,
+      "lat": 3.75578,
+      "lon": 8.78166
+    },
+    {
+      "name": "Ebebiyin",
+      "population": 24831,
+      "lat": 2.15218,
+      "lon": 11.33013
+    },
+    {
+      "name": "Luba",
+      "population": 8655,
+      "lat": 3.45683,
+      "lon": 8.55465
+    },
+    {
+      "name": "Evinayong",
+      "population": 8462,
+      "lat": 1.43677,
+      "lon": 10.55124
+    }
+  ],
+  "ERI": [
+    {
+      "name": "Asmara",
+      "population": 563930,
+      "lat": 15.33805,
+      "lon": 38.93184
+    },
+    {
+      "name": "Keren",
+      "population": 74800,
+      "lat": 15.77792,
+      "lon": 38.45107
+    },
+    {
+      "name": "Massawa",
+      "population": 23100,
+      "lat": 15.60811,
+      "lon": 39.47455
+    },
+    {
+      "name": "Assab",
+      "population": 21300,
+      "lat": 13.00917,
+      "lon": 42.73944
+    },
+    {
+      "name": "Mendefera",
+      "population": 17781,
+      "lat": 14.88722,
+      "lon": 38.81528
+    }
+  ],
+  "EST": [
+    {
+      "name": "Tallinn",
+      "population": 394024,
+      "lat": 59.43696,
+      "lon": 24.75353
+    },
+    {
+      "name": "Tartu",
+      "population": 91407,
+      "lat": 58.38062,
+      "lon": 26.72509
+    },
+    {
+      "name": "Narva",
+      "population": 54409,
+      "lat": 59.37722,
+      "lon": 28.19028
+    },
+    {
+      "name": "Pärnu",
+      "population": 40228,
+      "lat": 58.38588,
+      "lon": 24.49711
+    },
+    {
+      "name": "Viljandi",
+      "population": 17407,
+      "lat": 58.36319,
+      "lon": 25.59159
+    }
+  ],
+  "SWZ": [
+    {
+      "name": "Manzini",
+      "population": 110537,
+      "lat": -26.49884,
+      "lon": 31.38004
+    },
+    {
+      "name": "Mbabane",
+      "population": 76218,
+      "lat": -26.31667,
+      "lon": 31.13333
+    },
+    {
+      "name": "Nhlangano",
+      "population": 9016,
+      "lat": -27.11222,
+      "lon": 31.19833
+    },
+    {
+      "name": "Siteki",
+      "population": 6152,
+      "lat": -26.4525,
+      "lon": 31.94722
+    },
+    {
+      "name": "Piggs Peak",
+      "population": 5750,
+      "lat": -25.96082,
+      "lon": 31.24666
+    }
+  ],
+  "ETH": [
+    {
+      "name": "Addis Ababa",
+      "population": 3860000,
+      "lat": 9.02497,
+      "lon": 38.74689
+    },
+    {
+      "name": "Jijiga",
+      "population": 483000,
+      "lat": 9.35,
+      "lon": 42.8
+    },
+    {
+      "name": "Mek'ele",
+      "population": 457900,
+      "lat": 13.49667,
+      "lon": 39.47528
+    },
+    {
+      "name": "Awasa",
+      "population": 422200,
+      "lat": 7.06205,
+      "lon": 38.47635
+    },
+    {
+      "name": "Bahir Dar",
+      "population": 350000,
+      "lat": 11.59364,
+      "lon": 37.39077
+    }
+  ],
+  "FJI": [
+    {
+      "name": "Suva",
+      "population": 77366,
+      "lat": -18.13683,
+      "lon": 178.42531
+    },
+    {
+      "name": "Lautoka",
+      "population": 52500,
+      "lat": -17.61686,
+      "lon": 177.45049
+    },
+    {
+      "name": "Labasa",
+      "population": 27949,
+      "lat": -16.4332,
+      "lon": 179.36451
+    },
+    {
+      "name": "Ba",
+      "population": 14596,
+      "lat": -17.5343,
+      "lon": 177.67407
+    },
+    {
+      "name": "Levuka",
+      "population": 8360,
+      "lat": -18.06667,
+      "lon": 179.31667
+    }
+  ],
+  "FIN": [
+    {
+      "name": "Helsinki",
+      "population": 658864,
+      "lat": 60.16952,
+      "lon": 24.93545
+    },
+    {
+      "name": "Espoo",
+      "population": 323910,
+      "lat": 60.2052,
+      "lon": 24.6522
+    },
+    {
+      "name": "Tampere",
+      "population": 260646,
+      "lat": 61.49911,
+      "lon": 23.78712
+    },
+    {
+      "name": "Vantaa",
+      "population": 252724,
+      "lat": 60.29414,
+      "lon": 25.04099
+    },
+    {
+      "name": "Oulu",
+      "population": 216066,
+      "lat": 65.01236,
+      "lon": 25.46816
+    }
+  ],
+  "FRA": [
+    {
+      "name": "Paris",
+      "population": 2138551,
+      "lat": 48.85341,
+      "lon": 2.3488
+    },
+    {
+      "name": "Marseille",
+      "population": 877215,
+      "lat": 43.29695,
+      "lon": 5.38107
+    },
+    {
+      "name": "Lyon",
+      "population": 520774,
+      "lat": 45.74906,
+      "lon": 4.84789
+    },
+    {
+      "name": "Toulouse",
+      "population": 511684,
+      "lat": 43.60426,
+      "lon": 1.44367
+    },
+    {
+      "name": "Nice",
+      "population": 342669,
+      "lat": 43.70313,
+      "lon": 7.26608
+    }
+  ],
+  "GAB": [
+    {
+      "name": "Libreville",
+      "population": 846090,
+      "lat": 0.39241,
+      "lon": 9.45356
+    },
+    {
+      "name": "Port-Gentil",
+      "population": 164018,
+      "lat": -0.71933,
+      "lon": 8.78151
+    },
+    {
+      "name": "Franceville",
+      "population": 132895,
+      "lat": -1.63333,
+      "lon": 13.58357
+    },
+    {
+      "name": "Oyem",
+      "population": 72939,
+      "lat": 1.5995,
+      "lon": 11.57933
+    },
+    {
+      "name": "Lambaréné",
+      "population": 46605,
+      "lat": -0.7001,
+      "lon": 10.24055
+    }
+  ],
+  "GMB": [
+    {
+      "name": "Brikama",
+      "population": 97233,
+      "lat": 13.27136,
+      "lon": -16.64944
+    },
+    {
+      "name": "Banjul",
+      "population": 37274,
+      "lat": 13.45274,
+      "lon": -16.57803
+    },
+    {
+      "name": "Basse Santa Su",
+      "population": 14380,
+      "lat": 13.30995,
+      "lon": -14.21373
+    },
+    {
+      "name": "Kerewan",
+      "population": 5485,
+      "lat": 13.4898,
+      "lon": -16.08879
+    },
+    {
+      "name": "Janjanbureh",
+      "population": 4547,
+      "lat": 13.54039,
+      "lon": -14.76374
+    }
+  ],
+  "GEO": [
+    {
+      "name": "Tbilisi",
+      "population": 1049498,
+      "lat": 41.69143,
+      "lon": 44.83412
+    },
+    {
+      "name": "Batumi",
+      "population": 186949,
+      "lat": 41.64077,
+      "lon": 41.6306
+    },
+    {
+      "name": "Kutaisi",
+      "population": 135201,
+      "lat": 42.26791,
+      "lon": 42.69459
+    },
+    {
+      "name": "Rustavi",
+      "population": 128249,
+      "lat": 41.56271,
+      "lon": 44.9787
+    },
+    {
+      "name": "Sokhumi",
+      "population": 65439,
+      "lat": 43.00697,
+      "lon": 40.9893
+    }
+  ],
+  "DEU": [
+    {
+      "name": "Berlin",
+      "population": 3426354,
+      "lat": 52.52437,
+      "lon": 13.41053
+    },
+    {
+      "name": "Hamburg",
+      "population": 1845229,
+      "lat": 53.55073,
+      "lon": 9.99302
+    },
+    {
+      "name": "Munich",
+      "population": 1260391,
+      "lat": 48.13743,
+      "lon": 11.57549
+    },
+    {
+      "name": "Köln",
+      "population": 963395,
+      "lat": 50.93333,
+      "lon": 6.95
+    },
+    {
+      "name": "Frankfurt am Main",
+      "population": 650000,
+      "lat": 50.11552,
+      "lon": 8.68417
+    }
+  ],
+  "GHA": [
+    {
+      "name": "Kumasi",
+      "population": 2544530,
+      "lat": 6.68848,
+      "lon": -1.62443
+    },
+    {
+      "name": "Accra",
+      "population": 1963264,
+      "lat": 5.55602,
+      "lon": -0.1969
+    },
+    {
+      "name": "Tamale",
+      "population": 464316,
+      "lat": 9.40079,
+      "lon": -0.8393
+    },
+    {
+      "name": "Sekondi",
+      "population": 285506,
+      "lat": 4.93422,
+      "lon": -1.71454
+    },
+    {
+      "name": "Cape Coast",
+      "population": 212426,
+      "lat": 5.10535,
+      "lon": -1.2466
+    }
+  ],
+  "GRC": [
+    {
+      "name": "Athens",
+      "population": 664046,
+      "lat": 37.98376,
+      "lon": 23.72784
+    },
+    {
+      "name": "Thessaloníki",
+      "population": 317778,
+      "lat": 40.64072,
+      "lon": 22.93493
+    },
+    {
+      "name": "Pátra",
+      "population": 168034,
+      "lat": 38.2462,
+      "lon": 21.73508
+    },
+    {
+      "name": "Piraeus",
+      "population": 163688,
+      "lat": 37.94203,
+      "lon": 23.64619
+    },
+    {
+      "name": "Lárisa",
+      "population": 146926,
+      "lat": 39.62847,
+      "lon": 22.42112
+    }
+  ],
+  "GRD": [
+    {
+      "name": "Saint George's",
+      "population": 7500,
+      "lat": 12.05288,
+      "lon": -61.75226
+    },
+    {
+      "name": "Gouyave",
+      "population": 3378,
+      "lat": 12.16462,
+      "lon": -61.72965
+    },
+    {
+      "name": "Grenville",
+      "population": 2476,
+      "lat": 12.12278,
+      "lon": -61.62498
+    },
+    {
+      "name": "Victoria",
+      "population": 2256,
+      "lat": 12.19021,
+      "lon": -61.70677
+    },
+    {
+      "name": "Saint David’s",
+      "population": 1321,
+      "lat": 12.04903,
+      "lon": -61.66875
+    }
+  ],
+  "GTM": [
+    {
+      "name": "Guatemala City",
+      "population": 994938,
+      "lat": 14.64072,
+      "lon": -90.51327
+    },
+    {
+      "name": "Villa Nueva",
+      "population": 618397,
+      "lat": 14.52512,
+      "lon": -90.58544
+    },
+    {
+      "name": "Mixco",
+      "population": 465773,
+      "lat": 14.63077,
+      "lon": -90.60711
+    },
+    {
+      "name": "Cobán",
+      "population": 212047,
+      "lat": 15.47025,
+      "lon": -90.37455
+    },
+    {
+      "name": "Quetzaltenango",
+      "population": 180706,
+      "lat": 14.84462,
+      "lon": -91.52316
+    }
+  ],
+  "GIN": [
+    {
+      "name": "Conakry",
+      "population": 1928389,
+      "lat": 9.53795,
+      "lon": -13.67729
+    },
+    {
+      "name": "Nzérékoré",
+      "population": 226426,
+      "lat": 7.75624,
+      "lon": -8.8179
+    },
+    {
+      "name": "Kankan",
+      "population": 221428,
+      "lat": 10.38542,
+      "lon": -9.30568
+    },
+    {
+      "name": "Dubréka",
+      "population": 182296,
+      "lat": 9.79111,
+      "lon": -13.52333
+    },
+    {
+      "name": "Kindia",
+      "population": 161024,
+      "lat": 10.05692,
+      "lon": -12.86576
+    }
+  ],
+  "GNB": [
+    {
+      "name": "Bissau",
+      "population": 439704,
+      "lat": 11.86357,
+      "lon": -15.59767
+    },
+    {
+      "name": "Gabú",
+      "population": 49371,
+      "lat": 12.28,
+      "lon": -14.22222
+    },
+    {
+      "name": "Bafatá",
+      "population": 33502,
+      "lat": 12.16583,
+      "lon": -14.66167
+    },
+    {
+      "name": "Bolama",
+      "population": 10769,
+      "lat": 11.57694,
+      "lon": -15.47611
+    },
+    {
+      "name": "Cacheu",
+      "population": 10490,
+      "lat": 12.27444,
+      "lon": -16.16528
+    }
+  ],
+  "GUY": [
+    {
+      "name": "Georgetown",
+      "population": 235017,
+      "lat": 6.80448,
+      "lon": -58.15527
+    },
+    {
+      "name": "Linden",
+      "population": 44690,
+      "lat": 6.00815,
+      "lon": -58.30724
+    },
+    {
+      "name": "New Amsterdam",
+      "population": 35039,
+      "lat": 6.24924,
+      "lon": -57.51578
+    },
+    {
+      "name": "Anna Regina",
+      "population": 12448,
+      "lat": 7.26555,
+      "lon": -58.48265
+    },
+    {
+      "name": "Bartica",
+      "population": 11157,
+      "lat": 6.40539,
+      "lon": -58.62334
+    }
+  ],
+  "HTI": [
+    {
+      "name": "Port-au-Prince",
+      "population": 1234742,
+      "lat": 18.54349,
+      "lon": -72.33881
+    },
+    {
+      "name": "Port-de-Paix",
+      "population": 306217,
+      "lat": 19.93984,
+      "lon": -72.83037
+    },
+    {
+      "name": "Croix-des-Bouquets",
+      "population": 229127,
+      "lat": 18.57677,
+      "lon": -72.22625
+    },
+    {
+      "name": "Jacmel",
+      "population": 137966,
+      "lat": 18.23569,
+      "lon": -72.53686
+    },
+    {
+      "name": "Cap-Haïtien",
+      "population": 134815,
+      "lat": 19.75938,
+      "lon": -72.19815
+    }
+  ],
+  "HND": [
+    {
+      "name": "Tegucigalpa",
+      "population": 850848,
+      "lat": 14.0818,
+      "lon": -87.20681
+    },
+    {
+      "name": "San Pedro Sula",
+      "population": 801259,
+      "lat": 15.50585,
+      "lon": -88.02588
+    },
+    {
+      "name": "La Ceiba",
+      "population": 222055,
+      "lat": 15.75971,
+      "lon": -86.78221
+    },
+    {
+      "name": "Choloma",
+      "population": 139100,
+      "lat": 15.61444,
+      "lon": -87.95302
+    },
+    {
+      "name": "El Progreso",
+      "population": 100810,
+      "lat": 15.4,
+      "lon": -87.8
+    }
+  ],
+  "HUN": [
+    {
+      "name": "Budapest",
+      "population": 1741041,
+      "lat": 47.49835,
+      "lon": 19.04045
+    },
+    {
+      "name": "Debrecen",
+      "population": 202402,
+      "lat": 47.53167,
+      "lon": 21.62444
+    },
+    {
+      "name": "Szeged",
+      "population": 160766,
+      "lat": 46.253,
+      "lon": 20.14824
+    },
+    {
+      "name": "Miskolc",
+      "population": 154521,
+      "lat": 48.10327,
+      "lon": 20.77806
+    },
+    {
+      "name": "Pécs",
+      "population": 145347,
+      "lat": 46.07617,
+      "lon": 18.22814
+    }
+  ],
+  "ISL": [
+    {
+      "name": "Reykjavík",
+      "population": 118918,
+      "lat": 64.13548,
+      "lon": -21.89541
+    },
+    {
+      "name": "Akureyri",
+      "population": 19219,
+      "lat": 65.68353,
+      "lon": -18.0878
+    },
+    {
+      "name": "Keflavík",
+      "population": 15930,
+      "lat": 64.00492,
+      "lon": -22.56242
+    },
+    {
+      "name": "Selfoss",
+      "population": 9000,
+      "lat": 63.93311,
+      "lon": -20.99712
+    },
+    {
+      "name": "Akranes",
+      "population": 7411,
+      "lat": 64.32179,
+      "lon": -22.0749
+    }
+  ],
+  "IND": [
+    {
+      "name": "Mumbai",
+      "population": 12691836,
+      "lat": 19.07283,
+      "lon": 72.88261
+    },
+    {
+      "name": "Delhi",
+      "population": 11034555,
+      "lat": 28.65195,
+      "lon": 77.23149
+    },
+    {
+      "name": "Bengaluru",
+      "population": 8495492,
+      "lat": 12.97194,
+      "lon": 77.59369
+    },
+    {
+      "name": "Hyderabad",
+      "population": 6993262,
+      "lat": 17.38405,
+      "lon": 78.45636
+    },
+    {
+      "name": "Chennai",
+      "population": 4681087,
+      "lat": 13.08784,
+      "lon": 80.27847
+    },
+    {
+      "name": "Kolkata",
+      "population": 4631392,
+      "lat": 22.56263,
+      "lon": 88.36304
+    }
+  ],
+  "IDN": [
+    {
+      "name": "Jakarta",
+      "population": 8540121,
+      "lat": -6.21462,
+      "lon": 106.84513
+    },
+    {
+      "name": "Surabaya",
+      "population": 2874314,
+      "lat": -7.24917,
+      "lon": 112.75083
+    },
+    {
+      "name": "Bandung",
+      "population": 2444160,
+      "lat": -6.92222,
+      "lon": 107.60694
+    },
+    {
+      "name": "Medan",
+      "population": 2435252,
+      "lat": 3.58333,
+      "lon": 98.66667
+    },
+    {
+      "name": "Palembang",
+      "population": 1668848,
+      "lat": -2.91673,
+      "lon": 104.7458
+    }
+  ],
+  "IRN": [
+    {
+      "name": "Tehran",
+      "population": 7153309,
+      "lat": 35.69439,
+      "lon": 51.42151
+    },
+    {
+      "name": "Mashhad",
+      "population": 2307177,
+      "lat": 36.29807,
+      "lon": 59.60567
+    },
+    {
+      "name": "Isfahan",
+      "population": 1547164,
+      "lat": 32.65246,
+      "lon": 51.67462
+    },
+    {
+      "name": "Karaj",
+      "population": 1448075,
+      "lat": 35.83266,
+      "lon": 50.99155
+    },
+    {
+      "name": "Tabriz",
+      "population": 1424641,
+      "lat": 38.08,
+      "lon": 46.2919
+    }
+  ],
+  "IRQ": [
+    {
+      "name": "Baghdad",
+      "population": 7216000,
+      "lat": 33.34058,
+      "lon": 44.40088
+    },
+    {
+      "name": "Mosul",
+      "population": 1683000,
+      "lat": 36.335,
+      "lon": 43.11889
+    },
+    {
+      "name": "Erbil",
+      "population": 1612700,
+      "lat": 36.19117,
+      "lon": 44.00943
+    },
+    {
+      "name": "Basrah",
+      "population": 1326564,
+      "lat": 30.50852,
+      "lon": 47.7804
+    },
+    {
+      "name": "Karbala",
+      "population": 1218732,
+      "lat": 32.61603,
+      "lon": 44.02488
+    }
+  ],
+  "IRL": [
+    {
+      "name": "Dublin",
+      "population": 1024027,
+      "lat": 53.33306,
+      "lon": -6.24889
+    },
+    {
+      "name": "Cork",
+      "population": 190384,
+      "lat": 51.89797,
+      "lon": -8.47061
+    },
+    {
+      "name": "Limerick",
+      "population": 94192,
+      "lat": 52.66472,
+      "lon": -8.62306
+    },
+    {
+      "name": "Galway",
+      "population": 83456,
+      "lat": 53.27245,
+      "lon": -9.05095
+    },
+    {
+      "name": "Tallaght",
+      "population": 80339,
+      "lat": 53.2859,
+      "lon": -6.37344
+    }
+  ],
+  "ISR": [
+    {
+      "name": "Jerusalem",
+      "population": 971800,
+      "lat": 31.76904,
+      "lon": 35.21633
+    },
+    {
+      "name": "Tel Aviv",
+      "population": 432892,
+      "lat": 32.08088,
+      "lon": 34.78057
+    },
+    {
+      "name": "Haifa",
+      "population": 285316,
+      "lat": 32.81303,
+      "lon": 34.99928
+    },
+    {
+      "name": "Beersheba",
+      "population": 186600,
+      "lat": 31.25181,
+      "lon": 34.7913
+    },
+    {
+      "name": "Nazareth",
+      "population": 77445,
+      "lat": 32.70087,
+      "lon": 35.29719
+    }
+  ],
+  "ITA": [
+    {
+      "name": "Rome",
+      "population": 2318895,
+      "lat": 41.89193,
+      "lon": 12.51133
+    },
+    {
+      "name": "Milan",
+      "population": 1371498,
+      "lat": 45.46427,
+      "lon": 9.18951
+    },
+    {
+      "name": "Naples",
+      "population": 909048,
+      "lat": 40.85216,
+      "lon": 14.26811
+    },
+    {
+      "name": "Turin",
+      "population": 847287,
+      "lat": 45.07049,
+      "lon": 7.68682
+    },
+    {
+      "name": "Palermo",
+      "population": 648260,
+      "lat": 38.1166,
+      "lon": 13.3636
+    }
+  ],
+  "JAM": [
+    {
+      "name": "Kingston",
+      "population": 937700,
+      "lat": 17.99702,
+      "lon": -76.79358
+    },
+    {
+      "name": "Spanish Town",
+      "population": 145018,
+      "lat": 17.99107,
+      "lon": -76.95742
+    },
+    {
+      "name": "Montego Bay",
+      "population": 82867,
+      "lat": 18.47116,
+      "lon": -77.91883
+    },
+    {
+      "name": "Mandeville",
+      "population": 47115,
+      "lat": 18.04168,
+      "lon": -77.50714
+    },
+    {
+      "name": "May Pen",
+      "population": 44755,
+      "lat": 17.96454,
+      "lon": -77.24515
+    }
+  ],
+  "JPN": [
+    {
+      "name": "Tokyo",
+      "population": 9733276,
+      "lat": 35.6895,
+      "lon": 139.69171
+    },
+    {
+      "name": "Yokohama",
+      "population": 3777491,
+      "lat": 35.43333,
+      "lon": 139.65
+    },
+    {
+      "name": "Osaka",
+      "population": 2753862,
+      "lat": 34.69379,
+      "lon": 135.50107
+    },
+    {
+      "name": "Nagoya",
+      "population": 2332176,
+      "lat": 35.18147,
+      "lon": 136.90641
+    },
+    {
+      "name": "Sapporo",
+      "population": 1973832,
+      "lat": 43.06667,
+      "lon": 141.35
+    }
+  ],
+  "JOR": [
+    {
+      "name": "Amman",
+      "population": 1275857,
+      "lat": 31.95522,
+      "lon": 35.94503
+    },
+    {
+      "name": "Zarqa",
+      "population": 792665,
+      "lat": 32.07275,
+      "lon": 36.08796
+    },
+    {
+      "name": "Irbid",
+      "population": 569068,
+      "lat": 32.55556,
+      "lon": 35.85
+    },
+    {
+      "name": "Wādī as Sīr",
+      "population": 181212,
+      "lat": 31.9545,
+      "lon": 35.81831
+    },
+    {
+      "name": "Ar Ramthā",
+      "population": 155693,
+      "lat": 32.55873,
+      "lon": 36.00816
+    }
+  ],
+  "KAZ": [
+    {
+      "name": "Almaty",
+      "population": 1977011,
+      "lat": 43.25249,
+      "lon": 76.9115
+    },
+    {
+      "name": "Shymkent",
+      "population": 1200000,
+      "lat": 42.30988,
+      "lon": 69.60042
+    },
+    {
+      "name": "Aktobe",
+      "population": 500757,
+      "lat": 50.27969,
+      "lon": 57.20718
+    },
+    {
+      "name": "Karagandy",
+      "population": 497777,
+      "lat": 49.80187,
+      "lon": 73.10211
+    },
+    {
+      "name": "Taraz",
+      "population": 358153,
+      "lat": 42.89799,
+      "lon": 71.37334
+    }
+  ],
+  "KEN": [
+    {
+      "name": "Nairobi",
+      "population": 4397073,
+      "lat": -1.28333,
+      "lon": 36.81667
+    },
+    {
+      "name": "Kakamega",
+      "population": 1867579,
+      "lat": 0.28422,
+      "lon": 34.75229
+    },
+    {
+      "name": "Mombasa",
+      "population": 1208333,
+      "lat": -4.05466,
+      "lon": 39.66359
+    },
+    {
+      "name": "Nakuru",
+      "population": 570674,
+      "lat": -0.30719,
+      "lon": 36.07225
+    },
+    {
+      "name": "Eldoret",
+      "population": 475716,
+      "lat": 0.52036,
+      "lon": 35.26993
+    }
+  ],
+  "KIR": [
+    {
+      "name": "Tarawa",
+      "population": 40311,
+      "lat": 1.3278,
+      "lon": 172.97696
+    },
+    {
+      "name": "Napari Village",
+      "population": 194,
+      "lat": 3.90806,
+      "lon": -159.38832
+    },
+    {
+      "name": "Betio Village",
+      "population": 12509,
+      "lat": 1.35797,
+      "lon": 172.92105
+    },
+    {
+      "name": "Bikenibeu Village",
+      "population": 6170,
+      "lat": 1.3673,
+      "lon": 173.12415
+    },
+    {
+      "name": "Teaoraereke Village",
+      "population": 3939,
+      "lat": 1.33309,
+      "lon": 173.01162
+    }
+  ],
+  "UNK": [
+    {
+      "name": "Pristina",
+      "population": 550000,
+      "lat": 42.67272,
+      "lon": 21.16688
+    },
+    {
+      "name": "Prizren",
+      "population": 171464,
+      "lat": 42.21389,
+      "lon": 20.73972
+    },
+    {
+      "name": "Mitrovicë",
+      "population": 107045,
+      "lat": 42.88333,
+      "lon": 20.86667
+    },
+    {
+      "name": "Gjakovë",
+      "population": 94158,
+      "lat": 42.38028,
+      "lon": 20.43083
+    },
+    {
+      "name": "Suva Reka",
+      "population": 72229,
+      "lat": 42.35861,
+      "lon": 20.825
+    }
+  ],
+  "KWT": [
+    {
+      "name": "Al Aḩmadī",
+      "population": 637411,
+      "lat": 29.07694,
+      "lon": 48.08389
+    },
+    {
+      "name": "Ḩawallī",
+      "population": 164212,
+      "lat": 29.33278,
+      "lon": 48.02861
+    },
+    {
+      "name": "Al Farwānīyah",
+      "population": 86525,
+      "lat": 29.2775,
+      "lon": 47.95861
+    },
+    {
+      "name": "Kuwait City",
+      "population": 60064,
+      "lat": 29.367,
+      "lon": 47.97429
+    },
+    {
+      "name": "Al Jahrā’",
+      "population": 24281,
+      "lat": 29.3375,
+      "lon": 47.65806
+    }
+  ],
+  "KGZ": [
+    {
+      "name": "Bishkek",
+      "population": 900000,
+      "lat": 42.87,
+      "lon": 74.59
+    },
+    {
+      "name": "Osh",
+      "population": 322164,
+      "lat": 40.52828,
+      "lon": 72.7985
+    },
+    {
+      "name": "Manas",
+      "population": 123239,
+      "lat": 40.94498,
+      "lon": 72.99313
+    },
+    {
+      "name": "Karakol",
+      "population": 84351,
+      "lat": 42.49047,
+      "lon": 78.39197
+    },
+    {
+      "name": "Tokmok",
+      "population": 71443,
+      "lat": 42.84194,
+      "lon": 75.30149
+    }
+  ],
+  "LAO": [
+    {
+      "name": "Vientiane",
+      "population": 840940,
+      "lat": 17.96667,
+      "lon": 102.6
+    },
+    {
+      "name": "Savannakhet",
+      "population": 125760,
+      "lat": 16.5703,
+      "lon": 104.7622
+    },
+    {
+      "name": "Pakse",
+      "population": 88332,
+      "lat": 15.12022,
+      "lon": 105.79898
+    },
+    {
+      "name": "Thakhèk",
+      "population": 85000,
+      "lat": 17.41027,
+      "lon": 104.83068
+    },
+    {
+      "name": "Luang Prabang",
+      "population": 55027,
+      "lat": 19.8933,
+      "lon": 102.1525
+    }
+  ],
+  "LVA": [
+    {
+      "name": "Riga",
+      "population": 742572,
+      "lat": 56.946,
+      "lon": 24.10589
+    },
+    {
+      "name": "Daugavpils",
+      "population": 78126,
+      "lat": 55.88333,
+      "lon": 26.53333
+    },
+    {
+      "name": "Liepāja",
+      "population": 67421,
+      "lat": 56.50474,
+      "lon": 21.01085
+    },
+    {
+      "name": "Jelgava",
+      "population": 54834,
+      "lat": 56.65,
+      "lon": 23.71278
+    },
+    {
+      "name": "Jūrmala",
+      "population": 52001,
+      "lat": 56.968,
+      "lon": 23.77038
+    }
+  ],
+  "LBN": [
+    {
+      "name": "Beirut",
+      "population": 1916100,
+      "lat": 33.89332,
+      "lon": 35.50157
+    },
+    {
+      "name": "Tripoli",
+      "population": 229398,
+      "lat": 34.43352,
+      "lon": 35.84415
+    },
+    {
+      "name": "Sidon",
+      "population": 163554,
+      "lat": 33.55751,
+      "lon": 35.37148
+    },
+    {
+      "name": "Tyre",
+      "population": 135204,
+      "lat": 33.27333,
+      "lon": 35.19389
+    },
+    {
+      "name": "Aley",
+      "population": 130000,
+      "lat": 33.80528,
+      "lon": 35.6
+    }
+  ],
+  "LSO": [
+    {
+      "name": "Maseru",
+      "population": 359753,
+      "lat": -29.31667,
+      "lon": 27.48333
+    },
+    {
+      "name": "Mohale's Hoek",
+      "population": 46593,
+      "lat": -30.15137,
+      "lon": 27.47691
+    },
+    {
+      "name": "Mafeteng",
+      "population": 45287,
+      "lat": -29.82299,
+      "lon": 27.23744
+    },
+    {
+      "name": "Hlotse",
+      "population": 43967,
+      "lat": -28.87185,
+      "lon": 28.04501
+    },
+    {
+      "name": "Butha-Buthe",
+      "population": 40599,
+      "lat": -28.76659,
+      "lon": 28.24937
+    }
+  ],
+  "LBR": [
+    {
+      "name": "Monrovia",
+      "population": 1542549,
+      "lat": 6.30054,
+      "lon": -10.7969
+    },
+    {
+      "name": "Gbarnga",
+      "population": 86031,
+      "lat": 6.99543,
+      "lon": -9.47122
+    },
+    {
+      "name": "Buchanan",
+      "population": 75854,
+      "lat": 5.87693,
+      "lon": -10.04964
+    },
+    {
+      "name": "Kakata",
+      "population": 52247,
+      "lat": 6.53104,
+      "lon": -10.35368
+    },
+    {
+      "name": "Zwedru",
+      "population": 38269,
+      "lat": 6.06846,
+      "lon": -8.13559
+    }
+  ],
+  "LBY": [
+    {
+      "name": "Tripoli",
+      "population": 1302947,
+      "lat": 32.88743,
+      "lon": 13.18733
+    },
+    {
+      "name": "Benghazi",
+      "population": 757490,
+      "lat": 32.11486,
+      "lon": 20.06859
+    },
+    {
+      "name": "Misratah",
+      "population": 355657,
+      "lat": 32.37535,
+      "lon": 15.09254
+    },
+    {
+      "name": "Al Khums",
+      "population": 201943,
+      "lat": 32.64861,
+      "lon": 14.26191
+    },
+    {
+      "name": "Az Zāwīyah",
+      "population": 200000,
+      "lat": 32.7571,
+      "lon": 12.72764
+    }
+  ],
+  "LIE": [
+    {
+      "name": "Schaan",
+      "population": 5998,
+      "lat": 47.16498,
+      "lon": 9.50867
+    },
+    {
+      "name": "Triesen",
+      "population": 5230,
+      "lat": 47.10752,
+      "lon": 9.52815
+    },
+    {
+      "name": "Vaduz",
+      "population": 5197,
+      "lat": 47.14151,
+      "lon": 9.52154
+    },
+    {
+      "name": "Balzers",
+      "population": 4628,
+      "lat": 47.06661,
+      "lon": 9.50355
+    },
+    {
+      "name": "Eschen",
+      "population": 4459,
+      "lat": 47.21071,
+      "lon": 9.52223
+    }
+  ],
+  "LTU": [
+    {
+      "name": "Vilnius",
+      "population": 542366,
+      "lat": 54.68916,
+      "lon": 25.2798
+    },
+    {
+      "name": "Kaunas",
+      "population": 289380,
+      "lat": 54.90156,
+      "lon": 23.90909
+    },
+    {
+      "name": "Klaipėda",
+      "population": 172292,
+      "lat": 55.7068,
+      "lon": 21.13912
+    },
+    {
+      "name": "Šiauliai",
+      "population": 99462,
+      "lat": 55.93333,
+      "lon": 23.31667
+    },
+    {
+      "name": "Panevėžys",
+      "population": 85885,
+      "lat": 55.73186,
+      "lon": 24.35983
+    }
+  ],
+  "LUX": [
+    {
+      "name": "Luxembourg",
+      "population": 76684,
+      "lat": 49.60982,
+      "lon": 6.13268
+    },
+    {
+      "name": "Esch-sur-Alzette",
+      "population": 36625,
+      "lat": 49.49583,
+      "lon": 5.98056
+    },
+    {
+      "name": "Dudelange",
+      "population": 18013,
+      "lat": 49.48056,
+      "lon": 6.0875
+    },
+    {
+      "name": "Schifflange",
+      "population": 8155,
+      "lat": 49.50639,
+      "lon": 6.01278
+    },
+    {
+      "name": "Walferdange",
+      "population": 7819,
+      "lat": 49.66321,
+      "lon": 6.13224
+    }
+  ],
+  "MDG": [
+    {
+      "name": "Antananarivo",
+      "population": 1349501,
+      "lat": -18.91368,
+      "lon": 47.53613
+    },
+    {
+      "name": "Toamasina",
+      "population": 345107,
+      "lat": -18.1492,
+      "lon": 49.40234
+    },
+    {
+      "name": "Antsirabe",
+      "population": 260907,
+      "lat": -19.86586,
+      "lon": 47.03333
+    },
+    {
+      "name": "Mahajanga",
+      "population": 260556,
+      "lat": -15.71667,
+      "lon": 46.31667
+    },
+    {
+      "name": "Fianarantsoa",
+      "population": 203105,
+      "lat": -21.45267,
+      "lon": 47.08569
+    }
+  ],
+  "MWI": [
+    {
+      "name": "Lilongwe",
+      "population": 1115815,
+      "lat": -13.96692,
+      "lon": 33.78725
+    },
+    {
+      "name": "Blantyre",
+      "population": 902588,
+      "lat": -15.78499,
+      "lon": 35.00854
+    },
+    {
+      "name": "Mzuzu",
+      "population": 249564,
+      "lat": -11.46556,
+      "lon": 34.02071
+    },
+    {
+      "name": "Zomba",
+      "population": 118440,
+      "lat": -15.38596,
+      "lon": 35.3188
+    },
+    {
+      "name": "Karonga",
+      "population": 69486,
+      "lat": -9.93333,
+      "lon": 33.93333
+    }
+  ],
+  "MYS": [
+    {
+      "name": "Kuala Lumpur",
+      "population": 1453975,
+      "lat": 3.1412,
+      "lon": 101.68653
+    },
+    {
+      "name": "Johor Bahru",
+      "population": 858118,
+      "lat": 1.4655,
+      "lon": 103.7578
+    },
+    {
+      "name": "Petaling Jaya",
+      "population": 807879,
+      "lat": 3.10726,
+      "lon": 101.60671
+    },
+    {
+      "name": "Ipoh",
+      "population": 759952,
+      "lat": 4.5841,
+      "lon": 101.0829
+    },
+    {
+      "name": "Malacca",
+      "population": 579000,
+      "lat": 2.196,
+      "lon": 102.2405
+    }
+  ],
+  "MDV": [
+    {
+      "name": "Male",
+      "population": 103693,
+      "lat": 4.17521,
+      "lon": 73.50916
+    },
+    {
+      "name": "Fuvahmulah",
+      "population": 11140,
+      "lat": -0.29878,
+      "lon": 73.42403
+    },
+    {
+      "name": "Hithadhoo",
+      "population": 9927,
+      "lat": -0.6,
+      "lon": 73.08333
+    },
+    {
+      "name": "Kulhudhuffushi",
+      "population": 9500,
+      "lat": 6.62207,
+      "lon": 73.06998
+    },
+    {
+      "name": "Thinadhoo",
+      "population": 6376,
+      "lat": 0.5306,
+      "lon": 72.99969
+    }
+  ],
+  "MLI": [
+    {
+      "name": "Bamako",
+      "population": 4227569,
+      "lat": 12.60915,
+      "lon": -7.97522
+    },
+    {
+      "name": "Sikasso",
+      "population": 349324,
+      "lat": 11.31755,
+      "lon": -5.66654
+    },
+    {
+      "name": "Koutiala",
+      "population": 218031,
+      "lat": 12.38723,
+      "lon": -5.46507
+    },
+    {
+      "name": "Ségou",
+      "population": 205787,
+      "lat": 13.44032,
+      "lon": -6.25947
+    },
+    {
+      "name": "Kayes",
+      "population": 194716,
+      "lat": 14.44776,
+      "lon": -11.44393
+    }
+  ],
+  "MLT": [
+    {
+      "name": "San Pawl il-Baħar",
+      "population": 32042,
+      "lat": 35.95064,
+      "lon": 14.41561
+    },
+    {
+      "name": "Birkirkara",
+      "population": 24356,
+      "lat": 35.89706,
+      "lon": 14.46115
+    },
+    {
+      "name": "Mosta",
+      "population": 23482,
+      "lat": 35.90942,
+      "lon": 14.42566
+    },
+    {
+      "name": "Sliema",
+      "population": 22591,
+      "lat": 35.91247,
+      "lon": 14.50175
+    },
+    {
+      "name": "Qormi",
+      "population": 16801,
+      "lat": 35.87601,
+      "lon": 14.472
+    }
+  ],
+  "MHL": [
+    {
+      "name": "Majuro",
+      "population": 25400,
+      "lat": 7.08971,
+      "lon": 171.38027
+    },
+    {
+      "name": "Ebaye",
+      "population": 15000,
+      "lat": 8.77479,
+      "lon": 167.73919
+    },
+    {
+      "name": "Arno",
+      "population": 2068,
+      "lat": 7.06691,
+      "lon": 171.55413
+    },
+    {
+      "name": "Jabor",
+      "population": 1200,
+      "lat": 5.92098,
+      "lon": 169.64335
+    },
+    {
+      "name": "Wotje",
+      "population": 880,
+      "lat": 9.45429,
+      "lon": 170.23674
+    }
+  ],
+  "MRT": [
+    {
+      "name": "Nouakchott",
+      "population": 1184530,
+      "lat": 18.08581,
+      "lon": -15.9785
+    },
+    {
+      "name": "Nouadhibou",
+      "population": 146048,
+      "lat": 20.94188,
+      "lon": -17.03842
+    },
+    {
+      "name": "Kiffa",
+      "population": 62051,
+      "lat": 16.62073,
+      "lon": -11.40208
+    },
+    {
+      "name": "Dar Naim",
+      "population": 61089,
+      "lat": 18.10808,
+      "lon": -15.92666
+    },
+    {
+      "name": "Néma",
+      "population": 60000,
+      "lat": 16.61702,
+      "lon": -7.25649
+    }
+  ],
+  "MUS": [
+    {
+      "name": "Port Louis",
+      "population": 155226,
+      "lat": -20.16194,
+      "lon": 57.49889
+    },
+    {
+      "name": "Beau Bassin-Rose Hill",
+      "population": 111355,
+      "lat": -20.23325,
+      "lon": 57.46609
+    },
+    {
+      "name": "Centre de Flacq",
+      "population": 17710,
+      "lat": -20.18972,
+      "lon": 57.71444
+    },
+    {
+      "name": "Rose Belle",
+      "population": 12619,
+      "lat": -20.40028,
+      "lon": 57.59667
+    },
+    {
+      "name": "Rivière du Rempart",
+      "population": 10825,
+      "lat": -20.10306,
+      "lon": 57.68472
+    }
+  ],
+  "MEX": [
+    {
+      "name": "Mexico City",
+      "population": 12294193,
+      "lat": 19.42847,
+      "lon": -99.12766
+    },
+    {
+      "name": "Tijuana",
+      "population": 1922523,
+      "lat": 32.5027,
+      "lon": -117.00371
+    },
+    {
+      "name": "Puebla",
+      "population": 1692181,
+      "lat": 19.04778,
+      "lon": -98.20723
+    },
+    {
+      "name": "Ecatepec de Morelos",
+      "population": 1645352,
+      "lat": 19.60492,
+      "lon": -99.06064
+    },
+    {
+      "name": "Santiago de Querétaro",
+      "population": 1594212,
+      "lat": 20.58806,
+      "lon": -100.38806
+    }
+  ],
+  "FSM": [
+    {
+      "name": "Weno",
+      "population": 13856,
+      "lat": 7.44648,
+      "lon": 151.84135
+    },
+    {
+      "name": "Tofol",
+      "population": 9686,
+      "lat": 5.32479,
+      "lon": 163.00781
+    },
+    {
+      "name": "Colonia",
+      "population": 7371,
+      "lat": 9.51638,
+      "lon": 138.12167
+    },
+    {
+      "name": "Palikir",
+      "population": 6942,
+      "lat": 6.92477,
+      "lon": 158.16109
+    },
+    {
+      "name": "Kolonia",
+      "population": 6074,
+      "lat": 6.964,
+      "lon": 158.2062
+    }
+  ],
+  "MDA": [
+    {
+      "name": "Chisinau",
+      "population": 635994,
+      "lat": 47.00902,
+      "lon": 28.85938
+    },
+    {
+      "name": "Tiraspol",
+      "population": 157000,
+      "lat": 46.84275,
+      "lon": 29.6284
+    },
+    {
+      "name": "Bălţi",
+      "population": 125000,
+      "lat": 47.76291,
+      "lon": 27.92854
+    },
+    {
+      "name": "Bender",
+      "population": 110175,
+      "lat": 46.83158,
+      "lon": 29.47671
+    },
+    {
+      "name": "Cahul",
+      "population": 34492,
+      "lat": 45.90456,
+      "lon": 28.19516
+    }
+  ],
+  "MCO": [
+    {
+      "name": "Monaco",
+      "population": 32965,
+      "lat": 43.73718,
+      "lon": 7.42145
+    }
+  ],
+  "MNG": [
+    {
+      "name": "Ulan Bator",
+      "population": 844818,
+      "lat": 47.90771,
+      "lon": 106.88324
+    },
+    {
+      "name": "Erdenet",
+      "population": 97814,
+      "lat": 49.03333,
+      "lon": 104.08333
+    },
+    {
+      "name": "Darhan",
+      "population": 83883,
+      "lat": 49.48667,
+      "lon": 105.92278
+    },
+    {
+      "name": "Choibalsan",
+      "population": 44835,
+      "lat": 48.07257,
+      "lon": 114.53264
+    },
+    {
+      "name": "Mörön",
+      "population": 39404,
+      "lat": 49.63417,
+      "lon": 100.1625
+    }
+  ],
+  "MNE": [
+    {
+      "name": "Podgorica",
+      "population": 236852,
+      "lat": 42.44124,
+      "lon": 19.26309
+    },
+    {
+      "name": "Nikšić",
+      "population": 58212,
+      "lat": 42.7731,
+      "lon": 18.94446
+    },
+    {
+      "name": "Herceg Novi",
+      "population": 19536,
+      "lat": 42.45306,
+      "lon": 18.5375
+    },
+    {
+      "name": "Pljevlja",
+      "population": 19489,
+      "lat": 43.3567,
+      "lon": 19.35843
+    },
+    {
+      "name": "Budva",
+      "population": 18000,
+      "lat": 42.28721,
+      "lon": 18.83922
+    }
+  ],
+  "MAR": [
+    {
+      "name": "Casablanca",
+      "population": 3665954,
+      "lat": 33.58831,
+      "lon": -7.61138
+    },
+    {
+      "name": "Rabat",
+      "population": 1655753,
+      "lat": 34.01325,
+      "lon": -6.83255
+    },
+    {
+      "name": "Fes",
+      "population": 1191905,
+      "lat": 34.03313,
+      "lon": -5.00028
+    },
+    {
+      "name": "Tangier",
+      "population": 1035141,
+      "lat": 35.76727,
+      "lon": -5.79975
+    },
+    {
+      "name": "Marrakesh",
+      "population": 995871,
+      "lat": 31.63416,
+      "lon": -7.99994
+    }
+  ],
+  "MOZ": [
+    {
+      "name": "Maputo",
+      "population": 1254837,
+      "lat": -25.96553,
+      "lon": 32.58322
+    },
+    {
+      "name": "Matola",
+      "population": 1198988,
+      "lat": -25.96222,
+      "lon": 32.45889
+    },
+    {
+      "name": "Nampula",
+      "population": 770379,
+      "lat": -15.11646,
+      "lon": 39.2666
+    },
+    {
+      "name": "Beira",
+      "population": 687764,
+      "lat": -19.84361,
+      "lon": 34.83889
+    },
+    {
+      "name": "Chimoio",
+      "population": 422046,
+      "lat": -19.11639,
+      "lon": 33.48333
+    }
+  ],
+  "MMR": [
+    {
+      "name": "Yangon",
+      "population": 4477638,
+      "lat": 16.80528,
+      "lon": 96.15611
+    },
+    {
+      "name": "Mandalay",
+      "population": 1208099,
+      "lat": 21.97473,
+      "lon": 96.08359
+    },
+    {
+      "name": "Nay Pyi Taw",
+      "population": 925000,
+      "lat": 19.745,
+      "lon": 96.12972
+    },
+    {
+      "name": "Mawlamyine",
+      "population": 438861,
+      "lat": 16.49051,
+      "lon": 97.62825
+    },
+    {
+      "name": "Bago",
+      "population": 244376,
+      "lat": 17.33521,
+      "lon": 96.48135
+    }
+  ],
+  "NAM": [
+    {
+      "name": "Windhoek",
+      "population": 386219,
+      "lat": -22.55941,
+      "lon": 17.08323
+    },
+    {
+      "name": "Rundu",
+      "population": 75180,
+      "lat": -17.91796,
+      "lon": 19.77314
+    },
+    {
+      "name": "Swakopmund",
+      "population": 53009,
+      "lat": -22.67842,
+      "lon": 14.52663
+    },
+    {
+      "name": "Oshakati",
+      "population": 43309,
+      "lat": -17.78833,
+      "lon": 15.70436
+    },
+    {
+      "name": "Katima Mulilo",
+      "population": 33615,
+      "lat": -17.50467,
+      "lon": 24.27574
+    }
+  ],
+  "NRU": [
+    {
+      "name": "Yangor",
+      "population": 1258,
+      "lat": -0.53536,
+      "lon": 166.91048
+    },
+    {
+      "name": "Yaren",
+      "population": 1100,
+      "lat": -0.55085,
+      "lon": 166.9252
+    },
+    {
+      "name": "Baiti",
+      "population": 810,
+      "lat": -0.50803,
+      "lon": 166.92945
+    },
+    {
+      "name": "Anabar",
+      "population": 378,
+      "lat": -0.50845,
+      "lon": 166.95326
+    },
+    {
+      "name": "Anibare",
+      "population": 373,
+      "lat": -0.52792,
+      "lon": 166.95249
+    }
+  ],
+  "NPL": [
+    {
+      "name": "Kathmandu",
+      "population": 1442271,
+      "lat": 27.70169,
+      "lon": 85.3206
+    },
+    {
+      "name": "Pokhara",
+      "population": 600051,
+      "lat": 28.26689,
+      "lon": 83.96851
+    },
+    {
+      "name": "Janakpur",
+      "population": 195438,
+      "lat": 26.72882,
+      "lon": 85.92628
+    },
+    {
+      "name": "Butwāl",
+      "population": 195054,
+      "lat": 27.70055,
+      "lon": 83.44836
+    },
+    {
+      "name": "Birendranagar",
+      "population": 154886,
+      "lat": 28.59669,
+      "lon": 81.61658
+    }
+  ],
+  "NLD": [
+    {
+      "name": "Amsterdam",
+      "population": 741636,
+      "lat": 52.37403,
+      "lon": 4.88969
+    },
+    {
+      "name": "The Hague",
+      "population": 474292,
+      "lat": 52.07667,
+      "lon": 4.29861
+    },
+    {
+      "name": "Utrecht",
+      "population": 376435,
+      "lat": 52.09083,
+      "lon": 5.12222
+    },
+    {
+      "name": "Groningen",
+      "population": 244807,
+      "lat": 53.21917,
+      "lon": 6.56667
+    },
+    {
+      "name": "Haarlem",
+      "population": 162543,
+      "lat": 52.38084,
+      "lon": 4.63683
+    }
+  ],
+  "NZL": [
+    {
+      "name": "Auckland",
+      "population": 1530500,
+      "lat": -36.84853,
+      "lon": 174.76349
+    },
+    {
+      "name": "Christchurch",
+      "population": 412000,
+      "lat": -43.53333,
+      "lon": 172.63333
+    },
+    {
+      "name": "Wellington",
+      "population": 381900,
+      "lat": -41.28664,
+      "lon": 174.77557
+    },
+    {
+      "name": "Hamilton",
+      "population": 189700,
+      "lat": -37.78333,
+      "lon": 175.28333
+    },
+    {
+      "name": "Tauranga",
+      "population": 155200,
+      "lat": -37.68611,
+      "lon": 176.16667
+    }
+  ],
+  "NIC": [
+    {
+      "name": "Managua",
+      "population": 973087,
+      "lat": 12.13282,
+      "lon": -86.2504
+    },
+    {
+      "name": "León",
+      "population": 144538,
+      "lat": 12.43527,
+      "lon": -86.87862
+    },
+    {
+      "name": "Masaya",
+      "population": 130113,
+      "lat": 11.97316,
+      "lon": -86.09587
+    },
+    {
+      "name": "Chinandega",
+      "population": 126387,
+      "lat": 12.62951,
+      "lon": -87.13133
+    },
+    {
+      "name": "Matagalpa",
+      "population": 109089,
+      "lat": 12.92795,
+      "lon": -85.91906
+    }
+  ],
+  "NER": [
+    {
+      "name": "Niamey",
+      "population": 1323691,
+      "lat": 13.51366,
+      "lon": 2.1098
+    },
+    {
+      "name": "Maradi",
+      "population": 361702,
+      "lat": 13.5,
+      "lon": 7.10174
+    },
+    {
+      "name": "Zinder",
+      "population": 318874,
+      "lat": 13.80716,
+      "lon": 8.9881
+    },
+    {
+      "name": "Tahoua",
+      "population": 159468,
+      "lat": 14.8888,
+      "lon": 5.2692
+    },
+    {
+      "name": "Agadez",
+      "population": 149549,
+      "lat": 16.97333,
+      "lon": 7.99111
+    }
+  ],
+  "NGA": [
+    {
+      "name": "Lagos",
+      "population": 15388000,
+      "lat": 6.45407,
+      "lon": 3.39467
+    },
+    {
+      "name": "Kano",
+      "population": 4910000,
+      "lat": 12.00012,
+      "lon": 8.51672
+    },
+    {
+      "name": "Ibadan",
+      "population": 3649000,
+      "lat": 7.37756,
+      "lon": 3.90591
+    },
+    {
+      "name": "Abuja",
+      "population": 2690000,
+      "lat": 9.05785,
+      "lon": 7.49508
+    },
+    {
+      "name": "Port Harcourt",
+      "population": 2120000,
+      "lat": 4.77742,
+      "lon": 7.0134
+    }
+  ],
+  "PRK": [
+    {
+      "name": "Pyongyang",
+      "population": 3222000,
+      "lat": 39.03385,
+      "lon": 125.75432
+    },
+    {
+      "name": "Hamhŭng",
+      "population": 559056,
+      "lat": 39.91833,
+      "lon": 127.53639
+    },
+    {
+      "name": "Namp’o",
+      "population": 455000,
+      "lat": 38.7375,
+      "lon": 125.40778
+    },
+    {
+      "name": "Sunch’ŏn",
+      "population": 437000,
+      "lat": 39.43167,
+      "lon": 125.93278
+    },
+    {
+      "name": "Kaesŏng",
+      "population": 338155,
+      "lat": 37.97083,
+      "lon": 126.55444
+    }
+  ],
+  "MKD": [
+    {
+      "name": "Skopje",
+      "population": 474889,
+      "lat": 41.99646,
+      "lon": 21.43141
+    },
+    {
+      "name": "Kumanovo",
+      "population": 75051,
+      "lat": 42.13279,
+      "lon": 21.71585
+    },
+    {
+      "name": "Prilep",
+      "population": 73814,
+      "lat": 41.34558,
+      "lon": 21.5537
+    },
+    {
+      "name": "Bitola",
+      "population": 69287,
+      "lat": 41.03226,
+      "lon": 21.33553
+    },
+    {
+      "name": "Čair",
+      "population": 64773,
+      "lat": 42.01528,
+      "lon": 21.44111
+    }
+  ],
+  "NOR": [
+    {
+      "name": "Oslo",
+      "population": 1082575,
+      "lat": 59.91273,
+      "lon": 10.74609
+    },
+    {
+      "name": "Bergen",
+      "population": 294029,
+      "lat": 60.39299,
+      "lon": 5.32415
+    },
+    {
+      "name": "Stavanger",
+      "population": 148682,
+      "lat": 58.97005,
+      "lon": 5.73332
+    },
+    {
+      "name": "Kristiansand",
+      "population": 117237,
+      "lat": 58.14671,
+      "lon": 7.9956
+    },
+    {
+      "name": "Drammen",
+      "population": 105042,
+      "lat": 59.74389,
+      "lon": 10.20449
+    }
+  ],
+  "OMN": [
+    {
+      "name": "Muscat",
+      "population": 797000,
+      "lat": 23.58413,
+      "lon": 58.40778
+    },
+    {
+      "name": "Şalālah",
+      "population": 163140,
+      "lat": 17.01505,
+      "lon": 54.09237
+    },
+    {
+      "name": "Sohar",
+      "population": 108274,
+      "lat": 24.34745,
+      "lon": 56.70937
+    },
+    {
+      "name": "Al Buraymī",
+      "population": 73670,
+      "lat": 24.25088,
+      "lon": 55.79312
+    },
+    {
+      "name": "Nizwá",
+      "population": 72076,
+      "lat": 22.93333,
+      "lon": 57.53333
+    }
+  ],
+  "PAK": [
+    {
+      "name": "Lahore",
+      "population": 13004135,
+      "lat": 31.558,
+      "lon": 74.35071
+    },
+    {
+      "name": "Karachi",
+      "population": 11624219,
+      "lat": 24.8608,
+      "lon": 67.0104
+    },
+    {
+      "name": "Peshawar",
+      "population": 4758762,
+      "lat": 34.008,
+      "lon": 71.57849
+    },
+    {
+      "name": "Faisalabad",
+      "population": 3800193,
+      "lat": 31.41554,
+      "lon": 73.08969
+    },
+    {
+      "name": "Rawalpindi",
+      "population": 3357612,
+      "lat": 33.59733,
+      "lon": 73.0479
+    }
+  ],
+  "PLW": [
+    {
+      "name": "Koror",
+      "population": 14000,
+      "lat": 7.33978,
+      "lon": 134.47326
+    },
+    {
+      "name": "Kloulklubed",
+      "population": 702,
+      "lat": 7.04192,
+      "lon": 134.25561
+    },
+    {
+      "name": "Ulimang",
+      "population": 581,
+      "lat": 7.62416,
+      "lon": 134.64208
+    },
+    {
+      "name": "Mengellang",
+      "population": 488,
+      "lat": 7.6957,
+      "lon": 134.63054
+    },
+    {
+      "name": "Ngchesar Hamlet",
+      "population": 300,
+      "lat": 7.46932,
+      "lon": 134.60991
+    }
+  ],
+  "PAN": [
+    {
+      "name": "Panamá",
+      "population": 408168,
+      "lat": 8.9936,
+      "lon": -79.51973
+    },
+    {
+      "name": "San Miguelito",
+      "population": 321501,
+      "lat": 9.05032,
+      "lon": -79.47068
+    },
+    {
+      "name": "David",
+      "population": 81957,
+      "lat": 8.42729,
+      "lon": -82.43085
+    },
+    {
+      "name": "Arraiján",
+      "population": 76815,
+      "lat": 8.9398,
+      "lon": -79.64038
+    },
+    {
+      "name": "Colón",
+      "population": 76643,
+      "lat": 9.36025,
+      "lon": -79.90019
+    }
+  ],
+  "PNG": [
+    {
+      "name": "Port Moresby",
+      "population": 283733,
+      "lat": -9.47723,
+      "lon": 147.15089
+    },
+    {
+      "name": "Lae",
+      "population": 76255,
+      "lat": -6.72333,
+      "lon": 146.99611
+    },
+    {
+      "name": "Arawa",
+      "population": 40266,
+      "lat": -6.22977,
+      "lon": 155.56598
+    },
+    {
+      "name": "Mount Hagen",
+      "population": 33623,
+      "lat": -5.85746,
+      "lon": 144.23058
+    },
+    {
+      "name": "Popondetta",
+      "population": 28198,
+      "lat": -8.76536,
+      "lon": 148.23252
+    }
+  ],
+  "PRY": [
+    {
+      "name": "Asunción",
+      "population": 1482200,
+      "lat": -25.28646,
+      "lon": -57.647
+    },
+    {
+      "name": "Ciudad del Este",
+      "population": 301815,
+      "lat": -25.5036,
+      "lon": -54.65067
+    },
+    {
+      "name": "Pedro Juan Caballero",
+      "population": 75109,
+      "lat": -22.54925,
+      "lon": -55.7387
+    },
+    {
+      "name": "Encarnación",
+      "population": 74983,
+      "lat": -27.33176,
+      "lon": -55.86662
+    },
+    {
+      "name": "Villa Hayes",
+      "population": 57217,
+      "lat": -25.093,
+      "lon": -57.52725
+    }
+  ],
+  "PER": [
+    {
+      "name": "Lima",
+      "population": 7737002,
+      "lat": -12.04318,
+      "lon": -77.02824
+    },
+    {
+      "name": "Callao",
+      "population": 1300000,
+      "lat": -12.05162,
+      "lon": -77.13452
+    },
+    {
+      "name": "Arequipa",
+      "population": 1008290,
+      "lat": -16.39899,
+      "lon": -71.53747
+    },
+    {
+      "name": "Trujillo",
+      "population": 919899,
+      "lat": -8.11599,
+      "lon": -79.02998
+    },
+    {
+      "name": "Chiclayo",
+      "population": 552508,
+      "lat": -6.77008,
+      "lon": -79.85495
+    }
+  ],
+  "PHL": [
+    {
+      "name": "Quezon City",
+      "population": 3084270,
+      "lat": 14.6488,
+      "lon": 121.0509
+    },
+    {
+      "name": "Davao",
+      "population": 1848947,
+      "lat": 7.07306,
+      "lon": 125.61278
+    },
+    {
+      "name": "Caloocan",
+      "population": 1712945,
+      "lat": 14.64953,
+      "lon": 120.96788
+    },
+    {
+      "name": "Manila",
+      "population": 1600000,
+      "lat": 14.6042,
+      "lon": 120.9822
+    },
+    {
+      "name": "Taguig",
+      "population": 1308085,
+      "lat": 14.5243,
+      "lon": 121.0792
+    }
+  ],
+  "POL": [
+    {
+      "name": "Warsaw",
+      "population": 1702139,
+      "lat": 52.22977,
+      "lon": 21.01178
+    },
+    {
+      "name": "Kraków",
+      "population": 804237,
+      "lat": 50.06143,
+      "lon": 19.93658
+    },
+    {
+      "name": "Wrocław",
+      "population": 672545,
+      "lat": 51.10286,
+      "lon": 17.03006
+    },
+    {
+      "name": "Łódź",
+      "population": 645693,
+      "lat": 51.77058,
+      "lon": 19.47395
+    },
+    {
+      "name": "Poznań",
+      "population": 536151,
+      "lat": 52.40692,
+      "lon": 16.92993
+    }
+  ],
+  "PRT": [
+    {
+      "name": "Lisbon",
+      "population": 517802,
+      "lat": 38.72509,
+      "lon": -9.1498
+    },
+    {
+      "name": "Porto",
+      "population": 252687,
+      "lat": 41.1485,
+      "lon": -8.61097
+    },
+    {
+      "name": "Braga",
+      "population": 193324,
+      "lat": 41.5514,
+      "lon": -8.42311
+    },
+    {
+      "name": "Coimbra",
+      "population": 140796,
+      "lat": 40.20686,
+      "lon": -8.41996
+    },
+    {
+      "name": "Leiria",
+      "population": 128640,
+      "lat": 39.74362,
+      "lon": -8.80705
+    }
+  ],
+  "QAT": [
+    {
+      "name": "Doha",
+      "population": 344939,
+      "lat": 25.28545,
+      "lon": 51.53096
+    },
+    {
+      "name": "Ar Rayyān",
+      "population": 272465,
+      "lat": 25.29194,
+      "lon": 51.42444
+    },
+    {
+      "name": "Az̧ Z̧a‘āyin",
+      "population": 54339,
+      "lat": 25.57744,
+      "lon": 51.48306
+    },
+    {
+      "name": "Al Wakrah",
+      "population": 26436,
+      "lat": 25.17151,
+      "lon": 51.60337
+    },
+    {
+      "name": "Al Khawr",
+      "population": 18923,
+      "lat": 25.68389,
+      "lon": 51.50583
+    }
+  ],
+  "ROU": [
+    {
+      "name": "Bucharest",
+      "population": 1877155,
+      "lat": 44.43225,
+      "lon": 26.10626
+    },
+    {
+      "name": "Iaşi",
+      "population": 378954,
+      "lat": 47.16667,
+      "lon": 27.6
+    },
+    {
+      "name": "Constanţa",
+      "population": 317832,
+      "lat": 44.18073,
+      "lon": 28.63432
+    },
+    {
+      "name": "Cluj-Napoca",
+      "population": 286598,
+      "lat": 46.76667,
+      "lon": 23.6
+    },
+    {
+      "name": "Braşov",
+      "population": 253200,
+      "lat": 45.64861,
+      "lon": 25.60613
+    }
+  ],
+  "RUS": [
+    {
+      "name": "Moscow",
+      "population": 10381222,
+      "lat": 55.75204,
+      "lon": 37.61781
+    },
+    {
+      "name": "Saint Petersburg",
+      "population": 5351935,
+      "lat": 59.93863,
+      "lon": 30.31413
+    },
+    {
+      "name": "Novosibirsk",
+      "population": 1612833,
+      "lat": 55.02259,
+      "lon": 82.93175
+    },
+    {
+      "name": "Yekaterinburg",
+      "population": 1495066,
+      "lat": 56.85733,
+      "lon": 60.61529
+    },
+    {
+      "name": "Kazan",
+      "population": 1318804,
+      "lat": 55.78874,
+      "lon": 49.12214
+    },
+    {
+      "name": "Nizhniy Novgorod",
+      "population": 1259013,
+      "lat": 56.32867,
+      "lon": 44.00205
+    }
+  ],
+  "RWA": [
+    {
+      "name": "Kigali",
+      "population": 1132686,
+      "lat": -1.94995,
+      "lon": 30.05885
+    },
+    {
+      "name": "Gisenyi",
+      "population": 172357,
+      "lat": -1.70278,
+      "lon": 29.25639
+    },
+    {
+      "name": "Gitarama",
+      "population": 87613,
+      "lat": -2.07444,
+      "lon": 29.75667
+    },
+    {
+      "name": "Kibuye",
+      "population": 48024,
+      "lat": -2.06028,
+      "lon": 29.34778
+    },
+    {
+      "name": "Rwamagana",
+      "population": 47203,
+      "lat": -1.9487,
+      "lon": 30.4347
+    }
+  ],
+  "KNA": [
+    {
+      "name": "Basseterre",
+      "population": 12920,
+      "lat": 17.2955,
+      "lon": -62.72499
+    },
+    {
+      "name": "Sandy Point Town",
+      "population": 3140,
+      "lat": 17.35908,
+      "lon": -62.84858
+    },
+    {
+      "name": "Fig Tree",
+      "population": 2922,
+      "lat": 17.12623,
+      "lon": -62.60265
+    },
+    {
+      "name": "Market Shop",
+      "population": 2568,
+      "lat": 17.13218,
+      "lon": -62.57267
+    },
+    {
+      "name": "Saint Paul’s",
+      "population": 2460,
+      "lat": 17.40605,
+      "lon": -62.83562
+    }
+  ],
+  "LCA": [
+    {
+      "name": "Gros Islet",
+      "population": 25210,
+      "lat": 14.06667,
+      "lon": -60.95
+    },
+    {
+      "name": "Castries",
+      "population": 20000,
+      "lat": 13.9957,
+      "lon": -61.00614
+    },
+    {
+      "name": "Dennery",
+      "population": 12589,
+      "lat": 13.91409,
+      "lon": -60.89132
+    },
+    {
+      "name": "Laborie",
+      "population": 6701,
+      "lat": 13.75,
+      "lon": -60.98333
+    },
+    {
+      "name": "Choiseul",
+      "population": 6098,
+      "lat": 13.77273,
+      "lon": -61.04931
+    }
+  ],
+  "VCT": [
+    {
+      "name": "Kingstown",
+      "population": 24518,
+      "lat": 13.15527,
+      "lon": -61.22742
+    },
+    {
+      "name": "Georgetown",
+      "population": 1680,
+      "lat": 13.28054,
+      "lon": -61.1185
+    },
+    {
+      "name": "Barrouallie",
+      "population": 1000,
+      "lat": 13.23676,
+      "lon": -61.27275
+    },
+    {
+      "name": "Port Elizabeth",
+      "population": 839,
+      "lat": 13.01102,
+      "lon": -61.23548
+    },
+    {
+      "name": "Chateaubelair",
+      "population": 735,
+      "lat": 13.29069,
+      "lon": -61.24043
+    }
+  ],
+  "WSM": [
+    {
+      "name": "Apia",
+      "population": 40407,
+      "lat": -13.83333,
+      "lon": -171.76666
+    },
+    {
+      "name": "Asau",
+      "population": 6643,
+      "lat": -13.51963,
+      "lon": -172.63784
+    },
+    {
+      "name": "Mulifanua",
+      "population": 4508,
+      "lat": -13.83183,
+      "lon": -172.03602
+    },
+    {
+      "name": "Afega",
+      "population": 1895,
+      "lat": -13.79726,
+      "lon": -171.85308
+    },
+    {
+      "name": "Leulumoega",
+      "population": 1458,
+      "lat": -13.82297,
+      "lon": -171.96127
+    }
+  ],
+  "SMR": [
+    {
+      "name": "Serravalle",
+      "population": 9258,
+      "lat": 43.96897,
+      "lon": 12.48167
+    },
+    {
+      "name": "Borgo Maggiore",
+      "population": 6424,
+      "lat": 43.94193,
+      "lon": 12.44738
+    },
+    {
+      "name": "San Marino",
+      "population": 4500,
+      "lat": 43.93667,
+      "lon": 12.44639
+    },
+    {
+      "name": "Domagnano",
+      "population": 3161,
+      "lat": 43.94961,
+      "lon": 12.46828
+    },
+    {
+      "name": "Fiorentino",
+      "population": 2510,
+      "lat": 43.91001,
+      "lon": 12.45738
+    }
+  ],
+  "SAU": [
+    {
+      "name": "Riyadh",
+      "population": 4205961,
+      "lat": 24.68773,
+      "lon": 46.72185
+    },
+    {
+      "name": "Makkah",
+      "population": 1578722,
+      "lat": 21.42664,
+      "lon": 39.82563
+    },
+    {
+      "name": "Madinah",
+      "population": 1300000,
+      "lat": 24.46861,
+      "lon": 39.61417
+    },
+    {
+      "name": "Dammam",
+      "population": 1252523,
+      "lat": 26.43442,
+      "lon": 50.10326
+    },
+    {
+      "name": "Buraydah",
+      "population": 745353,
+      "lat": 26.32599,
+      "lon": 43.97497
+    }
+  ],
+  "SEN": [
+    {
+      "name": "Dakar",
+      "population": 2646503,
+      "lat": 14.6937,
+      "lon": -17.44406
+    },
+    {
+      "name": "Thiès",
+      "population": 317763,
+      "lat": 14.78944,
+      "lon": -16.92602
+    },
+    {
+      "name": "Kaolack",
+      "population": 298904,
+      "lat": 14.15197,
+      "lon": -16.07259
+    },
+    {
+      "name": "Saint-Louis",
+      "population": 254171,
+      "lat": 16.01793,
+      "lon": -16.48962
+    },
+    {
+      "name": "Ziguinchor",
+      "population": 214874,
+      "lat": 12.56801,
+      "lon": -16.27326
+    }
+  ],
+  "SRB": [
+    {
+      "name": "Belgrade",
+      "population": 1273651,
+      "lat": 44.80401,
+      "lon": 20.46513
+    },
+    {
+      "name": "Niš",
+      "population": 250000,
+      "lat": 43.32472,
+      "lon": 21.90333
+    },
+    {
+      "name": "Novi Sad",
+      "population": 215400,
+      "lat": 45.25167,
+      "lon": 19.83694
+    },
+    {
+      "name": "Zemun",
+      "population": 155591,
+      "lat": 44.8458,
+      "lon": 20.40116
+    },
+    {
+      "name": "Kragujevac",
+      "population": 147473,
+      "lat": 44.01667,
+      "lon": 20.91667
+    }
+  ],
+  "SYC": [
+    {
+      "name": "Victoria",
+      "population": 22881,
+      "lat": -4.62001,
+      "lon": 55.45501
+    },
+    {
+      "name": "Cascade",
+      "population": 7263,
+      "lat": -4.66915,
+      "lon": 55.49952
+    },
+    {
+      "name": "Anse Boileau",
+      "population": 4183,
+      "lat": -4.71667,
+      "lon": 55.48333
+    },
+    {
+      "name": "Bel Ombre",
+      "population": 4163,
+      "lat": -4.61667,
+      "lon": 55.41667
+    },
+    {
+      "name": "Beau Vallon",
+      "population": 4142,
+      "lat": -4.62091,
+      "lon": 55.43015
+    }
+  ],
+  "SLE": [
+    {
+      "name": "Freetown",
+      "population": 802639,
+      "lat": 8.48714,
+      "lon": -13.2356
+    },
+    {
+      "name": "Bo",
+      "population": 174354,
+      "lat": 7.96472,
+      "lon": -11.73833
+    },
+    {
+      "name": "Kenema",
+      "population": 143137,
+      "lat": 7.87687,
+      "lon": -11.19025
+    },
+    {
+      "name": "Makeni",
+      "population": 87679,
+      "lat": 8.88605,
+      "lon": -12.04417
+    },
+    {
+      "name": "Port Loko",
+      "population": 21308,
+      "lat": 8.76609,
+      "lon": -12.78696
+    }
+  ],
+  "SGP": [
+    {
+      "name": "Singapore",
+      "population": 5638700,
+      "lat": 1.28967,
+      "lon": 103.85007
+    },
+    {
+      "name": "Woodlands",
+      "population": 255180,
+      "lat": 1.43801,
+      "lon": 103.78877
+    },
+    {
+      "name": "Punggol",
+      "population": 199400,
+      "lat": 1.41444,
+      "lon": 103.90694
+    },
+    {
+      "name": "Choa Chu Kang New Town",
+      "population": 190890,
+      "lat": 1.3825,
+      "lon": 103.74972
+    },
+    {
+      "name": "Ang Mo Kio New Town",
+      "population": 159340,
+      "lat": 1.38028,
+      "lon": 103.83972
+    }
+  ],
+  "SVK": [
+    {
+      "name": "Bratislava",
+      "population": 423737,
+      "lat": 48.14816,
+      "lon": 17.10674
+    },
+    {
+      "name": "Košice",
+      "population": 225044,
+      "lat": 48.71441,
+      "lon": 21.25802
+    },
+    {
+      "name": "Nitra",
+      "population": 86329,
+      "lat": 48.30763,
+      "lon": 18.08453
+    },
+    {
+      "name": "Prešov",
+      "population": 82927,
+      "lat": 48.99923,
+      "lon": 21.2355
+    },
+    {
+      "name": "Žilina",
+      "population": 81219,
+      "lat": 49.22315,
+      "lon": 18.73941
+    }
+  ],
+  "SVN": [
+    {
+      "name": "Ljubljana",
+      "population": 272220,
+      "lat": 46.05108,
+      "lon": 14.50513
+    },
+    {
+      "name": "Maribor",
+      "population": 96209,
+      "lat": 46.55583,
+      "lon": 15.64593
+    },
+    {
+      "name": "Celje",
+      "population": 38059,
+      "lat": 46.23092,
+      "lon": 15.26044
+    },
+    {
+      "name": "Kranj",
+      "population": 37966,
+      "lat": 46.23887,
+      "lon": 14.35561
+    },
+    {
+      "name": "Koper",
+      "population": 25753,
+      "lat": 45.5482,
+      "lon": 13.72963
+    }
+  ],
+  "SLB": [
+    {
+      "name": "Honiara",
+      "population": 56298,
+      "lat": -9.43333,
+      "lon": 159.95
+    },
+    {
+      "name": "Malango",
+      "population": 10532,
+      "lat": -9.69523,
+      "lon": 159.71734
+    },
+    {
+      "name": "Gizo",
+      "population": 7177,
+      "lat": -8.10303,
+      "lon": 156.84186
+    },
+    {
+      "name": "Auki",
+      "population": 7020,
+      "lat": -8.76778,
+      "lon": 160.69778
+    },
+    {
+      "name": "Buala",
+      "population": 2700,
+      "lat": -8.14497,
+      "lon": 159.59212
+    }
+  ],
+  "SOM": [
+    {
+      "name": "Mogadishu",
+      "population": 2587183,
+      "lat": 2.03711,
+      "lon": 45.34375
+    },
+    {
+      "name": "Hargeysa",
+      "population": 477876,
+      "lat": 9.56,
+      "lon": 44.065
+    },
+    {
+      "name": "Kismayo",
+      "population": 234852,
+      "lat": -0.35817,
+      "lon": 42.54536
+    },
+    {
+      "name": "Marka",
+      "population": 230100,
+      "lat": 1.71594,
+      "lon": 44.77166
+    },
+    {
+      "name": "Baidoa",
+      "population": 129839,
+      "lat": 3.11383,
+      "lon": 43.6498
+    }
+  ],
+  "SOL": [
+    {
+      "name": "Hargeisa",
+      "population": 478400,
+      "lat": 9.56,
+      "lon": 44.065
+    },
+    {
+      "name": "Burao",
+      "population": 378300,
+      "lat": 9.52213,
+      "lon": 45.53363
+    },
+    {
+      "name": "Berbera",
+      "population": 374000,
+      "lat": 10.435556,
+      "lon": 45.016389
+    },
+    {
+      "name": "Borama",
+      "population": 214300,
+      "lat": 9.93611,
+      "lon": 43.18278
+    },
+    {
+      "name": "Erigavo",
+      "population": 33853,
+      "lat": 10.61616,
+      "lon": 47.36795
+    }
+  ],
+  "ZAF": [
+    {
+      "name": "Johannesburg",
+      "population": 9418183,
+      "lat": -26.20227,
+      "lon": 28.04363
+    },
+    {
+      "name": "Cape Town",
+      "population": 4772846,
+      "lat": -33.92584,
+      "lon": 18.42322
+    },
+    {
+      "name": "Durban",
+      "population": 3338026,
+      "lat": -29.8579,
+      "lon": 31.0292
+    },
+    {
+      "name": "Pretoria",
+      "population": 2112693,
+      "lat": -25.74486,
+      "lon": 28.18783
+    },
+    {
+      "name": "Gqeberha",
+      "population": 1050078,
+      "lat": -33.96109,
+      "lon": 25.61494
+    }
+  ],
+  "KOR": [
+    {
+      "name": "Seoul",
+      "population": 10349312,
+      "lat": 37.566,
+      "lon": 126.9784
+    },
+    {
+      "name": "Busan",
+      "population": 3285147,
+      "lat": 35.10168,
+      "lon": 129.03004
+    },
+    {
+      "name": "Incheon",
+      "population": 3015482,
+      "lat": 37.45646,
+      "lon": 126.70515
+    },
+    {
+      "name": "Daegu",
+      "population": 2365523,
+      "lat": 35.87028,
+      "lon": 128.59111
+    },
+    {
+      "name": "Daejeon",
+      "population": 1441203,
+      "lat": 36.34913,
+      "lon": 127.38493
+    }
+  ],
+  "SSD": [
+    {
+      "name": "Juba",
+      "population": 450000,
+      "lat": 4.85165,
+      "lon": 31.58247
+    },
+    {
+      "name": "Malakal",
+      "population": 160765,
+      "lat": 9.53342,
+      "lon": 31.66049
+    },
+    {
+      "name": "Wau",
+      "population": 127384,
+      "lat": 7.70111,
+      "lon": 27.98972
+    },
+    {
+      "name": "Kuacjok",
+      "population": 78000,
+      "lat": 8.30278,
+      "lon": 27.98
+    },
+    {
+      "name": "Yambio",
+      "population": 40382,
+      "lat": 4.57083,
+      "lon": 28.39417
+    }
+  ],
+  "ESP": [
+    {
+      "name": "Madrid",
+      "population": 3255944,
+      "lat": 40.4165,
+      "lon": -3.70256
+    },
+    {
+      "name": "Barcelona",
+      "population": 1686208,
+      "lat": 41.38879,
+      "lon": 2.15899
+    },
+    {
+      "name": "Valencia",
+      "population": 824340,
+      "lat": 39.47391,
+      "lon": -0.37966
+    },
+    {
+      "name": "Zaragoza",
+      "population": 686986,
+      "lat": 41.65606,
+      "lon": -0.87734
+    },
+    {
+      "name": "Sevilla",
+      "population": 686741,
+      "lat": 37.38283,
+      "lon": -5.97317
+    }
+  ],
+  "LKA": [
+    {
+      "name": "Colombo",
+      "population": 648034,
+      "lat": 6.93548,
+      "lon": 79.84868
+    },
+    {
+      "name": "Jaffna",
+      "population": 169102,
+      "lat": 9.66845,
+      "lon": 80.00742
+    },
+    {
+      "name": "Kandy",
+      "population": 111701,
+      "lat": 7.2906,
+      "lon": 80.6336
+    },
+    {
+      "name": "Trincomalee",
+      "population": 108420,
+      "lat": 8.5778,
+      "lon": 81.2289
+    },
+    {
+      "name": "Galle",
+      "population": 93118,
+      "lat": 6.0461,
+      "lon": 80.2103
+    }
+  ],
+  "SDN": [
+    {
+      "name": "Khartoum",
+      "population": 1974647,
+      "lat": 15.55177,
+      "lon": 32.53241
+    },
+    {
+      "name": "Nyala",
+      "population": 565734,
+      "lat": 12.04888,
+      "lon": 24.88069
+    },
+    {
+      "name": "Port Sudan",
+      "population": 489725,
+      "lat": 19.61745,
+      "lon": 37.21644
+    },
+    {
+      "name": "Kassala",
+      "population": 401477,
+      "lat": 15.45099,
+      "lon": 36.39998
+    },
+    {
+      "name": "El Obeid",
+      "population": 393311,
+      "lat": 13.18421,
+      "lon": 30.21669
+    }
+  ],
+  "SUR": [
+    {
+      "name": "Paramaribo",
+      "population": 223757,
+      "lat": 5.86638,
+      "lon": -55.16682
+    },
+    {
+      "name": "Lelydorp",
+      "population": 18223,
+      "lat": 5.7,
+      "lon": -55.23333
+    },
+    {
+      "name": "Brokopondo",
+      "population": 14662,
+      "lat": 5.05594,
+      "lon": -54.98043
+    },
+    {
+      "name": "Nieuw Nickerie",
+      "population": 12818,
+      "lat": 5.92606,
+      "lon": -56.97297
+    },
+    {
+      "name": "Nieuw Amsterdam",
+      "population": 4935,
+      "lat": 5.88573,
+      "lon": -55.08871
+    }
+  ],
+  "SWE": [
+    {
+      "name": "Stockholm",
+      "population": 1515017,
+      "lat": 59.32938,
+      "lon": 18.06871
+    },
+    {
+      "name": "Göteborg",
+      "population": 608462,
+      "lat": 57.70716,
+      "lon": 11.96679
+    },
+    {
+      "name": "Malmö",
+      "population": 362133,
+      "lat": 55.60587,
+      "lon": 13.00073
+    },
+    {
+      "name": "Uppsala",
+      "population": 177074,
+      "lat": 59.85882,
+      "lon": 17.63889
+    },
+    {
+      "name": "Linköping",
+      "population": 166673,
+      "lat": 58.41086,
+      "lon": 15.62157
+    }
+  ],
+  "CHE": [
+    {
+      "name": "Zürich",
+      "population": 415367,
+      "lat": 47.36667,
+      "lon": 8.55
+    },
+    {
+      "name": "Genève",
+      "population": 201741,
+      "lat": 46.20222,
+      "lon": 6.14569
+    },
+    {
+      "name": "Basel",
+      "population": 177595,
+      "lat": 47.55839,
+      "lon": 7.57327
+    },
+    {
+      "name": "Lausanne",
+      "population": 139111,
+      "lat": 46.516,
+      "lon": 6.63282
+    },
+    {
+      "name": "Bern",
+      "population": 121631,
+      "lat": 46.94809,
+      "lon": 7.44744
+    }
+  ],
+  "SYR": [
+    {
+      "name": "Aleppo",
+      "population": 2098210,
+      "lat": 36.20124,
+      "lon": 37.16117
+    },
+    {
+      "name": "Damascus",
+      "population": 1569394,
+      "lat": 33.5102,
+      "lon": 36.29128
+    },
+    {
+      "name": "Homs",
+      "population": 775404,
+      "lat": 34.72405,
+      "lon": 36.72559
+    },
+    {
+      "name": "Latakia",
+      "population": 709000,
+      "lat": 35.53125,
+      "lon": 35.79088
+    },
+    {
+      "name": "Ar Raqqah",
+      "population": 531952,
+      "lat": 35.95283,
+      "lon": 39.00788
+    }
+  ],
+  "STP": [
+    {
+      "name": "São Tomé",
+      "population": 53300,
+      "lat": 0.33756,
+      "lon": 6.7299
+    },
+    {
+      "name": "Santo António",
+      "population": 1156,
+      "lat": 1.63943,
+      "lon": 7.41951
+    },
+    {
+      "name": "Neves",
+      "population": 8391,
+      "lat": 0.35671,
+      "lon": 6.54897
+    },
+    {
+      "name": "Água Izé",
+      "population": 7445,
+      "lat": 0.21953,
+      "lon": 6.72782
+    },
+    {
+      "name": "Folha Fede",
+      "population": 6685,
+      "lat": 0.284,
+      "lon": 6.684
+    }
+  ],
+  "TJK": [
+    {
+      "name": "Dushanbe",
+      "population": 679400,
+      "lat": 38.53575,
+      "lon": 68.77905
+    },
+    {
+      "name": "Isfara",
+      "population": 274000,
+      "lat": 40.12649,
+      "lon": 70.62526
+    },
+    {
+      "name": "Istaravshan",
+      "population": 273500,
+      "lat": 39.9142,
+      "lon": 69.00328
+    },
+    {
+      "name": "Kŭlob",
+      "population": 214700,
+      "lat": 37.91459,
+      "lon": 69.78454
+    },
+    {
+      "name": "Konibodom",
+      "population": 211100,
+      "lat": 40.29414,
+      "lon": 70.43122
+    }
+  ],
+  "TZA": [
+    {
+      "name": "Dar es Salaam",
+      "population": 5383728,
+      "lat": -6.82349,
+      "lon": 39.26951
+    },
+    {
+      "name": "Mwanza",
+      "population": 1104521,
+      "lat": -2.51667,
+      "lon": 32.9
+    },
+    {
+      "name": "Dodoma",
+      "population": 765179,
+      "lat": -6.17221,
+      "lon": 35.73947
+    },
+    {
+      "name": "Zanzibar",
+      "population": 709809,
+      "lat": -6.16394,
+      "lon": 39.19793
+    },
+    {
+      "name": "Arusha",
+      "population": 617631,
+      "lat": -3.36667,
+      "lon": 36.68333
+    }
+  ],
+  "THA": [
+    {
+      "name": "Bangkok",
+      "population": 5104476,
+      "lat": 13.75398,
+      "lon": 100.50144
+    },
+    {
+      "name": "Samut Prakan",
+      "population": 388920,
+      "lat": 13.5976,
+      "lon": 100.5972
+    },
+    {
+      "name": "Mueang Nonthaburi",
+      "population": 254375,
+      "lat": 13.86075,
+      "lon": 100.51477
+    },
+    {
+      "name": "Chon Buri",
+      "population": 219164,
+      "lat": 13.3622,
+      "lon": 100.98345
+    },
+    {
+      "name": "Phra Pradaeng",
+      "population": 196129,
+      "lat": 13.65855,
+      "lon": 100.53362
+    }
+  ],
+  "TLS": [
+    {
+      "name": "Dili",
+      "population": 150000,
+      "lat": -8.55861,
+      "lon": 125.57361
+    },
+    {
+      "name": "Maliana",
+      "population": 22000,
+      "lat": -8.99167,
+      "lon": 125.21972
+    },
+    {
+      "name": "Suai",
+      "population": 21539,
+      "lat": -9.31286,
+      "lon": 125.25648
+    },
+    {
+      "name": "Likisá",
+      "population": 19000,
+      "lat": -8.5875,
+      "lon": 125.34194
+    },
+    {
+      "name": "Aileu",
+      "population": 17356,
+      "lat": -8.72806,
+      "lon": 125.56639
+    }
+  ],
+  "TGO": [
+    {
+      "name": "Lomé",
+      "population": 2188376,
+      "lat": 6.12874,
+      "lon": 1.22154
+    },
+    {
+      "name": "Sokodé",
+      "population": 117811,
+      "lat": 8.98333,
+      "lon": 1.13333
+    },
+    {
+      "name": "Kara",
+      "population": 104207,
+      "lat": 9.55111,
+      "lon": 1.18611
+    },
+    {
+      "name": "Atakpamé",
+      "population": 80683,
+      "lat": 7.53333,
+      "lon": 1.13333
+    },
+    {
+      "name": "Dapaong",
+      "population": 58071,
+      "lat": 10.86225,
+      "lon": 0.20762
+    }
+  ],
+  "TON": [
+    {
+      "name": "Nuku‘alofa",
+      "population": 22400,
+      "lat": -21.13683,
+      "lon": -175.20114
+    },
+    {
+      "name": "Neiafu",
+      "population": 3825,
+      "lat": -18.65144,
+      "lon": -173.98354
+    },
+    {
+      "name": "Pangai",
+      "population": 1738,
+      "lat": -19.81468,
+      "lon": -174.35423
+    },
+    {
+      "name": "'Ohonua",
+      "population": 1466,
+      "lat": -21.34135,
+      "lon": -174.95656
+    },
+    {
+      "name": "Ha'atu'a",
+      "population": 489,
+      "lat": -21.37662,
+      "lon": -174.95465
+    }
+  ],
+  "TTO": [
+    {
+      "name": "Chaguanas",
+      "population": 67433,
+      "lat": 10.51667,
+      "lon": -61.41667
+    },
+    {
+      "name": "San Fernando",
+      "population": 55419,
+      "lat": 10.27969,
+      "lon": -61.46835
+    },
+    {
+      "name": "Port of Spain",
+      "population": 49031,
+      "lat": 10.66668,
+      "lon": -61.51889
+    },
+    {
+      "name": "Rio Claro",
+      "population": 35650,
+      "lat": 10.30594,
+      "lon": -61.17556
+    },
+    {
+      "name": "Arima",
+      "population": 35000,
+      "lat": 10.63737,
+      "lon": -61.28228
+    }
+  ],
+  "TUN": [
+    {
+      "name": "Tunis",
+      "population": 693210,
+      "lat": 36.81897,
+      "lon": 10.16579
+    },
+    {
+      "name": "Sfax",
+      "population": 280566,
+      "lat": 34.74056,
+      "lon": 10.76028
+    },
+    {
+      "name": "Sousse",
+      "population": 221715,
+      "lat": 35.82539,
+      "lon": 10.63699
+    },
+    {
+      "name": "Kairouan",
+      "population": 139070,
+      "lat": 35.6781,
+      "lon": 10.09633
+    },
+    {
+      "name": "Bizerte",
+      "population": 138430,
+      "lat": 37.27442,
+      "lon": 9.87391
+    }
+  ],
+  "TKM": [
+    {
+      "name": "Ashgabat",
+      "population": 1030063,
+      "lat": 37.95,
+      "lon": 58.38333
+    },
+    {
+      "name": "Türkmenabat",
+      "population": 230861,
+      "lat": 39.07328,
+      "lon": 63.57861
+    },
+    {
+      "name": "Daşoguz",
+      "population": 201142,
+      "lat": 41.83625,
+      "lon": 59.96661
+    },
+    {
+      "name": "Mary",
+      "population": 167027,
+      "lat": 37.59378,
+      "lon": 61.83031
+    },
+    {
+      "name": "Balkanabat",
+      "population": 87822,
+      "lat": 39.51075,
+      "lon": 54.36713
+    }
+  ],
+  "TUV": [
+    {
+      "name": "Funafuti",
+      "population": 6320,
+      "lat": -8.52425,
+      "lon": 179.19417
+    },
+    {
+      "name": "Savave Village",
+      "population": 586,
+      "lat": -8.02731,
+      "lon": 178.31351
+    },
+    {
+      "name": "Tanrake Village",
+      "population": 408,
+      "lat": -7.24562,
+      "lon": 177.14511
+    },
+    {
+      "name": "Toga Village",
+      "population": 258,
+      "lat": -6.28764,
+      "lon": 176.31472
+    },
+    {
+      "name": "Asau Village",
+      "population": 250,
+      "lat": -7.49026,
+      "lon": 178.68016
+    }
+  ],
+  "TUR": [
+    {
+      "name": "Istanbul",
+      "population": 15701602,
+      "lat": 41.01384,
+      "lon": 28.94966
+    },
+    {
+      "name": "Ankara",
+      "population": 3517182,
+      "lat": 39.91987,
+      "lon": 32.85427
+    },
+    {
+      "name": "Bursa",
+      "population": 3101833,
+      "lat": 40.19559,
+      "lon": 29.06013
+    },
+    {
+      "name": "İzmir",
+      "population": 2938292,
+      "lat": 38.41273,
+      "lon": 27.13838
+    },
+    {
+      "name": "Gaziantep",
+      "population": 2222415,
+      "lat": 37.05944,
+      "lon": 37.3825
+    }
+  ],
+  "UGA": [
+    {
+      "name": "Kampala",
+      "population": 1680600,
+      "lat": 0.31628,
+      "lon": 32.58219
+    },
+    {
+      "name": "Mbarara",
+      "population": 221300,
+      "lat": -0.60467,
+      "lon": 30.64851
+    },
+    {
+      "name": "Mukono",
+      "population": 191300,
+      "lat": 0.35333,
+      "lon": 32.75528
+    },
+    {
+      "name": "Gulu",
+      "population": 177400,
+      "lat": 2.77457,
+      "lon": 32.29899
+    },
+    {
+      "name": "Hoima",
+      "population": 122700,
+      "lat": 1.43314,
+      "lon": 31.35241
+    }
+  ],
+  "UKR": [
+    {
+      "name": "Kyiv",
+      "population": 2952301,
+      "lat": 50.45466,
+      "lon": 30.5238
+    },
+    {
+      "name": "Kharkiv",
+      "population": 1421125,
+      "lat": 49.98177,
+      "lon": 36.25475
+    },
+    {
+      "name": "Odesa",
+      "population": 1010537,
+      "lat": 46.48572,
+      "lon": 30.74383
+    },
+    {
+      "name": "Dnipro",
+      "population": 968502,
+      "lat": 48.46664,
+      "lon": 35.04066
+    },
+    {
+      "name": "Donetsk",
+      "population": 901645,
+      "lat": 48.023,
+      "lon": 37.80224
+    }
+  ],
+  "ARE": [
+    {
+      "name": "Dubai",
+      "population": 3790000,
+      "lat": 25.07725,
+      "lon": 55.30927
+    },
+    {
+      "name": "Abu Dhabi",
+      "population": 1807000,
+      "lat": 24.45118,
+      "lon": 54.39696
+    },
+    {
+      "name": "Sharjah",
+      "population": 1800000,
+      "lat": 25.3342,
+      "lon": 55.41221
+    },
+    {
+      "name": "Ajman",
+      "population": 490035,
+      "lat": 25.40177,
+      "lon": 55.47878
+    },
+    {
+      "name": "Ras Al Khaimah",
+      "population": 351943,
+      "lat": 25.78953,
+      "lon": 55.9432
+    }
+  ],
+  "GBR": [
+    {
+      "name": "London",
+      "population": 8961989,
+      "lat": 51.50853,
+      "lon": -0.12574
+    },
+    {
+      "name": "Birmingham",
+      "population": 1157603,
+      "lat": 52.48142,
+      "lon": -1.89983
+    },
+    {
+      "name": "Glasgow",
+      "population": 626410,
+      "lat": 55.86515,
+      "lon": -4.25763
+    },
+    {
+      "name": "Manchester",
+      "population": 568996,
+      "lat": 53.48095,
+      "lon": -2.23743
+    },
+    {
+      "name": "Sheffield",
+      "population": 556500,
+      "lat": 53.38297,
+      "lon": -1.4659
+    }
+  ],
+  "USA": [
+    {
+      "name": "New York City",
+      "population": 8804190,
+      "lat": 40.71427,
+      "lon": -74.00597
+    },
+    {
+      "name": "Los Angeles",
+      "population": 3820914,
+      "lat": 34.05223,
+      "lon": -118.24368
+    },
+    {
+      "name": "Chicago",
+      "population": 2664452,
+      "lat": 41.85003,
+      "lon": -87.65005
+    },
+    {
+      "name": "Houston",
+      "population": 2314157,
+      "lat": 29.76328,
+      "lon": -95.36327
+    },
+    {
+      "name": "Phoenix",
+      "population": 1650070,
+      "lat": 33.44838,
+      "lon": -112.07404
+    },
+    {
+      "name": "Philadelphia",
+      "population": 1576251,
+      "lat": 39.95233,
+      "lon": -75.16379
+    }
+  ],
+  "URY": [
+    {
+      "name": "Montevideo",
+      "population": 1270737,
+      "lat": -34.90328,
+      "lon": -56.18816
+    },
+    {
+      "name": "Salto",
+      "population": 99823,
+      "lat": -31.38811,
+      "lon": -57.95983
+    },
+    {
+      "name": "Paysandú",
+      "population": 73249,
+      "lat": -32.3171,
+      "lon": -58.08072
+    },
+    {
+      "name": "Rivera",
+      "population": 64631,
+      "lat": -30.90534,
+      "lon": -55.55076
+    },
+    {
+      "name": "Maldonado",
+      "population": 55478,
+      "lat": -34.89791,
+      "lon": -54.95021
+    }
+  ],
+  "UZB": [
+    {
+      "name": "Tashkent",
+      "population": 1978028,
+      "lat": 41.26465,
+      "lon": 69.21627
+    },
+    {
+      "name": "Andijon",
+      "population": 747800,
+      "lat": 40.78338,
+      "lon": 72.35067
+    },
+    {
+      "name": "Namangan",
+      "population": 713220,
+      "lat": 40.9983,
+      "lon": 71.67257
+    },
+    {
+      "name": "Samarkand",
+      "population": 595200,
+      "lat": 39.65456,
+      "lon": 66.96445
+    },
+    {
+      "name": "Nukus",
+      "population": 332500,
+      "lat": 42.45861,
+      "lon": 59.60576
+    }
+  ],
+  "VUT": [
+    {
+      "name": "Port-Vila",
+      "population": 35901,
+      "lat": -17.73648,
+      "lon": 168.31366
+    },
+    {
+      "name": "Luganville",
+      "population": 13397,
+      "lat": -15.51989,
+      "lon": 167.16235
+    },
+    {
+      "name": "Isangel",
+      "population": 1437,
+      "lat": -19.54167,
+      "lon": 169.28167
+    },
+    {
+      "name": "Sola",
+      "population": 1171,
+      "lat": -13.87611,
+      "lon": 167.55167
+    },
+    {
+      "name": "Lakatoro",
+      "population": 705,
+      "lat": -16.09992,
+      "lon": 167.41636
+    }
+  ],
+  "VAT": [
+    {
+      "name": "Vatican City",
+      "population": 829,
+      "lat": 41.90268,
+      "lon": 12.45414
+    }
+  ],
+  "VEN": [
+    {
+      "name": "Caracas",
+      "population": 3000000,
+      "lat": 10.48801,
+      "lon": -66.87919
+    },
+    {
+      "name": "Maracaibo",
+      "population": 1752602,
+      "lat": 10.64232,
+      "lon": -71.61089
+    },
+    {
+      "name": "Valencia",
+      "population": 1619470,
+      "lat": 10.16153,
+      "lon": -68.00044
+    },
+    {
+      "name": "Barquisimeto",
+      "population": 1240714,
+      "lat": 10.0647,
+      "lon": -69.35703
+    },
+    {
+      "name": "Ciudad Guayana",
+      "population": 978202,
+      "lat": 8.35122,
+      "lon": -62.64102
+    }
+  ],
+  "VNM": [
+    {
+      "name": "Hanoi",
+      "population": 8053663,
+      "lat": 21.0245,
+      "lon": 105.84117
+    },
+    {
+      "name": "Haiphong",
+      "population": 2625200,
+      "lat": 20.86481,
+      "lon": 106.68345
+    },
+    {
+      "name": "Cần Thơ",
+      "population": 1507187,
+      "lat": 10.03711,
+      "lon": 105.78825
+    },
+    {
+      "name": "Huế",
+      "population": 1380000,
+      "lat": 16.4619,
+      "lon": 107.59546
+    },
+    {
+      "name": "Da Nang",
+      "population": 1276000,
+      "lat": 16.06778,
+      "lon": 108.22083
+    }
+  ],
+  "YEM": [
+    {
+      "name": "Sanaa",
+      "population": 1937451,
+      "lat": 15.35452,
+      "lon": 44.20646
+    },
+    {
+      "name": "Aden",
+      "population": 1079670,
+      "lat": 12.77957,
+      "lon": 45.03852
+    },
+    {
+      "name": "Taiz",
+      "population": 940600,
+      "lat": 13.57952,
+      "lon": 44.02091
+    },
+    {
+      "name": "Ibb",
+      "population": 771514,
+      "lat": 13.96667,
+      "lon": 44.18333
+    },
+    {
+      "name": "Al Ḩudaydah",
+      "population": 734699,
+      "lat": 14.79781,
+      "lon": 42.95452
+    }
+  ],
+  "ZMB": [
+    {
+      "name": "Lusaka",
+      "population": 2212301,
+      "lat": -15.40669,
+      "lon": 28.28713
+    },
+    {
+      "name": "Ndola",
+      "population": 627503,
+      "lat": -12.95867,
+      "lon": 28.63659
+    },
+    {
+      "name": "Chipata",
+      "population": 327059,
+      "lat": -13.63333,
+      "lon": 32.65
+    },
+    {
+      "name": "Solwezi",
+      "population": 301370,
+      "lat": -12.1688,
+      "lon": 26.38938
+    },
+    {
+      "name": "Kabwe",
+      "population": 288598,
+      "lat": -14.4469,
+      "lon": 28.44644
+    }
+  ],
+  "ZWE": [
+    {
+      "name": "Harare",
+      "population": 1542813,
+      "lat": -17.82772,
+      "lon": 31.05337
+    },
+    {
+      "name": "Bulawayo",
+      "population": 665952,
+      "lat": -20.15,
+      "lon": 28.58333
+    },
+    {
+      "name": "Mutare",
+      "population": 224802,
+      "lat": -18.9707,
+      "lon": 32.67086
+    },
+    {
+      "name": "Gweru",
+      "population": 158200,
+      "lat": -19.45,
+      "lon": 29.81667
+    },
+    {
+      "name": "Chinhoyi",
+      "population": 90800,
+      "lat": -17.36667,
+      "lon": 30.2
+    }
+  ]
+}

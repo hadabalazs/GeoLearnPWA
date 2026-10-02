@@ -1,0 +1,2546 @@
+{
+  "AFG" : {
+    "areaKm2" : 652230,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 414,
+    "gdpPerCapitaYear" : 2023,
+    "population" : 42647492,
+    "populationDensity" : 63.56,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "AGO" : {
+    "areaKm2" : 1246700,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 2666,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 37885849,
+    "populationDensity" : 29.48,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "ALB" : {
+    "areaKm2" : 27400,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 11378,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 2377128,
+    "populationDensity" : 88.11,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "AND" : {
+    "areaKm2" : 470,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 49304,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 81938,
+    "populationDensity" : 172.03,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "ARE" : {
+    "areaKm2" : 71020,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 50274,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 10986400,
+    "populationDensity" : 147.62,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "ARG" : {
+    "areaKm2" : 2736690,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 13970,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 45696159,
+    "populationDensity" : 16.64,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "ARM" : {
+    "areaKm2" : 28199.44,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 8556,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 3033500,
+    "populationDensity" : 105.12,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "ATG" : {
+    "areaKm2" : 440,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 23542,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 93772,
+    "populationDensity" : 212.08,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "AUS" : {
+    "areaKm2" : 7692020,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 64604,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 27196812,
+    "populationDensity" : 3.47,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "AUT" : {
+    "areaKm2" : 82520,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 58269,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 9177982,
+    "populationDensity" : 110.66,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "AZE" : {
+    "areaKm2" : 82650,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 7284,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 10202830,
+    "populationDensity" : 122.85,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "BDI" : {
+    "areaKm2" : 25680,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 219,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 14047786,
+    "populationDensity" : 533.08,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "BEL" : {
+    "areaKm2" : 30494,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 56615,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 11858610,
+    "populationDensity" : 386.3,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "BEN" : {
+    "areaKm2" : 112760,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 1485,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 14462724,
+    "populationDensity" : 125.14,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "BFA" : {
+    "areaKm2" : 273600,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 982,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 23548781,
+    "populationDensity" : 84.16,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "BGD" : {
+    "areaKm2" : 129980,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 2593,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 173562364,
+    "populationDensity" : 1319.18,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "BGR" : {
+    "areaKm2" : 108560,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 17596,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 6441421,
+    "populationDensity" : 59.38,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "BHR" : {
+    "areaKm2" : 800,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 29654,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 1588670,
+    "populationDensity" : 1971.32,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "BHS" : {
+    "areaKm2" : 10010,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 39455,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 401283,
+    "populationDensity" : 39.9,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "BIH" : {
+    "areaKm2" : 51200,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 9359,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 3164253,
+    "populationDensity" : 62.21,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "BLR" : {
+    "areaKm2" : 202983,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 8318,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 9132629,
+    "populationDensity" : 45.22,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "BLZ" : {
+    "areaKm2" : 22810,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 7681,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 417072,
+    "populationDensity" : 18.02,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "BOL" : {
+    "areaKm2" : 1083300,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 4421,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 12413315,
+    "populationDensity" : 11.3,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "BRA" : {
+    "areaKm2" : 8358140,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 10311,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 211998573,
+    "populationDensity" : 25.26,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "BRB" : {
+    "areaKm2" : 430,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 26545,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 282467,
+    "populationDensity" : 656.6,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "BRN" : {
+    "areaKm2" : 5270,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 33153,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 462721,
+    "populationDensity" : 87.09,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "BTN" : {
+    "areaKm2" : 38140,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 3831,
+    "gdpPerCapitaYear" : 2023,
+    "population" : 791524,
+    "populationDensity" : 20.62,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "BWA" : {
+    "areaKm2" : 566730,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 7696,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 2521139,
+    "populationDensity" : 4.38,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "CAF" : {
+    "areaKm2" : 622980,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 516,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 5330690,
+    "populationDensity" : 8.27,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "CAN" : {
+    "areaKm2" : 8788700,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 54340,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 41288599,
+    "populationDensity" : 4.56,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "CHE" : {
+    "areaKm2" : 39509.63,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 103998,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 9005582,
+    "populationDensity" : 224.98,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "CHL" : {
+    "areaKm2" : 742831.64,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 16710,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 19764771,
+    "populationDensity" : 26.46,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "CHN" : {
+    "areaKm2" : 9388210,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 13303,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 1408975000,
+    "populationDensity" : 150.26,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "CIV" : {
+    "areaKm2" : 318000,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 2728,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 31934230,
+    "populationDensity" : 98.01,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "CMR" : {
+    "areaKm2" : 472710,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 1830,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 29123744,
+    "populationDensity" : 60.02,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "COD" : {
+    "areaKm2" : 2267050,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 649,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 109276265,
+    "populationDensity" : 46.66,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "COG" : {
+    "areaKm2" : 341500,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 2482,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 6332961,
+    "populationDensity" : 18.11,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "COL" : {
+    "areaKm2" : 1109500,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 7919,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 52886363,
+    "populationDensity" : 47.16,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "COM" : {
+    "areaKm2" : 1861,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 1663,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 866628,
+    "populationDensity" : 456.95,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "CPV" : {
+    "areaKm2" : 4030,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 5192,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 524877,
+    "populationDensity" : 129.61,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "CRI" : {
+    "areaKm2" : 51060,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 18587,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 5129910,
+    "populationDensity" : 99.99,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "CUB" : {
+    "areaKm2" : 103800,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 9605,
+    "gdpPerCapitaYear" : 2020,
+    "population" : 10979783,
+    "populationDensity" : 106.17,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "CYP" : {
+    "areaKm2" : 9240,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 38674,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 1358282,
+    "populationDensity" : 145.56,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "CZE" : {
+    "areaKm2" : 77167.31,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 31823,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 10905028,
+    "populationDensity" : 140.79,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "DEU" : {
+    "areaKm2" : 349430,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 56104,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 83516593,
+    "populationDensity" : 238.35,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "DJI" : {
+    "areaKm2" : 23180,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 3553,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 1168722,
+    "populationDensity" : 49.74,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "DMA" : {
+    "areaKm2" : 750,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 10405,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 66205,
+    "populationDensity" : 88.68,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "DNK" : {
+    "areaKm2" : 40000,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 71026,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 5976992,
+    "populationDensity" : 148.67,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "DOM" : {
+    "areaKm2" : 48198.02,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 10876,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 11427557,
+    "populationDensity" : 235.1,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "DZA" : {
+    "areaKm2" : 2381740,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 5753,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 46814308,
+    "populationDensity" : 19.38,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "ECU" : {
+    "areaKm2" : 248360,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 6875,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 18135478,
+    "populationDensity" : 72.4,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "EGY" : {
+    "areaKm2" : 995450,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 3338,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 116538258,
+    "populationDensity" : 115.06,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "ERI" : {
+    "areaKm2" : 121178.2,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 689,
+    "gdpPerCapitaYear" : 2011,
+    "population" : 3535603,
+    "populationDensity" : 28.64,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "ESP" : {
+    "areaKm2" : 499697.4,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 35327,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 48848840,
+    "populationDensity" : 96.76,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "EST" : {
+    "areaKm2" : 42730,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 31428,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 1372341,
+    "populationDensity" : 32.07,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "ETH" : {
+    "areaKm2" : 1128498.8,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 1134,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 132059767,
+    "populationDensity" : 114.04,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "FIN" : {
+    "areaKm2" : 303960,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 53150,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 5619911,
+    "populationDensity" : 18.37,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "FJI" : {
+    "areaKm2" : 18270,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 6426,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 928784,
+    "populationDensity" : 50.58,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "FRA" : {
+    "areaKm2" : 538950,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 46103,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 68551653,
+    "populationDensity" : 126.86,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "FSM" : {
+    "areaKm2" : 700,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 4166,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 113160,
+    "populationDensity" : 160.9,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "GAB" : {
+    "areaKm2" : 257670,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 8230,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 2538952,
+    "populationDensity" : 9.64,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "GBR" : {
+    "areaKm2" : 241930,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 53246,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 69226000,
+    "populationDensity" : 283.11,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "GEO" : {
+    "areaKm2" : 69490,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 9241,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 3699557,
+    "populationDensity" : 65,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "GHA" : {
+    "areaKm2" : 227533,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 2391,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 34427414,
+    "populationDensity" : 148.5,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "GIN" : {
+    "areaKm2" : 245720,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 1695,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 14754785,
+    "populationDensity" : 58.63,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "GMB" : {
+    "areaKm2" : 10120,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 871,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 2759988,
+    "populationDensity" : 266.59,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "GNB" : {
+    "areaKm2" : 28120,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 1008,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 2201352,
+    "populationDensity" : 76.58,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "GNQ" : {
+    "areaKm2" : 28050,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 6745,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 1892516,
+    "populationDensity" : 65.87,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "GRC" : {
+    "areaKm2" : 128900,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 24626,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 10405134,
+    "populationDensity" : 80.74,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "GRD" : {
+    "areaKm2" : 340,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 11705,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 117207,
+    "populationDensity" : 344.36,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "GTM" : {
+    "areaKm2" : 107160,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 6150,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 18406359,
+    "populationDensity" : 169.14,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "GUY" : {
+    "areaKm2" : 211140,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 29675,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 831087,
+    "populationDensity" : 3.91,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "HND" : {
+    "areaKm2" : 111890,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 3426,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 10825703,
+    "populationDensity" : 95.14,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "HRV" : {
+    "areaKm2" : 55960,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 24050,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 3866200,
+    "populationDensity" : 68.97,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "HTI" : {
+    "areaKm2" : 27560,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 2143,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 11772557,
+    "populationDensity" : 422.26,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "HUN" : {
+    "areaKm2" : 91260,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 23292,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 9562065,
+    "populationDensity" : 105.11,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "IDN" : {
+    "areaKm2" : 1892555.47,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 4925,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 283487931,
+    "populationDensity" : 148.58,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "IND" : {
+    "areaKm2" : 2973190,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 2695,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 1450935791,
+    "populationDensity" : 483.68,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "IRL" : {
+    "areaKm2" : 68890,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 112895,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 5395790,
+    "populationDensity" : 77.1,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "IRN" : {
+    "areaKm2" : 1622500,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 5190,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 91567738,
+    "populationDensity" : 55.85,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "IRQ" : {
+    "areaKm2" : 434130,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 6074,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 46042015,
+    "populationDensity" : 103.83,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "ISL" : {
+    "areaKm2" : 100830,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 86041,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 386506,
+    "populationDensity" : 3.82,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "ISR" : {
+    "areaKm2" : 21640,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 54177,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 9974400,
+    "populationDensity" : 455.13,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "ITA" : {
+    "areaKm2" : 295720,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 40385,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 58952704,
+    "populationDensity" : 199.46,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "JAM" : {
+    "areaKm2" : 10830,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 7754,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 2839175,
+    "populationDensity" : 262.21,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "JOR" : {
+    "areaKm2" : 88794,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 4618,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 11552876,
+    "populationDensity" : 128.83,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "JPN" : {
+    "areaKm2" : 364569.27,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 32487,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 123975371,
+    "populationDensity" : 341.54,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "KAZ" : {
+    "areaKm2" : 2699700,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 14155,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 20592571,
+    "populationDensity" : 7.53,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "KEN" : {
+    "areaKm2" : 580876.3,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 2132,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 56432944,
+    "populationDensity" : 95.27,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "KGZ" : {
+    "areaKm2" : 191800,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 2420,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 7221868,
+    "populationDensity" : 37.02,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "KHM" : {
+    "areaKm2" : 176520,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 2628,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 17638801,
+    "populationDensity" : 98.71,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "KIR" : {
+    "areaKm2" : 810,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 2289,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 134518,
+    "populationDensity" : 163.62,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "KNA" : {
+    "areaKm2" : 260,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 23961,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 46843,
+    "populationDensity" : 180,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "KOR" : {
+    "areaKm2" : 97600,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 36239,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 51751065,
+    "populationDensity" : 529.84,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "KWT" : {
+    "areaKm2" : 17820,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 32718,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 4897263,
+    "populationDensity" : 272.36,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "LAO" : {
+    "areaKm2" : 230800,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 2124,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 7769819,
+    "populationDensity" : 33.21,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "LBN" : {
+    "areaKm2" : 10230,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 3478,
+    "gdpPerCapitaYear" : 2023,
+    "population" : 5805962,
+    "populationDensity" : 564.37,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "LBR" : {
+    "areaKm2" : 96320,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 852,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 5612817,
+    "populationDensity" : 57.03,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "LBY" : {
+    "areaKm2" : 1759540,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 6569,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 7381023,
+    "populationDensity" : 4.15,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "LCA" : {
+    "areaKm2" : 610,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 14182,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 179744,
+    "populationDensity" : 294,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "LIE" : {
+    "areaKm2" : 160,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 206781,
+    "gdpPerCapitaYear" : 2023,
+    "population" : 40450,
+    "populationDensity" : 249.04,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "LKA" : {
+    "areaKm2" : 61860,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 4516,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 21916000,
+    "populationDensity" : 356.24,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "LSO" : {
+    "areaKm2" : 30360,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 972,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 2337423,
+    "populationDensity" : 76.14,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "LTU" : {
+    "areaKm2" : 62600,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 29384,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 2888278,
+    "populationDensity" : 45.87,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "LUX" : {
+    "areaKm2" : 2574.46,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 137782,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 677012,
+    "populationDensity" : 258.86,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "LVA" : {
+    "areaKm2" : 62230,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 23409,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 1866124,
+    "populationDensity" : 30.27,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "MAR" : {
+    "areaKm2" : 446300,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 4153,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 38081173,
+    "populationDensity" : 84.5,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "MCO" : {
+    "areaKm2" : 2.08,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 288001,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 38631,
+    "populationDensity" : 18692.9,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "MDA" : {
+    "areaKm2" : 32930,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 7576,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 2402306,
+    "populationDensity" : 85.44,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "MDG" : {
+    "areaKm2" : 581800,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 545,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 31964956,
+    "populationDensity" : 53.62,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "MDV" : {
+    "areaKm2" : 298,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 13379,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 527799,
+    "populationDensity" : 1765.08,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "MEX" : {
+    "areaKm2" : 1943950,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 14186,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 130861007,
+    "populationDensity" : 66.74,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "MHL" : {
+    "areaKm2" : 180,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 7726,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 37548,
+    "populationDensity" : 215.71,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "MKD" : {
+    "areaKm2" : 25220,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 9292,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 1824359,
+    "populationDensity" : 72.47,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "MLI" : {
+    "areaKm2" : 1220190,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 1095,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 24478595,
+    "populationDensity" : 19.48,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "MLT" : {
+    "areaKm2" : 320,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 43899,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 568847,
+    "populationDensity" : 1727.33,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "MMR" : {
+    "areaKm2" : 652670,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 1359,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 54500091,
+    "populationDensity" : 82.94,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "MNE" : {
+    "areaKm2" : 13450,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 13263,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 623525,
+    "populationDensity" : 46.36,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "MNG" : {
+    "areaKm2" : 1558499.79,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 6751,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 3524788,
+    "populationDensity" : 2.23,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "MOZ" : {
+    "areaKm2" : 786380,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 657,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 34631766,
+    "populationDensity" : 42.77,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "MRT" : {
+    "areaKm2" : 1030700,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 2110,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 5169395,
+    "populationDensity" : 4.87,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "MUS" : {
+    "areaKm2" : 1997,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 11991,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 1245779,
+    "populationDensity" : 625.26,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "MWI" : {
+    "areaKm2" : 94280,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 523,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 21655286,
+    "populationDensity" : 223.85,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "MYS" : {
+    "areaKm2" : 328550,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 11874,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 35557673,
+    "populationDensity" : 106.91,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "NAM" : {
+    "areaKm2" : 823290,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 4413,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 3030131,
+    "populationDensity" : 3.6,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "NER" : {
+    "areaKm2" : 1266700,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 735,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 27032412,
+    "populationDensity" : 20.65,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "NGA" : {
+    "areaKm2" : 910770,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 1084,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 232679478,
+    "populationDensity" : 250.21,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "NIC" : {
+    "areaKm2" : 120340,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 2848,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 6916140,
+    "populationDensity" : 56.7,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "NLD" : {
+    "areaKm2" : 33670,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 67520,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 17993485,
+    "populationDensity" : 530.95,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "NOR" : {
+    "areaKm2" : 364270,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 86785,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 5572279,
+    "populationDensity" : 15.15,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "NPL" : {
+    "areaKm2" : 143350,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 1447,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 29651054,
+    "populationDensity" : 207.15,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "NRU" : {
+    "areaKm2" : 20,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 13609,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 11947,
+    "populationDensity" : 593.75,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "NZL" : {
+    "areaKm2" : 263310,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 49205,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 5287500,
+    "populationDensity" : 19.75,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "OMN" : {
+    "areaKm2" : 309500,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 20285,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 5281538,
+    "populationDensity" : 16.31,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "PAK" : {
+    "areaKm2" : 770880,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 1479,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 251269164,
+    "populationDensity" : 321.07,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "PAN" : {
+    "areaKm2" : 74180,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 19161,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 4515577,
+    "populationDensity" : 60.11,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "PER" : {
+    "areaKm2" : 1280000,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 8452,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 34217848,
+    "populationDensity" : 26.44,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "PHL" : {
+    "areaKm2" : 298170,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 3985,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 115843670,
+    "populationDensity" : 385.32,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "PLW" : {
+    "areaKm2" : 460,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 15611,
+    "gdpPerCapitaYear" : 2023,
+    "population" : 17695,
+    "populationDensity" : 38.54,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "PNG" : {
+    "areaKm2" : 452860,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 3007,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 10576502,
+    "populationDensity" : 22.94,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "POL" : {
+    "areaKm2" : 306270,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 25104,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 36559233,
+    "populationDensity" : 119.79,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "PRK" : {
+    "areaKm2" : 120410,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "population" : 26498823,
+    "populationDensity" : 219.4,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "PRT" : {
+    "areaKm2" : 91605.6,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 29292,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 10694681,
+    "populationDensity" : 115.48,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "PRY" : {
+    "areaKm2" : 396012.03,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 6416,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 6929153,
+    "populationDensity" : 17.28,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "QAT" : {
+    "areaKm2" : 11490,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 76689,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 2857822,
+    "populationDensity" : 231.16,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "ROU" : {
+    "areaKm2" : 230080,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 20080,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 19051804,
+    "populationDensity" : 82.85,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "RUS" : {
+    "areaKm2" : 16376870,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 14889,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 143533851,
+    "populationDensity" : 8.78,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "RWA" : {
+    "areaKm2" : 24670,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 1000,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 14256567,
+    "populationDensity" : 565.65,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "SAU" : {
+    "areaKm2" : 2149690,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 35122,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 35300280,
+    "populationDensity" : 15.68,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "SDN" : {
+    "areaKm2" : 1868000,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 985,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 50448963,
+    "populationDensity" : 26.79,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "SEN" : {
+    "areaKm2" : 192530,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 1773,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 18501984,
+    "populationDensity" : 93.89,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "SGP" : {
+    "areaKm2" : 718,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 90674,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 6036860,
+    "populationDensity" : 8241.85,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "SLB" : {
+    "areaKm2" : 27990,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 1934,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 819198,
+    "populationDensity" : 28.58,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "SLE" : {
+    "areaKm2" : 72180,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 807,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 8642022,
+    "populationDensity" : 117.21,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "SLV" : {
+    "areaKm2" : 20720,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 5580,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 6338193,
+    "populationDensity" : 304.52,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "SMR" : {
+    "areaKm2" : 60,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 59880,
+    "gdpPerCapitaYear" : 2023,
+    "population" : 33977,
+    "populationDensity" : 564.33,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "SOM" : {
+    "areaKm2" : 627340,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 630,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 19009151,
+    "populationDensity" : 29,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "SOL" : {
+    "areaKm2" : 137600,
+    "areaKm2Year" : 2014,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 912,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 5700000,
+    "populationDensity" : 41,
+    "populationDensityYear" : 2021,
+    "populationYear" : 2021
+  },
+  "SRB" : {
+    "areaKm2" : 84090,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 13679,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 6586476,
+    "populationDensity" : 78.76,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "SSD" : {
+    "areaKm2" : 631930,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 1080,
+    "gdpPerCapitaYear" : 2015,
+    "population" : 11943408,
+    "populationDensity" : 18.17,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "STP" : {
+    "areaKm2" : 960,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 3491,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 235536,
+    "populationDensity" : 240.49,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "SUR" : {
+    "areaKm2" : 160507.61,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 6962,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 634431,
+    "populationDensity" : 3.92,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "SVK" : {
+    "areaKm2" : 48080,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 25993,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 5422069,
+    "populationDensity" : 112.87,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "SVN" : {
+    "areaKm2" : 20134.5,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 34301,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 2127400,
+    "populationDensity" : 105.31,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "SWE" : {
+    "areaKm2" : 407270,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 57117,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 10569709,
+    "populationDensity" : 25.87,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "SWZ" : {
+    "areaKm2" : 17200,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 3910,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 1242822,
+    "populationDensity" : 71.54,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "SYC" : {
+    "areaKm2" : 460,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 17859,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 121354,
+    "populationDensity" : 260.38,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "SYR" : {
+    "areaKm2" : 183630,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 1052,
+    "gdpPerCapitaYear" : 2022,
+    "population" : 24672760,
+    "populationDensity" : 128.49,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "TCD" : {
+    "areaKm2" : 1259200,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 962,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 20299123,
+    "populationDensity" : 15.34,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "TGO" : {
+    "areaKm2" : 54390,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 1119,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 9515236,
+    "populationDensity" : 171.07,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "THA" : {
+    "areaKm2" : 510890,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 7347,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 71668011,
+    "populationDensity" : 140.35,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "TJK" : {
+    "areaKm2" : 138790,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 1341,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 10590927,
+    "populationDensity" : 74.86,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "TKM" : {
+    "areaKm2" : 469930,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 6857,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 7494498,
+    "populationDensity" : 15.67,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "TLS" : {
+    "areaKm2" : 14870,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 1332,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 1400638,
+    "populationDensity" : 93.09,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "TON" : {
+    "areaKm2" : 720,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 5652,
+    "gdpPerCapitaYear" : 2023,
+    "population" : 104175,
+    "populationDensity" : 145.27,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "TTO" : {
+    "areaKm2" : 5130,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 18733,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 1368333,
+    "populationDensity" : 266.57,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "TUN" : {
+    "areaKm2" : 155360,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 4181,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 12277109,
+    "populationDensity" : 78.53,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "TUR" : {
+    "areaKm2" : 769630,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 15893,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 85518661,
+    "populationDensity" : 110.87,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "TUV" : {
+    "areaKm2" : 30,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 6345,
+    "gdpPerCapitaYear" : 2023,
+    "population" : 9646,
+    "populationDensity" : 327.2,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "TZA" : {
+    "areaKm2" : 885800,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 1187,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 68560157,
+    "populationDensity" : 75.21,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "UGA" : {
+    "areaKm2" : 200520,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 1078,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 50015092,
+    "populationDensity" : 242.65,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "UKR" : {
+    "areaKm2" : 579400,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 5389,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 37860221,
+    "populationDensity" : 65.12,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "UNK" : {
+    "areaKm2" : 10879.48,
+    "areaKm2Year" : 2025,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 7023,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 1670000,
+    "populationDensity" : 153.5,
+    "populationDensityYear" : 2025,
+    "populationYear" : 2025
+  },
+  "URY" : {
+    "areaKm2" : 175020,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 23907,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 3386588,
+    "populationDensity" : 19.36,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "USA" : {
+    "areaKm2" : 9147420,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 84534,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 340110988,
+    "populationDensity" : 36.82,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "UZB" : {
+    "areaKm2" : 440650,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 3162,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 36361859,
+    "populationDensity" : 80.91,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "VAT" : {
+    "areaKm2" : 0.44,
+    "areaKm2Year" : 2019,
+    "extras" : [
+
+    ],
+    "population" : 458,
+    "populationDensity" : 1040.91,
+    "populationDensityYear" : 2019,
+    "populationYear" : 2019
+  },
+  "VCT" : {
+    "areaKm2" : 390,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 11501,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 100616,
+    "populationDensity" : 259.8,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "VEN" : {
+    "areaKm2" : 882050,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 4218,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 28405543,
+    "populationDensity" : 32.09,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "VNM" : {
+    "areaKm2" : 313429,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 4717,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 100987686,
+    "populationDensity" : 320.18,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "VUT" : {
+    "areaKm2" : 12190,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 3411,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 327777,
+    "populationDensity" : 26.28,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "WSM" : {
+    "areaKm2" : 2780,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 5393,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 218019,
+    "populationDensity" : 77.94,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "YEM" : {
+    "areaKm2" : 527970,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 634,
+    "gdpPerCapitaYear" : 2018,
+    "population" : 40583164,
+    "populationDensity" : 74.61,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "ZAF" : {
+    "areaKm2" : 1213090,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 6267,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 64007187,
+    "populationDensity" : 52.11,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "ZMB" : {
+    "areaKm2" : 743390,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 1187,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 21314956,
+    "populationDensity" : 27.88,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  },
+  "ZWE" : {
+    "areaKm2" : 386850,
+    "areaKm2Year" : 2023,
+    "extras" : [
+
+    ],
+    "gdpPerCapita" : 2497,
+    "gdpPerCapitaYear" : 2024,
+    "population" : 16634373,
+    "populationDensity" : 42.24,
+    "populationDensityYear" : 2023,
+    "populationYear" : 2024
+  }
+}

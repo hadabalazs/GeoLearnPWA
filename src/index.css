@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Classic Navy (default) — background #1E3A5F, accent #2E86AB */
+    --background: 209 52% 25%;
+    --foreground: 0 0% 100%;
+    --card: 208 45% 32%;
+    --card-foreground: 0 0% 100%;
+    --popover: 208 45% 32%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 199 58% 43%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 208 38% 36%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 208 35% 30%;
+    --muted-foreground: 210 25% 72%;
+    --accent: 199 58% 43%;
+    --accent-foreground: 0 0% 100%;
+    --gold: 38 91% 55%;
+    --gold-foreground: 209 52% 25%;
+    --correct: 142 59% 45%;
+    --correct-foreground: 0 0% 100%;
+    --incorrect: 3 100% 62%;
+    --incorrect-foreground: 0 0% 100%;
+    --destructive: 3 100% 62%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 208 30% 40%;
+    --input: 208 30% 40%;
+    --ring: 199 58% 43%;
+    --chart-1: 199 58% 43%;
+    --chart-2: 200 42% 44%;
+    --chart-3: 38 91% 55%;
+    --chart-4: 142 59% 45%;
+    --chart-5: 3 100% 62%;
+    --radius: 0.75rem;
+    --font-heading: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+    --font-body: 'Inter', ui-sans-serif, system-ui, sans-serif;
+    --font-display: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    --sidebar-background: 209 52% 22%;
+    --sidebar-foreground: 210 30% 90%;
+    --sidebar-primary: 38 91% 55%;
+    --sidebar-primary-foreground: 209 52% 25%;
+    --sidebar-accent: 208 45% 30%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 208 35% 30%;
+    --sidebar-ring: 199 58% 43%;
+  }
+
+  .dark {
+    /* Dark — background #0F1724, accent #56A7D1 */
+    --background: 214 44% 10%;
+    --foreground: 210 40% 97%;
+    --card: 213 35% 16%;
+    --card-foreground: 210 40% 97%;
+    --popover: 213 35% 16%;
+    --popover-foreground: 210 40% 97%;
+    --primary: 198 53% 58%;
+    --primary-foreground: 214 44% 10%;
+    --secondary: 213 30% 20%;
+    --secondary-foreground: 210 40% 97%;
+    --muted: 213 30% 18%;
+    --muted-foreground: 210 20% 65%;
+    --accent: 198 53% 58%;
+    --accent-foreground: 214 44% 10%;
+    --gold: 38 91% 55%;
+    --gold-foreground: 214 44% 10%;
+    --correct: 142 59% 45%;
+    --correct-foreground: 0 0% 100%;
+    --incorrect: 3 100% 60%;
+    --incorrect-foreground: 0 0% 100%;
+    --destructive: 3 100% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 213 30% 24%;
+    --input: 213 30% 24%;
+    --ring: 198 53% 58%;
+    --chart-1: 198 53% 58%;
+    --chart-2: 200 42% 44%;
+    --chart-3: 38 91% 55%;
+    --chart-4: 142 59% 45%;
+    --chart-5: 3 100% 60%;
+    --sidebar-background: 214 50% 8%;
+    --sidebar-foreground: 210 30% 90%;
+    --sidebar-primary: 38 91% 55%;
+    --sidebar-primary-foreground: 214 44% 10%;
+    --sidebar-accent: 213 35% 16%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 213 30% 20%;
+    --sidebar-ring: 198 53% 58%;
+  }
+
+  .theme-light {
+    /* Light — background #E7EEF4, accent #2E86AB */
+    --background: 210 41% 94%;
+    --foreground: 213 43% 22%;
+    --card: 0 0% 100%;
+    --card-foreground: 213 43% 22%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 213 43% 22%;
+    --primary: 199 58% 43%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 210 30% 90%;
+    --secondary-foreground: 213 43% 22%;
+    --muted: 210 30% 92%;
+    --muted-foreground: 213 20% 45%;
+    --accent: 199 58% 43%;
+    --accent-foreground: 0 0% 100%;
+    --gold: 38 80% 38%;
+    --gold-foreground: 213 43% 22%;
+    --correct: 142 59% 34%;
+    --correct-foreground: 0 0% 100%;
+    --incorrect: 3 80% 42%;
+    --incorrect-foreground: 0 0% 100%;
+    --destructive: 3 80% 42%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 210 25% 85%;
+    --input: 210 25% 85%;
+    --ring: 199 58% 43%;
+    --chart-1: 199 58% 43%;
+    --chart-2: 200 42% 44%;
+    --chart-3: 38 91% 55%;
+    --chart-4: 142 59% 40%;
+    --chart-5: 3 100% 59%;
+    --sidebar-background: 210 41% 94%;
+    --sidebar-foreground: 213 43% 22%;
+    --sidebar-primary: 199 58% 43%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 210 30% 90%;
+    --sidebar-accent-foreground: 213 43% 22%;
+    --sidebar-border: 210 25% 85%;
+    --sidebar-ring: 199 58% 43%;
+  }
+
+  .theme-sage {
+    /* Sage — background #DCE6D7, accent #6EBCC2 */
+    --background: 96 25% 87%;
+    --foreground: 165 24% 22%;
+    --card: 0 0% 100%;
+    --card-foreground: 165 24% 22%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 165 24% 22%;
+    --primary: 184 38% 59%;
+    --primary-foreground: 165 24% 22%;
+    --secondary: 96 20% 90%;
+    --secondary-foreground: 165 24% 22%;
+    --muted: 96 22% 92%;
+    --muted-foreground: 165 18% 40%;
+    --accent: 184 38% 59%;
+    --accent-foreground: 165 24% 22%;
+    --gold: 38 80% 38%;
+    --gold-foreground: 165 24% 22%;
+    --correct: 142 59% 34%;
+    --correct-foreground: 0 0% 100%;
+    --incorrect: 3 80% 42%;
+    --incorrect-foreground: 0 0% 100%;
+    --destructive: 3 80% 42%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 96 20% 82%;
+    --input: 96 20% 82%;
+    --ring: 184 38% 59%;
+    --chart-1: 184 38% 59%;
+    --chart-2: 96 25% 55%;
+    --chart-3: 38 91% 55%;
+    --chart-4: 142 59% 40%;
+    --chart-5: 3 100% 59%;
+    --sidebar-background: 96 25% 90%;
+    --sidebar-foreground: 165 24% 22%;
+    --sidebar-primary: 184 38% 59%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 96 20% 88%;
+    --sidebar-accent-foreground: 165 24% 22%;
+    --sidebar-border: 96 20% 84%;
+    --sidebar-ring: 184 38% 59%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+  h1, h2, h3, h4 {
+    @apply font-heading;
+  }
+}
+
+@layer utilities {
+  .no-tap-highlight { -webkit-tap-highlight-color: transparent; }
+  .safe-bottom { padding-bottom: env(safe-area-inset-bottom); }
+  .touch-target { min-height: 44px; min-width: 44px; }
+}
+
+/* Country flag markers (iOS GeoLearn parity) */
+.country-flag-marker-icon { background: transparent; border: none; pointer-events: none !important; }
+
+.country-flag-marker-hitbox {
+  width: 34px;
+  height: 40px;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+  touch-action: manipulation;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.country-flag-marker {
+  position: relative;
+  width: 34px;
+  height: 40px;
+  pointer-events: none;
+}
+
+.country-flag-marker__bubble {
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  background: rgba(31, 59, 94, 0.92);
+  border: 1.5px solid rgba(255, 255, 255, 0.6);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  pointer-events: auto;
+  clip-path: circle(50%);
+}
+
+.country-flag-marker__flag {
+  pointer-events: none;
+  font-size: 18px;
+  line-height: 1;
+  text-align: center;
+  transform: translateY(0.5px);
+}
+
+.country-flag-marker-hitbox:disabled .country-flag-marker__bubble {
+  pointer-events: none;
+}
+
+.country-flag-marker__pointer {
+  position: absolute;
+  left: 50%;
+  top: 33px;
+  width: 0;
+  height: 0;
+  transform: translateX(-50%);
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 6px solid rgba(31, 59, 94, 0.92);
+}
+
+.country-flag-marker[data-state="none"] .country-flag-marker__bubble {
+  border-color: rgba(255, 255, 255, 0.6);
+  border-width: 1.5px;
+}
+.country-flag-marker[data-state="selected"] .country-flag-marker__bubble {
+  border-color: #2E86AB;
+  border-width: 2.5px;
+}
+.country-flag-marker[data-state="correct"] .country-flag-marker__bubble {
+  border-color: #34C759;
+  border-width: 3.5px;
+}
+.country-flag-marker[data-state="incorrect"] .country-flag-marker__bubble {
+  border-color: #FF3B30;
+  border-width: 3.5px;
+}
+
+.country-flag-marker-hitbox:focus-visible .country-flag-marker__bubble {
+  outline: 3px solid rgba(245, 166, 35, 0.9);
+  outline-offset: 2px;
+}
+
+.map-expert .country-flag-marker__flag { visibility: hidden; }
+.map-flags-hidden .country-flag-marker-hitbox { display: none; }
+
+/* --- Animation & visual feedback (iOS GeoLearn parity) --- */
+
+/* Pulse the highlight without transforming Leaflet's projected SVG paths.
+   Scaling/filtering a clipped or multipart path can expose straight clipping
+   edges as green lines, especially on mobile browsers. */
+@keyframes countryPop {
+  0%   { fill-opacity: 0.45; }
+  24%  { fill-opacity: 0.9; }
+  60%  { fill-opacity: 0.8; }
+  100% { fill-opacity: 0.8; }
+}
+.boundary-pop {
+  animation: countryPop 1.731s ease-in-out forwards;
+}
+/* Time trial: same pop, compressed so rounds stay quick (TIMING.popDurationFast). */
+.boundary-pop--fast {
+  animation-duration: 0.95s;
+}
+
+/* Map loader reveal — fades out over TIMING.mapRevealFade once assets are ready. */
+.map-loader {
+  transition: opacity 0.28s ease-out;
+  opacity: 1;
+}
+.map-loader--out {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Explore flag/capital panel slides up over the (still mounted) map. */
+@keyframes panelSlideUp {
+  0%   { transform: translateY(24px); opacity: 0; }
+  100% { transform: translateY(0);    opacity: 1; }
+}
+.explore-panel {
+  animation: panelSlideUp 0.22s ease-out forwards;
+}
+
+/* Score count-up: slight emphasis while the number is ticking. */
+.score-ticking {
+  color: hsl(var(--gold, var(--foreground)));
+  transition: color 0.2s ease-out;
+}
+
+/* Flag bubble spring bounce — plays when a marker enters the "correct" state. */
+@keyframes flagBubbleBounceIn {
+  0%   { transform: scale(0.1); opacity: 0; }
+  55%  { transform: scale(1.3); opacity: 1; }
+  75%  { transform: scale(0.92); }
+  90%  { transform: scale(1.08); }
+  100% { transform: scale(1.0); opacity: 1; }
+}
+.country-flag-marker[data-state="correct"] {
+  animation: flagBubbleBounceIn 0.38s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+  transform-origin: bottom center;
+}
+
+/* Rotating globe logo sheen (Home) */
+@keyframes globeSheen {
+  0%   { transform: translateX(-15%); }
+  50%  { transform: translateX(15%); }
+  100% { transform: translateX(-15%); }
+}
+.globe-sheen {
+  animation: globeSheen 2.4s ease-in-out infinite;
+  opacity: 0.22;
+  border-radius: 50%;
+  border: 2px solid white;
+  pointer-events: none;
+}
+
+/* Capital dot + label (findCapital / explore) */
+@keyframes capitalDotIn {
+  0%   { transform: scale(0.1); opacity: 0; }
+  100% { transform: scale(1.0); opacity: 1; }
+}
+.capital-dot {
+  transform-box: fill-box;
+  transform-origin: center center;
+  animation: capitalDotIn 0.45s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+  animation-delay: 0.1s;
+}
+@keyframes capitalLabelIn {
+  0%   { transform: translateY(6px); opacity: 0; }
+  100% { transform: translateY(0);   opacity: 1; }
+}
+.capital-label {
+  animation: capitalLabelIn 0.35s ease-out forwards;
+  animation-delay: 0.3s;
+}
+
+/* Feedback bar slide-up (miss overlay) */
+@keyframes feedbackSlideUp {
+  0%   { transform: translateY(40px); opacity: 0; }
+  100% { transform: translateY(0);    opacity: 1; }
+}
+.feedback-bar {
+  animation: feedbackSlideUp 0.25s ease-in-out forwards;
+}
+
+/* Reduced motion — skip all keyframe animations, apply final state instantly. */
+@media (prefers-reduced-motion: reduce) {
+  .boundary-pop,
+  .country-flag-marker[data-state="correct"],
+  .capital-dot,
+  .capital-label,
+  .feedback-bar,
+  .explore-panel {
+    animation: none;
+  }
+  .map-loader {
+    transition: none;
+  }
+  .globe-sheen {
+    display: none;
+  }
+}

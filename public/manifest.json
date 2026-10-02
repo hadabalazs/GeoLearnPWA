@@ -1,0 +1,20 @@
+{
+  "name": "GeoLearn",
+  "short_name": "GeoLearn",
+  "description": "Learn the world by finding it.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#F5F7FA",
+  "theme_color": "#1E3A5F",
+  "categories": ["education", "games", "geography"],
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

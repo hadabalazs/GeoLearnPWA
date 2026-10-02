@@ -1,0 +1,502 @@
+[
+  {
+    "id": "AL",
+    "name": "Alabama",
+    "capital": "Montgomery",
+    "lat": 32.806671,
+    "lon": -86.79113,
+    "geoJsonRef": "AL",
+    "capitalLat": 32.377716,
+    "capitalLon": -86.300568
+  },
+  {
+    "id": "AK",
+    "name": "Alaska",
+    "capital": "Juneau",
+    "lat": 61.370716,
+    "lon": -152.404419,
+    "geoJsonRef": "AK",
+    "capitalLat": 58.301598,
+    "capitalLon": -134.420212
+  },
+  {
+    "id": "AZ",
+    "name": "Arizona",
+    "capital": "Phoenix",
+    "lat": 33.729759,
+    "lon": -111.431221,
+    "geoJsonRef": "AZ",
+    "capitalLat": 33.448143,
+    "capitalLon": -112.096962
+  },
+  {
+    "id": "AR",
+    "name": "Arkansas",
+    "capital": "Little Rock",
+    "lat": 34.969704,
+    "lon": -92.373123,
+    "geoJsonRef": "AR",
+    "capitalLat": 34.746613,
+    "capitalLon": -92.288986
+  },
+  {
+    "id": "CA",
+    "name": "California",
+    "capital": "Sacramento",
+    "lat": 36.116203,
+    "lon": -119.681564,
+    "geoJsonRef": "CA",
+    "capitalLat": 38.576668,
+    "capitalLon": -121.493629
+  },
+  {
+    "id": "CO",
+    "name": "Colorado",
+    "capital": "Denver",
+    "lat": 39.059811,
+    "lon": -105.311104,
+    "geoJsonRef": "CO",
+    "capitalLat": 39.739227,
+    "capitalLon": -104.984856
+  },
+  {
+    "id": "CT",
+    "name": "Connecticut",
+    "capital": "Hartford",
+    "lat": 41.597782,
+    "lon": -72.755371,
+    "geoJsonRef": "CT",
+    "capitalLat": 41.764046,
+    "capitalLon": -72.682198
+  },
+  {
+    "id": "DE",
+    "name": "Delaware",
+    "capital": "Dover",
+    "lat": 39.318523,
+    "lon": -75.507141,
+    "geoJsonRef": "DE",
+    "capitalLat": 39.157307,
+    "capitalLon": -75.519722
+  },
+  {
+    "id": "FL",
+    "name": "Florida",
+    "capital": "Tallahassee",
+    "lat": 27.766279,
+    "lon": -81.686783,
+    "geoJsonRef": "FL",
+    "capitalLat": 30.438118,
+    "capitalLon": -84.281296
+  },
+  {
+    "id": "GA",
+    "name": "Georgia",
+    "capital": "Atlanta",
+    "lat": 33.040619,
+    "lon": -83.643074,
+    "geoJsonRef": "GA",
+    "capitalLat": 33.749027,
+    "capitalLon": -84.388229
+  },
+  {
+    "id": "HI",
+    "name": "Hawaii",
+    "capital": "Honolulu",
+    "lat": 21.094318,
+    "lon": -157.498337,
+    "geoJsonRef": "HI",
+    "capitalLat": 21.307442,
+    "capitalLon": -157.857376
+  },
+  {
+    "id": "ID",
+    "name": "Idaho",
+    "capital": "Boise",
+    "lat": 44.240459,
+    "lon": -114.478828,
+    "geoJsonRef": "ID",
+    "capitalLat": 43.617775,
+    "capitalLon": -116.199722
+  },
+  {
+    "id": "IL",
+    "name": "Illinois",
+    "capital": "Springfield",
+    "lat": 40.349457,
+    "lon": -88.986137,
+    "geoJsonRef": "IL",
+    "capitalLat": 39.798363,
+    "capitalLon": -89.654961
+  },
+  {
+    "id": "IN",
+    "name": "Indiana",
+    "capital": "Indianapolis",
+    "lat": 39.849426,
+    "lon": -86.258278,
+    "geoJsonRef": "IN",
+    "capitalLat": 39.768623,
+    "capitalLon": -86.162643
+  },
+  {
+    "id": "IA",
+    "name": "Iowa",
+    "capital": "Des Moines",
+    "lat": 42.011539,
+    "lon": -93.210526,
+    "geoJsonRef": "IA",
+    "capitalLat": 41.591087,
+    "capitalLon": -93.603729
+  },
+  {
+    "id": "KS",
+    "name": "Kansas",
+    "capital": "Topeka",
+    "lat": 38.5266,
+    "lon": -96.726486,
+    "geoJsonRef": "KS",
+    "capitalLat": 39.048191,
+    "capitalLon": -95.677956
+  },
+  {
+    "id": "KY",
+    "name": "Kentucky",
+    "capital": "Frankfort",
+    "lat": 37.66814,
+    "lon": -84.670067,
+    "geoJsonRef": "KY",
+    "capitalLat": 38.186722,
+    "capitalLon": -84.875374
+  },
+  {
+    "id": "LA",
+    "name": "Louisiana",
+    "capital": "Baton Rouge",
+    "lat": 31.169546,
+    "lon": -91.867805,
+    "geoJsonRef": "LA",
+    "capitalLat": 30.457069,
+    "capitalLon": -91.187393
+  },
+  {
+    "id": "ME",
+    "name": "Maine",
+    "capital": "Augusta",
+    "lat": 44.693947,
+    "lon": -69.381927,
+    "geoJsonRef": "ME",
+    "capitalLat": 44.307167,
+    "capitalLon": -69.781693
+  },
+  {
+    "id": "MD",
+    "name": "Maryland",
+    "capital": "Annapolis",
+    "lat": 39.063946,
+    "lon": -76.802101,
+    "geoJsonRef": "MD",
+    "capitalLat": 38.978764,
+    "capitalLon": -76.490936
+  },
+  {
+    "id": "MA",
+    "name": "Massachusetts",
+    "capital": "Boston",
+    "lat": 42.230171,
+    "lon": -71.530106,
+    "geoJsonRef": "MA",
+    "capitalLat": 42.358162,
+    "capitalLon": -71.063698
+  },
+  {
+    "id": "MI",
+    "name": "Michigan",
+    "capital": "Lansing",
+    "lat": 43.326618,
+    "lon": -84.536095,
+    "geoJsonRef": "MI",
+    "capitalLat": 42.733635,
+    "capitalLon": -84.555328
+  },
+  {
+    "id": "MN",
+    "name": "Minnesota",
+    "capital": "Saint Paul",
+    "lat": 45.694454,
+    "lon": -93.900192,
+    "geoJsonRef": "MN",
+    "capitalLat": 44.955097,
+    "capitalLon": -93.102211
+  },
+  {
+    "id": "MS",
+    "name": "Mississippi",
+    "capital": "Jackson",
+    "lat": 32.741646,
+    "lon": -89.678696,
+    "geoJsonRef": "MS",
+    "capitalLat": 32.303848,
+    "capitalLon": -90.182106
+  },
+  {
+    "id": "MO",
+    "name": "Missouri",
+    "capital": "Jefferson City",
+    "lat": 38.456085,
+    "lon": -92.288368,
+    "geoJsonRef": "MO",
+    "capitalLat": 38.579201,
+    "capitalLon": -92.172935
+  },
+  {
+    "id": "MT",
+    "name": "Montana",
+    "capital": "Helena",
+    "lat": 46.921925,
+    "lon": -110.454353,
+    "geoJsonRef": "MT",
+    "capitalLat": 46.585709,
+    "capitalLon": -112.018417
+  },
+  {
+    "id": "NE",
+    "name": "Nebraska",
+    "capital": "Lincoln",
+    "lat": 41.12537,
+    "lon": -98.268082,
+    "geoJsonRef": "NE",
+    "capitalLat": 40.808075,
+    "capitalLon": -96.699654
+  },
+  {
+    "id": "NV",
+    "name": "Nevada",
+    "capital": "Carson City",
+    "lat": 38.313515,
+    "lon": -117.055374,
+    "geoJsonRef": "NV",
+    "capitalLat": 39.163914,
+    "capitalLon": -119.766121
+  },
+  {
+    "id": "NH",
+    "name": "New Hampshire",
+    "capital": "Concord",
+    "lat": 43.452492,
+    "lon": -71.563896,
+    "geoJsonRef": "NH",
+    "capitalLat": 43.206898,
+    "capitalLon": -71.537994
+  },
+  {
+    "id": "NJ",
+    "name": "New Jersey",
+    "capital": "Trenton",
+    "lat": 40.298904,
+    "lon": -74.521011,
+    "geoJsonRef": "NJ",
+    "capitalLat": 40.220596,
+    "capitalLon": -74.769913
+  },
+  {
+    "id": "NM",
+    "name": "New Mexico",
+    "capital": "Santa Fe",
+    "lat": 34.840515,
+    "lon": -106.248482,
+    "geoJsonRef": "NM",
+    "capitalLat": 35.68224,
+    "capitalLon": -105.939728
+  },
+  {
+    "id": "NY",
+    "name": "New York",
+    "capital": "Albany",
+    "lat": 42.165726,
+    "lon": -74.948051,
+    "geoJsonRef": "NY",
+    "capitalLat": 42.652843,
+    "capitalLon": -73.757874
+  },
+  {
+    "id": "NC",
+    "name": "North Carolina",
+    "capital": "Raleigh",
+    "lat": 35.630066,
+    "lon": -79.806419,
+    "geoJsonRef": "NC",
+    "capitalLat": 35.78043,
+    "capitalLon": -78.639099
+  },
+  {
+    "id": "ND",
+    "name": "North Dakota",
+    "capital": "Bismarck",
+    "lat": 47.528912,
+    "lon": -99.784012,
+    "geoJsonRef": "ND",
+    "capitalLat": 46.82085,
+    "capitalLon": -100.783318
+  },
+  {
+    "id": "OH",
+    "name": "Ohio",
+    "capital": "Columbus",
+    "lat": 40.388783,
+    "lon": -82.764915,
+    "geoJsonRef": "OH",
+    "capitalLat": 39.961346,
+    "capitalLon": -82.999069
+  },
+  {
+    "id": "OK",
+    "name": "Oklahoma",
+    "capital": "Oklahoma City",
+    "lat": 35.565342,
+    "lon": -96.928917,
+    "geoJsonRef": "OK",
+    "capitalLat": 35.492207,
+    "capitalLon": -97.503342
+  },
+  {
+    "id": "OR",
+    "name": "Oregon",
+    "capital": "Salem",
+    "lat": 44.572021,
+    "lon": -122.070938,
+    "geoJsonRef": "OR",
+    "capitalLat": 44.938461,
+    "capitalLon": -123.030403
+  },
+  {
+    "id": "PA",
+    "name": "Pennsylvania",
+    "capital": "Harrisburg",
+    "lat": 40.590752,
+    "lon": -77.209755,
+    "geoJsonRef": "PA",
+    "capitalLat": 40.264378,
+    "capitalLon": -76.883598
+  },
+  {
+    "id": "RI",
+    "name": "Rhode Island",
+    "capital": "Providence",
+    "lat": 41.680893,
+    "lon": -71.51178,
+    "geoJsonRef": "RI",
+    "capitalLat": 41.830914,
+    "capitalLon": -71.414963
+  },
+  {
+    "id": "SC",
+    "name": "South Carolina",
+    "capital": "Columbia",
+    "lat": 33.856892,
+    "lon": -80.945007,
+    "geoJsonRef": "SC",
+    "capitalLat": 34.000343,
+    "capitalLon": -81.033211
+  },
+  {
+    "id": "SD",
+    "name": "South Dakota",
+    "capital": "Pierre",
+    "lat": 44.299782,
+    "lon": -99.438828,
+    "geoJsonRef": "SD",
+    "capitalLat": 44.367031,
+    "capitalLon": -100.346405
+  },
+  {
+    "id": "TN",
+    "name": "Tennessee",
+    "capital": "Nashville",
+    "lat": 35.747845,
+    "lon": -86.692345,
+    "geoJsonRef": "TN",
+    "capitalLat": 36.16581,
+    "capitalLon": -86.784241
+  },
+  {
+    "id": "TX",
+    "name": "Texas",
+    "capital": "Austin",
+    "lat": 31.054487,
+    "lon": -97.563461,
+    "geoJsonRef": "TX",
+    "capitalLat": 30.27467,
+    "capitalLon": -97.740349
+  },
+  {
+    "id": "UT",
+    "name": "Utah",
+    "capital": "Salt Lake City",
+    "lat": 40.150032,
+    "lon": -111.862434,
+    "geoJsonRef": "UT",
+    "capitalLat": 40.777477,
+    "capitalLon": -111.888237
+  },
+  {
+    "id": "VT",
+    "name": "Vermont",
+    "capital": "Montpelier",
+    "lat": 44.045876,
+    "lon": -72.710686,
+    "geoJsonRef": "VT",
+    "capitalLat": 44.262436,
+    "capitalLon": -72.580536
+  },
+  {
+    "id": "VA",
+    "name": "Virginia",
+    "capital": "Richmond",
+    "lat": 37.769337,
+    "lon": -78.169968,
+    "geoJsonRef": "VA",
+    "capitalLat": 37.538857,
+    "capitalLon": -77.43364
+  },
+  {
+    "id": "WA",
+    "name": "Washington",
+    "capital": "Olympia",
+    "lat": 47.400902,
+    "lon": -121.490494,
+    "geoJsonRef": "WA",
+    "capitalLat": 47.035805,
+    "capitalLon": -122.905014
+  },
+  {
+    "id": "WV",
+    "name": "West Virginia",
+    "capital": "Charleston",
+    "lat": 38.491226,
+    "lon": -80.954453,
+    "geoJsonRef": "WV",
+    "capitalLat": 38.336246,
+    "capitalLon": -81.612328
+  },
+  {
+    "id": "WI",
+    "name": "Wisconsin",
+    "capital": "Madison",
+    "lat": 44.268543,
+    "lon": -89.616508,
+    "geoJsonRef": "WI",
+    "capitalLat": 43.074684,
+    "capitalLon": -89.384445
+  },
+  {
+    "id": "WY",
+    "name": "Wyoming",
+    "capital": "Cheyenne",
+    "lat": 42.755966,
+    "lon": -107.30249,
+    "geoJsonRef": "WY",
+    "capitalLat": 41.140259,
+    "capitalLon": -104.820236
+  }
+]
