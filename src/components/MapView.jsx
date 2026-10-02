@@ -69,10 +69,11 @@ function Clicker({ onClick, enabled }) {
   return null;
 }
 
-// Two-phase pan: zoom out to reveal both the current view and the target,
+// Regional answers pan at the current zoom. World answers use a two-phase
+// pan: zoom out to reveal both the current view and the target,
 // then (315ms later) zoom in on the target. Antimeridian countries get an
 // instant setView instead. Guarded by a ref so it only fires once per target.
-function PanController({ target }) {
+function PanController({ target, scope }) {
   const map = useMap();
   const lastRef = useRef(null);
   const timerRef = useRef(null);
@@ -88,6 +89,13 @@ function PanController({ target }) {
     lastRef.current = key;
     if (timerRef.current) { clearTimeout(timerRef.current); timerRef.current = null; }
     const to = L.latLng(target.lat, target.lng);
+    if (scope === 'hungary' || scope === 'us') {
+      // flyTo can zoom out during its flight even with the same final zoom.
+      // Stop any hint/reset flight before revealing the regional answer.
+      map.stop();
+      map.panTo(to, { animate: !prefersReducedMotion(), duration: 0.6 });
+      return;
+    }
     if (ANTIMERIDIAN_COUNTRIES.has(target.id) || prefersReducedMotion()) {
       map.setView(to, 4, { animate: false });
       return;
@@ -114,7 +122,7 @@ function PanController({ target }) {
       timerRef.current = null;
       map.flyTo([to.lat, to.lng], closeZoom, { animate: true, duration: 0.9 });
     }, TIMING.panPhase2Delay);
-  }, [target, map]);
+  }, [target, scope, map]);
   useEffect(() => () => { if (timerRef.current) clearTimeout(timerRef.current); }, []);
   return null;
 }
@@ -137,7 +145,7 @@ function HintController({ hintTarget }) {
   return null;
 }
 
-export default function MapView({ onMapClick, markers = [], boundaries = [], lines = [], labels = false, center = [25, 10], zoom = 2, clickEnabled = true, className = '', flagMarkers = [], showAnnotations = true, isExpert = false, onMarkerSelect, hungaryBorders = false, panTarget = null, hintTarget = null, baseScope = null, viewResetNonce = 0 }) {
+export default function MapView({ onMapClick, markers = [], boundaries = [], lines = [], labels = false, center = [25, 10], zoom = 2, clickEnabled = true, className = '', flagMarkers = [], showAnnotations = true, isExpert = false, onMarkerSelect, hungaryBorders = false, panTarget = null, hintTarget = null, baseScope = null, scope = 'world', viewResetNonce = 0 }) {
   const { settings } = useApp();
   const mapStyle = settings?.mapStyle === 'minimalist' ? 'minimalist' : 'satellite';
   const tileCfg = TILE[mapStyle];
@@ -168,7 +176,7 @@ export default function MapView({ onMapClick, markers = [], boundaries = [], lin
       <Resizer />
       <Clicker onClick={onMapClick} enabled={clickEnabled} />
       <ViewResetController nonce={viewResetNonce} center={center} zoom={zoom} />
-      <PanController target={panTarget} />
+      <PanController target={panTarget} scope={scope} />
       <HintController hintTarget={hintTarget} />
       {baseScope && <BaseBoundariesLayer scope={baseScope} />}
       {hungaryBorders && <HungaryBordersLayer />}

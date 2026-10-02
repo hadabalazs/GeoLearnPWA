@@ -102,7 +102,7 @@ export default function FindQuestion({ target, ds, lang, config, status, onResul
         )}
       </div>
       <div className="flex-1 min-h-0 relative">
-        <MapView onMapClick={handleClick} markers={markers} boundaries={boundaries} panTarget={panTarget} hintTarget={hintTarget} labels={false} center={view.center} zoom={view.zoom} viewResetNonce={roundIndex} clickEnabled={status === 'playing'} className="absolute inset-0" flagMarkers={flagMarkers} showAnnotations isExpert={!!config.expert} onMarkerSelect={handleMarkerSelect} hungaryBorders={config.scope === 'hungary'} baseScope={baseScope} />
+        <MapView scope={config.scope} onMapClick={handleClick} markers={markers} boundaries={boundaries} panTarget={panTarget} hintTarget={hintTarget} labels={false} center={view.center} zoom={view.zoom} viewResetNonce={roundIndex} clickEnabled={status === 'playing'} className="absolute inset-0" flagMarkers={flagMarkers} showAnnotations isExpert={!!config.expert} onMarkerSelect={handleMarkerSelect} hungaryBorders={config.scope === 'hungary'} baseScope={baseScope} />
         {showHint && <HintButton onClick={handleHint} />}
       </div>
     </div>

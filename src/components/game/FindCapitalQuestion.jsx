@@ -89,7 +89,7 @@ export default function FindCapitalQuestion({ target, ds, lang, config, status, 
         )}
       </div>
       <div className="flex-1 min-h-0 relative">
-        <MapView onMapClick={handleClick} markers={markers} boundaries={boundaries} lines={lines} center={view.center} zoom={view.zoom} viewResetNonce={roundIndex} panTarget={panTarget} clickEnabled={status === 'playing'} className="absolute inset-0" hungaryBorders={config.scope === 'hungary'} baseScope={baseScope} />
+        <MapView scope={config.scope} onMapClick={handleClick} markers={markers} boundaries={boundaries} lines={lines} center={view.center} zoom={view.zoom} viewResetNonce={roundIndex} panTarget={panTarget} clickEnabled={status === 'playing'} className="absolute inset-0" hungaryBorders={config.scope === 'hungary'} baseScope={baseScope} />
       </div>
     </div>
   );

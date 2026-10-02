@@ -125,7 +125,7 @@ export default function ExploreQuestion({ target, ds, lang, config, status, onRe
         <div className="text-xl font-heading font-bold text-foreground">{localizedName(target, lang)}</div>
       </div>
       <div className="flex-1 min-h-0 relative">
-        <MapView onMapClick={handleMap} markers={markers} boundaries={boundaries} panTarget={panTarget} hintTarget={hintTarget} center={view.center} zoom={view.zoom} viewResetNonce={roundIndex} clickEnabled={phase === 'find' && status === 'playing' && !selected} className="absolute inset-0" flagMarkers={flagMarkers} showAnnotations isExpert={!!config.expert} onMarkerSelect={handleMarkerSelect} hungaryBorders={config.scope === 'hungary'} baseScope={baseScope} />
+        <MapView scope={config.scope} onMapClick={handleMap} markers={markers} boundaries={boundaries} panTarget={panTarget} hintTarget={hintTarget} center={view.center} zoom={view.zoom} viewResetNonce={roundIndex} clickEnabled={phase === 'find' && status === 'playing' && !selected} className="absolute inset-0" flagMarkers={flagMarkers} showAnnotations isExpert={!!config.expert} onMarkerSelect={handleMarkerSelect} hungaryBorders={config.scope === 'hungary'} baseScope={baseScope} />
         {showHint && <HintButton onClick={handleHint} />}
 
         {phase === 'find' && findCorrect === false && selected && (
