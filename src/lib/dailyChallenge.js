@@ -135,6 +135,7 @@ export function dailyConfigForDate(date, challenges = DAILY_CHALLENGES) {
     expert: !!base.expert,
     oneChance: !!base.oneChance,
     timeTrial: !!base.timeTrial,
+    hints: base.hints !== false,
   };
 }
 
@@ -150,7 +151,7 @@ export function buildDailyLaunchConfig(date) {
     scope: cfg.scope,
     count: cfg.count,
     expert: cfg.expert,
-    hints: true,
+    hints: cfg.hints,
     oneChance: cfg.oneChance,
     timeTrial: cfg.timeTrial,
     seed,

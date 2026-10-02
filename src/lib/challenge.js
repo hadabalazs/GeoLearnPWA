@@ -1,7 +1,7 @@
 // Seeded RNG, deterministic daily challenges, distance scoring and the
 // Swift-compatible shareable challenge-code format.
 
-import { encodeSwiftChallengeCode, parseSwiftChallengeCode, selectSwiftTargets } from './swiftCode';
+import { encodeSwiftChallengeCode, parseSwiftChallengeCode, selectSwiftTargets, swiftShuffle } from './swiftCode';
 
 export function mulberry32(seed) {
   return function () {
@@ -175,7 +175,7 @@ export function parseChallengeCode(raw) {
 export { selectSwiftTargets };
 
 // 31 daily challenge configurations.
-export const DAILY_CHALLENGES = [
+const LEGACY_DAILY_CHALLENGES = [
   { id: 'eu-sprint', title: 'European Sprint', titleHU: 'Európai rohanás', mode: 'find', scope: 'europe', count: 15, oneChance: true, desc: 'Find 15 European countries, one chance.', descHU: 'Keress meg 15 európai országot, egy eséllyel.' },
   { id: 'flag-blitz', title: 'Flag Blitz', titleHU: 'Zászlóroham', mode: 'flagMatch', scope: 'world', count: 15, desc: 'Match 15 global flags.', descHU: 'Párosíts 15 világzászlót.' },
   { id: 'capital-rush', title: 'Capital Rush', titleHU: 'Fővárosroham', mode: 'capital', scope: 'world', count: 15, desc: 'Name 15 world capitals.', descHU: 'Nevezz meg 15 fővárost.' },
@@ -209,11 +209,51 @@ export const DAILY_CHALLENGES = [
   { id: 'asia-flag-rev', title: 'Asia Flag Reverse', titleHU: 'Ázsia fordított zászló', mode: 'flagReverse', scope: 'asia', count: 15, desc: 'Pick flags for 15 Asian countries.', descHU: 'Válaszd ki 15 ázsiai ország zászlaját.' },
 ];
 
+// Mirrors the iOS 31-entry catalogue. `getDailyChallenge` applies the shared
+// monthly Swift RNG shuffle, so the day-to-entry mapping is identical on both
+// clients. Keep copy compact here; the game settings are the source of truth.
+export const DAILY_CHALLENGES = [
+  ['European Sprint', 'Európai sprint', 'find', 'europe', 15, { oneChance: true }],
+  ['Flag Blitz', 'Zászló villám', 'flagMatch', 'world', 15],
+  ['Capital Rush', 'Főváros roham', 'capital', 'world', 15],
+  ['Hungary Hunt', 'Magyar vadászat', 'find', 'hungary', 19, { oneChance: true }],
+  ['Americas Explorer', 'Amerikai felfedező', 'explore', 'americas', 10],
+  ['Asia Pinpoint', 'Ázsia célzás', 'findCapital', 'asia', 10],
+  ['USA Capitals', 'USA fővárosok', 'capital', 'us', 20],
+  ['Reverse Flags', 'Fordított zászlók', 'flagReverse', 'world', 15],
+  ['Africa Locator', 'Afrika locator', 'findCapital', 'africa', 10],
+  ['Expert Europe', 'Szakértő Európa', 'find', 'europe', 10, { expert: true }],
+  ['Oceania Rare', 'Óceánia ritka', 'find', 'oceania', 10],
+  ['Hungary Explore', 'Magyar felfedezés', 'explore', 'hungary', 15],
+  ['USA Find', 'USA keresés', 'find', 'us', 15, { hints: false }],
+  ['World Locator', 'Világ locator', 'findCapital', 'world', 10],
+  ['Asia Expert', 'Ázsia szakértő', 'find', 'asia', 10, { expert: true }],
+  ['Europe Capitals', 'Európa fővárosok', 'capital', 'europe', 15],
+  ['Americas Flags', 'Amerika zászlók', 'flagMatch', 'americas', 15],
+  ['Europe Pinpoint', 'Európa célzás', 'findCapital', 'europe', 10],
+  ['Africa Explorer', 'Afrika felfedező', 'explore', 'africa', 10],
+  ['Oceania Capitals', 'Óceánia fővárosok', 'capital', 'oceania', 10],
+  ['USA Locator', 'USA locator', 'findCapital', 'us', 20],
+  ['Expert World', 'Szakértő világ', 'find', 'world', 15, { expert: true }],
+  ['County Seats', 'Vármegyeszékhelyek', 'capital', 'hungary', 10],
+  ['Asia Capitals', 'Ázsia fővárosok', 'capital', 'asia', 15],
+  ['Europe Flags', 'Európa zászlók', 'flagMatch', 'europe', 15],
+  ['No-Hint Explore', 'Tipp nélküli felfedezés', 'explore', 'world', 10, { hints: false }],
+  ['Americas Locator', 'Amerika locator', 'findCapital', 'americas', 10],
+  ['Flag Expert', 'Zászló szakértő', 'flagMatch', 'world', 15],
+  ['USA Explorer', 'USA felfedező', 'explore', 'us', 15],
+  ['Reverse Expert', 'Fordított szakértő', 'flagReverse', 'world', 15],
+  ['The Grand Tour', 'A nagy körút', 'explore', 'world', 20, { hints: false }],
+].map(([title, titleHU, mode, scope, count, options], index) => Object.assign(
+  { id: `ios-day-${index + 1}`, title, titleHU, mode, scope, count, desc: title, descHU: titleHU },
+  options && typeof options === 'object' && !Array.isArray(options) ? options : {},
+));
+
 export function getDailyChallenge(date, challenges = DAILY_CHALLENGES) {
   const year = date.getFullYear();
   const month = date.getMonth() + 1;
   const day = date.getDate();
   const seed = Math.abs(year) * 100 + month;
-  const shuffled = seededShuffle(challenges, seed);
+  const shuffled = swiftShuffle(challenges, seed);
   return shuffled[(Math.max(1, Math.min(31, day)) - 1) % shuffled.length];
 }
