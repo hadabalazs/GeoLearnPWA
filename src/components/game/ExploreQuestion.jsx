@@ -122,7 +122,7 @@ export default function ExploreQuestion({ target, ds, lang, config, status, onRe
     if (selectedGeom && !ok) boundaries.push({ geometry: selectedGeom, color: '#FF3B30', fillColor: '#FF3B30', fillOpacity: 0.80, weight: 2.5 });
     if (targetGeom) boundaries.push({ geometry: targetGeom, color: '#33C759', fillColor: '#33C759', fillOpacity: 0.80, weight: 2.5, className: popClass });
   }
-  // Fly to the answer on a miss so the highlight is legible at world zoom.
+  // Optional missed-answer pan is handled consistently by the shared map.
   const panTarget = (phase === 'find' && selected && !ok)
     ? { id: target.id, lat: target.lat, lng: target.lon }
     : null;
